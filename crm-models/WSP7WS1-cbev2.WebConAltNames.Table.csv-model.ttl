@@ -93,12 +93,12 @@ _:node18e8hgnbix1 a km-dev:R2RMLMapping ;
       {
         \"name\": \"newColumnName\",
         \"type\": \"other\",
-        \"value\": \"appelletion\"
+        \"value\": \"appellation\"
       },
       {
         \"name\": \"transformationCode\",
         \"type\": \"other\",
-        \"value\": \"return \\\"http://collection.americanart.si.edu/id/person-constituent/\\\"+getValue(\\\"ConstituentID\\\")+\\\"/appelletion\\\"\"
+        \"value\": \"return \\\"http://collection.americanart.si.edu/id/person-constituent/\\\"+getValue(\\\"ConstituentID\\\")+\\\"/appellation\\\"\"
       },
       {
         \"name\": \"worksheetId\",
