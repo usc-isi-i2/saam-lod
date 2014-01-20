@@ -1,20 +1,21 @@
-@prefix skos: <http://www.w3.org/2008/05/skos#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://erlangen-crm.org/current/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node18ebjorikx1 a km-dev:R2RMLMapping ;
-	km-dev:sourceName "cbev2-TermsWithPathView-new.csv" ;
-	km-dev:modelPublicationTime "1389811756630"^^xsd:long ;
-	km-dev:modelVersion "0.1" ;
-	km-dev:hasWorksheetHistory """[
+_:node18enqnu95x1 a km-dev:R2RMLMapping ;
+  km-dev:sourceName "cbev2.TermsWithPathViewNew-sample.csv" ;
+  km-dev:modelPublicationTime "1390221719846"^^xsd:long ;
+  km-dev:modelVersion "0.1" ;
+  km-dev:hasWorksheetHistory """[
   {
     \"commandName\": \"SubmitPythonTransformationCommand\",
     \"inputParameters\": [
@@ -441,82 +442,245 @@ _:node18ebjorikx1 a km-dev:R2RMLMapping ;
       }
     ],
     \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"object/\\\"+getValue(\\\"objectnumber\\\")\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Object\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C6896\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Object\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"object/\\\"+getValue(\\\"ID\\\")+\\\"/concept/1\\\"\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Concept\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C6482\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Concept\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"thesauri/term/\\\"+getValue(\\\"TermMasterID\\\")\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Term\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C6890\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Term\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"direction\": \"outgoing\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+            \"edgeSource\": \"E22_Man-Made_Object1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTarget\": \"E55_Type1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\"
+          },
+          {
+            \"direction\": \"outgoing\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P128_carries\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P128_carries\",
+            \"edgeSource\": \"E22_Man-Made_Object1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTarget\": \"E73_Information_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object1\"
+          }
+        ]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP27:WS3057AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P128_carries\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object1\"
+        }]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
   }
 ]
 """ .
 
-km-dev:TriplesMap_a5f7e32d-1fb9-4c5b-a389-c4d5a0801c43 a rr:TriplesMap .
+km-dev:TriplesMap_5b4f0fb2-e4bb-45d9-807e-65833597b25a a rr:TriplesMap .
 
-_:node18ebjorikx1 km-dev:hasTriplesMap km-dev:TriplesMap_a5f7e32d-1fb9-4c5b-a389-c4d5a0801c43 .
+_:node18enqnu95x1 km-dev:hasTriplesMap km-dev:TriplesMap_5b4f0fb2-e4bb-45d9-807e-65833597b25a .
 
-_:node18ebjorikx2 rr:tableName "cbev2-TermsWithPathView-new.csv" .
+_:node18enqnu95x2 rr:tableName "cbev2.TermsWithPathViewNew-sample.csv" .
 
-km-dev:TriplesMap_a5f7e32d-1fb9-4c5b-a389-c4d5a0801c43 rr:logicalTable _:node18ebjorikx2 ;
-	rr:subjectMap _:node18ebjorikx3 .
+km-dev:TriplesMap_5b4f0fb2-e4bb-45d9-807e-65833597b25a rr:logicalTable _:node18enqnu95x2 ;
+  rr:subjectMap _:node18enqnu95x3 .
 
-_:node18ebjorikx3 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1" ;
-	rr:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> ;
-	rr:template "{\"Object\"}" ;
-	a km-dev:steinerTreeRootNode .
+_:node18enqnu95x3 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1" ;
+  rr:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> ;
+  rr:template "{\"Object\"}" ;
+  a km-dev:steinerTreeRootNode .
 
-_:node18ebjorikx5 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P62_depicts> .
+_:node18enqnu95x5 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P128_carries> .
 
-km-dev:RefObjectMap_29f5b1f4-b132-4118-8a34-39084dc19cec a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_124b1395-22fe-4588-b5dc-dc22ebd1c011 .
+km-dev:RefObjectMap_82a4ed7b-ab3d-43d4-9685-3c735e363799 a rr:RefObjectMap ;
+  rr:parentTriplesMap km-dev:TriplesMap_0eeaafe7-d1a3-46cb-9ac2-d5923003dfbd .
 
-_:node18ebjorikx5 rr:objectMap km-dev:RefObjectMap_29f5b1f4-b132-4118-8a34-39084dc19cec .
+_:node18enqnu95x5 rr:objectMap km-dev:RefObjectMap_82a4ed7b-ab3d-43d4-9685-3c735e363799 .
 
-km-dev:TriplesMap_a5f7e32d-1fb9-4c5b-a389-c4d5a0801c43 rr:predicateObjectMap _:node18ebjorikx5 .
+km-dev:TriplesMap_5b4f0fb2-e4bb-45d9-807e-65833597b25a rr:predicateObjectMap _:node18enqnu95x5 .
 
-_:node18ebjorikx6 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P128_carries> .
+km-dev:TriplesMap_0eeaafe7-d1a3-46cb-9ac2-d5923003dfbd a rr:TriplesMap .
 
-km-dev:RefObjectMap_01dd6d4e-b38f-403c-8447-d07aeb8c7a3c a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_007d712d-73f0-4d63-8ce5-db6747858630 .
+_:node18enqnu95x1 km-dev:hasTriplesMap km-dev:TriplesMap_0eeaafe7-d1a3-46cb-9ac2-d5923003dfbd .
 
-_:node18ebjorikx6 rr:objectMap km-dev:RefObjectMap_01dd6d4e-b38f-403c-8447-d07aeb8c7a3c .
+_:node18enqnu95x6 rr:tableName "cbev2.TermsWithPathViewNew-sample.csv" .
 
-km-dev:TriplesMap_a5f7e32d-1fb9-4c5b-a389-c4d5a0801c43 rr:predicateObjectMap _:node18ebjorikx6 .
+km-dev:TriplesMap_0eeaafe7-d1a3-46cb-9ac2-d5923003dfbd rr:logicalTable _:node18enqnu95x6 ;
+  rr:subjectMap _:node18enqnu95x7 .
 
-km-dev:TriplesMap_124b1395-22fe-4588-b5dc-dc22ebd1c011 a rr:TriplesMap .
+_:node18enqnu95x7 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object1" ;
+  rr:class <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> ;
+  rr:template "{\"Concept\"}" .
 
-_:node18ebjorikx1 km-dev:hasTriplesMap km-dev:TriplesMap_124b1395-22fe-4588-b5dc-dc22ebd1c011 .
+_:node18enqnu95x9 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> .
 
-_:node18ebjorikx7 rr:tableName "cbev2-TermsWithPathView-new.csv" .
+km-dev:RefObjectMap_b41829e3-cfb9-49e6-915f-5bc4517b7d33 a rr:RefObjectMap ;
+  rr:parentTriplesMap km-dev:TriplesMap_60de5e1e-8eca-4d39-82ed-a941e6b3c7c2 .
 
-km-dev:TriplesMap_124b1395-22fe-4588-b5dc-dc22ebd1c011 rr:logicalTable _:node18ebjorikx7 ;
-	rr:subjectMap _:node18ebjorikx8 .
+_:node18enqnu95x9 rr:objectMap km-dev:RefObjectMap_b41829e3-cfb9-49e6-915f-5bc4517b7d33 .
 
-_:node18ebjorikx8 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type1" ;
-	rr:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
-	rr:template "{\"Term\"}" .
+km-dev:TriplesMap_0eeaafe7-d1a3-46cb-9ac2-d5923003dfbd rr:predicateObjectMap _:node18enqnu95x9 .
 
-_:node18ebjorikx10 rr:predicate skos:prefLabel .
+km-dev:TriplesMap_60de5e1e-8eca-4d39-82ed-a941e6b3c7c2 a rr:TriplesMap .
 
-_:node18ebjorikx11 rr:column "Keyword" ;
-	rr:datatype "" .
+_:node18enqnu95x1 km-dev:hasTriplesMap km-dev:TriplesMap_60de5e1e-8eca-4d39-82ed-a941e6b3c7c2 .
 
-_:node18ebjorikx10 rr:objectMap _:node18ebjorikx11 .
+_:node18enqnu95x10 rr:tableName "cbev2.TermsWithPathViewNew-sample.csv" .
 
-km-dev:TriplesMap_124b1395-22fe-4588-b5dc-dc22ebd1c011 rr:predicateObjectMap _:node18ebjorikx10 .
+km-dev:TriplesMap_60de5e1e-8eca-4d39-82ed-a941e6b3c7c2 rr:logicalTable _:node18enqnu95x10 ;
+  rr:subjectMap _:node18enqnu95x11 .
 
-km-dev:TriplesMap_007d712d-73f0-4d63-8ce5-db6747858630 a rr:TriplesMap .
+_:node18enqnu95x11 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type1" ;
+  rr:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+  rr:template "{\"Term\"}" .
 
-_:node18ebjorikx1 km-dev:hasTriplesMap km-dev:TriplesMap_007d712d-73f0-4d63-8ce5-db6747858630 .
+_:node18enqnu95x13 rr:predicate <http://www.w3.org/2008/05/skos#prefLabel> .
 
-_:node18ebjorikx12 rr:tableName "cbev2-TermsWithPathView-new.csv" .
+_:node18enqnu95x14 rr:column "Keyword" ;
+  rr:datatype "" .
 
-km-dev:TriplesMap_007d712d-73f0-4d63-8ce5-db6747858630 rr:logicalTable _:node18ebjorikx12 ;
-	rr:subjectMap _:node18ebjorikx13 .
+_:node18enqnu95x13 rr:objectMap _:node18enqnu95x14 .
 
-_:node18ebjorikx13 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object1" ;
-	rr:class <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> ;
-	rr:template "{\"Concept\"}" .
-
-_:node18ebjorikx15 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> .
-
-km-dev:RefObjectMap_67d2ebc7-5169-4e95-bfda-38fbcaf47102 a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_124b1395-22fe-4588-b5dc-dc22ebd1c011 .
-
-_:node18ebjorikx15 rr:objectMap km-dev:RefObjectMap_67d2ebc7-5169-4e95-bfda-38fbcaf47102 .
-
-km-dev:TriplesMap_007d712d-73f0-4d63-8ce5-db6747858630 rr:predicateObjectMap _:node18ebjorikx15 .
+km-dev:TriplesMap_60de5e1e-8eca-4d39-82ed-a941e6b3c7c2 rr:predicateObjectMap _:node18enqnu95x13 .

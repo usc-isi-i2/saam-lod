@@ -1,0 +1,2062 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node18eo466o2x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "cbev2.WebObjectImages-sample.csv" ;
+	km-dev:modelPublicationTime "1390231624450"^^xsd:long ;
+	km-dev:modelVersion "0.1" ;
+	km-dev:hasWorksheetHistory """[
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"Object\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"http://collection.americanart.si.edu/id/object/\\\"+getValue(\\\"ObjectNumber\\\")\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ObjectNumber\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"ObjectImage\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"http://collection.americanart.si.edu/id/object/\\\"+getValue(\\\"ObjectNumber\\\")+\\\"/image\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Object\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SetMetaPropertyCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\",
+        \"value\": \"isUriOfClass\"
+      },
+      {
+        \"name\": \"metaPropertyValue\",
+        \"type\": \"other\",
+        \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ObjectImage\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SetMetaPropertyCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\",
+        \"value\": \"isUriOfClass\"
+      },
+      {
+        \"name\": \"metaPropertyValue\",
+        \"type\": \"other\",
+        \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Object\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"direction\": \"outgoing\",
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+          \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+          \"edgeSource\": \"E22_Man-Made_Object1\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTarget\": \"E38_Image1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"direction\": \"outgoing\",
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeSource\": \"E22_Man-Made_Object1\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTarget\": \"E38_Image1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138_represents\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          }
+        ]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SetMetaPropertyCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\",
+        \"value\": \"isUriOfClass\"
+      },
+      {
+        \"name\": \"metaPropertyValue\",
+        \"type\": \"other\",
+        \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ObjRightsType\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"UnassignSemanticTypeCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ObjRightsType\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\",
+        \"value\": []
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": true
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"ObjectImageRight\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"http://collection.americanart.si.edu/id/object/\\\"+getValue(\\\"ObjectNumber\\\")+\\\"/image/right\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ObjectImage\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SetMetaPropertyCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\",
+        \"value\": \"isUriOfClass\"
+      },
+      {
+        \"name\": \"metaPropertyValue\",
+        \"type\": \"other\",
+        \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ObjectImageRight\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SetSemanticTypeCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ObjRightsType\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"Domain\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",
+          \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+          \"isPrimary\": true
+        }]
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeSource\": \"E22_Man-Made_Object1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          },
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P148_has_component\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P148_has_component\",
+            \"edgeSource\": \"E30_Right1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          },
+          {
+            \"direction\": \"outgoing\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138_represents\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P138_represents\",
+            \"edgeSource\": \"E38_Image1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+            \"edgeTarget\": \"E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+          }
+        ]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138_represents\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+          }
+        ]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138_represents\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P138_represents\",
+            \"edgeSource\": \"E38_Image1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+            \"edgeTarget\": \"E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+          },
+          {
+            \"direction\": \"outgoing\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeSource\": \"E22_Man-Made_Object1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          }
+        ]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138_represents\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+        }]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"direction\": \"incoming\",
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138_represents\",
+          \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P138_represents\",
+          \"edgeSource\": \"E38_Image1\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+          \"edgeTarget\": \"E22_Man-Made_Object1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+        }]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"direction\": \"outgoing\",
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeSource\": \"E22_Man-Made_Object1\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTarget\": \"E38_Image1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"
+          }
+        ]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeSource\": \"E22_Man-Made_Object1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTarget\": \"E30_Right1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"
+          },
+          {
+            \"direction\": \"outgoing\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeSource\": \"E30_Right1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          }
+        ]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"direction\": \"outgoing\",
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeSource\": \"E22_Man-Made_Object1\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTarget\": \"E38_Image1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": []
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeSource\": \"E30_Right1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          },
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+            \"edgeSource\": \"E22_Man-Made_Object1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          }
+        ]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"direction\": \"outgoing\",
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+          \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+          \"edgeSource\": \"E22_Man-Made_Object1\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTarget\": \"E38_Image1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": []
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeSource\": \"E30_Right1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          },
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+            \"edgeSource\": \"E22_Man-Made_Object1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          }
+        ]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": []
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"direction\": \"outgoing\",
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+          \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+          \"edgeSource\": \"E22_Man-Made_Object1\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTarget\": \"E38_Image1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": []
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"direction\": \"outgoing\",
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+          \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P62_depicts\",
+          \"edgeSource\": \"E22_Man-Made_Object1\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTarget\": \"E38_Image1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeSource\": \"E22_Man-Made_Object1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          },
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P148_has_component\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P148_has_component\",
+            \"edgeSource\": \"E30_Right1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          }
+        ]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"direction\": \"outgoing\",
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeSource\": \"E22_Man-Made_Object1\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTarget\": \"E38_Image1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeSource\": \"E22_Man-Made_Object1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          },
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P148_has_component\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P148_has_component\",
+            \"edgeSource\": \"E30_Right1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          }
+        ]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+        }]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeSource\": \"E22_Man-Made_Object1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          },
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P148_has_component\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P148_has_component\",
+            \"edgeSource\": \"E30_Right1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          }
+        ]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS635270AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"
+          }
+        ]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SetSemanticTypeCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"MediaType\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"Domain\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+          \"FullType\": \"http://www.cidoc-crm.org/cidoc-crm/P3_has_note\",
+          \"isPrimary\": true
+        }]
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"object/\\\"+getValue(\\\"ObjectNumber\\\")\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Object\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C916\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Object\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"object/\\\"+getValue(\\\"ObjectNumber\\\")+\\\"/image\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ObjectImage\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C1020\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ObjectImage\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"object/\\\"+getValue(\\\"ObjectNumber\\\")+\\\"/image/right\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ObjectImageRight\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C1130\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ObjectImageRight\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SetMetaPropertyCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\",
+        \"value\": \"isUriOfClass\"
+      },
+      {
+        \"name\": \"metaPropertyValue\",
+        \"type\": \"other\",
+        \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"MediaType\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"direction\": \"incoming\",
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
+          \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
+          \"edgeSource\": \"E30_Right1\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",
+          \"edgeTarget\": \"E55_Type1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\"
+        }]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP3:WS2AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\"
+        }]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"MediaType_URI\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"n=getValue(\\\"MediaType\\\").replace(\\\" \\\",\\\"\\\")\\nreturn \\\"thesauri/mediatype/\\\"+n\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"MediaType\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SetMetaPropertyCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\",
+        \"value\": \"isUriOfClass\"
+      },
+      {
+        \"name\": \"metaPropertyValue\",
+        \"type\": \"other\",
+        \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"MediaType_URI\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"UnassignSemanticTypeCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"MediaType\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\",
+        \"value\": []
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": true
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"ObjRightsType_URI\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"n=getValue(\\\"ObjRightsType\\\").replace(\\\" \\\",\\\"\\\")\\nreturn \\\"thesauri/objrightstype/\\\"+n\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ObjRightsType\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SetMetaPropertyCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\",
+        \"value\": \"isUriOfClass\"
+      },
+      {
+        \"name\": \"metaPropertyValue\",
+        \"type\": \"other\",
+        \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ObjRightsType_URI\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"direction\": \"incoming\",
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+          \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+          \"edgeSource\": \"E38_Image1\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+          \"edgeTarget\": \"E30_Right1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"
+        }]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP3:WS2AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type2\"
+          }
+        ]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"Rank_URI\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"\\nreturn \\\"thesauri/imagerank/\\\"+getValue(\\\"Rank\\\")\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Rank\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"ImageShowType_URI\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"n1= getValue(\\\"Rank\\\")\\nn2= getValue(\\\"PrimaryDisplay\\\")\\nn3= getValue(\\\"OjbRightsType\\\").find(\\\"Unrestricted\\\")\\nreturn \\\"\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Rank_URI\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"n1= getValue(\\\"Rank\\\")\\nn2= getValue(\\\"PrimaryDisplay\\\")\\nn3= getValue(\\\"ObjRightsType\\\")\\nif n1==\\\"1\\\" and n2==\\\"1\\\" and (n3.find(\\\"Unrestriected\\\")>=0):\\n    return \\\"thesauri/imageshowtype/displayimage\\\"\\nreturn \\\"thesauri/imageshowtype/undisplayimage\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ImageShowType_URI\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C1597\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ImageShowType_URI\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Rank_URI\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C1489\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Rank_URI\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SetMetaPropertyCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\",
+        \"value\": \"isUriOfClass\"
+      },
+      {
+        \"name\": \"metaPropertyValue\",
+        \"type\": \"other\",
+        \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"ImageShowType_URI\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeSource\": \"E22_Man-Made_Object1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTarget\": \"E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          },
+          {
+            \"direction\": \"outgoing\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeSource\": \"E38_Image1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+            \"edgeTarget\": \"E30_Right1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"
+          },
+          {
+            \"direction\": \"outgoing\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
+            \"edgeSource\": \"E38_Image1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+            \"edgeTarget\": \"E55_Type1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\"
+          }
+        ]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP3:WS2AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E38_Image1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type3\"
+          }
+        ]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Rank_URI\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C1489\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Rank_URI\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  }
+]
+""" .
+
+km-dev:TriplesMap_f5026469-92c8-497b-b567-ba2019116147 a rr:TriplesMap .
+
+_:node18eo466o2x1 km-dev:hasTriplesMap km-dev:TriplesMap_f5026469-92c8-497b-b567-ba2019116147 .
+
+_:node18eo466o2x2 rr:tableName "cbev2.WebObjectImages-sample.csv" .
+
+km-dev:TriplesMap_f5026469-92c8-497b-b567-ba2019116147 rr:logicalTable _:node18eo466o2x2 ;
+	rr:subjectMap _:node18eo466o2x3 .
+
+_:node18eo466o2x3 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> ;
+	rr:template "{\"Object\"}" ;
+	a km-dev:steinerTreeRootNode .
+
+_:node18eo466o2x5 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation> .
+
+km-dev:RefObjectMap_f9977246-bb75-40b7-829e-b7fb10aaf822 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_08a9cec0-90f7-402a-bf65-644876a4ea26 .
+
+_:node18eo466o2x5 rr:objectMap km-dev:RefObjectMap_f9977246-bb75-40b7-829e-b7fb10aaf822 .
+
+km-dev:TriplesMap_f5026469-92c8-497b-b567-ba2019116147 rr:predicateObjectMap _:node18eo466o2x5 .
+
+km-dev:TriplesMap_08a9cec0-90f7-402a-bf65-644876a4ea26 a rr:TriplesMap .
+
+_:node18eo466o2x1 km-dev:hasTriplesMap km-dev:TriplesMap_08a9cec0-90f7-402a-bf65-644876a4ea26 .
+
+_:node18eo466o2x6 rr:tableName "cbev2.WebObjectImages-sample.csv" .
+
+km-dev:TriplesMap_08a9cec0-90f7-402a-bf65-644876a4ea26 rr:logicalTable _:node18eo466o2x6 ;
+	rr:subjectMap _:node18eo466o2x7 .
+
+_:node18eo466o2x7 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E38_Image1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E38_Image> ;
+	rr:template "{\"ObjectImage\"}" .
+
+_:node18eo466o2x9 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to> .
+
+km-dev:RefObjectMap_a2c5c22b-d8bb-448a-bd16-9355f20bd196 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_ebf6c9f6-6084-416f-afcf-2b262d7e57b9 .
+
+_:node18eo466o2x9 rr:objectMap km-dev:RefObjectMap_a2c5c22b-d8bb-448a-bd16-9355f20bd196 .
+
+km-dev:TriplesMap_08a9cec0-90f7-402a-bf65-644876a4ea26 rr:predicateObjectMap _:node18eo466o2x9 .
+
+_:node18eo466o2x10 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> .
+
+km-dev:RefObjectMap_dc7726a5-a895-486f-a2cf-642a437bedc7 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_2a140134-f601-4ba2-9b14-4243d9297619 .
+
+_:node18eo466o2x10 rr:objectMap km-dev:RefObjectMap_dc7726a5-a895-486f-a2cf-642a437bedc7 .
+
+km-dev:TriplesMap_08a9cec0-90f7-402a-bf65-644876a4ea26 rr:predicateObjectMap _:node18eo466o2x10 .
+
+_:node18eo466o2x11 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> .
+
+km-dev:RefObjectMap_621bd3a2-f61e-459f-a9be-2ebbc4c03786 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_3efdf18e-533a-4565-a6c0-03358f299e97 .
+
+_:node18eo466o2x11 rr:objectMap km-dev:RefObjectMap_621bd3a2-f61e-459f-a9be-2ebbc4c03786 .
+
+km-dev:TriplesMap_08a9cec0-90f7-402a-bf65-644876a4ea26 rr:predicateObjectMap _:node18eo466o2x11 .
+
+km-dev:TriplesMap_ebf6c9f6-6084-416f-afcf-2b262d7e57b9 a rr:TriplesMap .
+
+_:node18eo466o2x1 km-dev:hasTriplesMap km-dev:TriplesMap_ebf6c9f6-6084-416f-afcf-2b262d7e57b9 .
+
+_:node18eo466o2x12 rr:tableName "cbev2.WebObjectImages-sample.csv" .
+
+km-dev:TriplesMap_ebf6c9f6-6084-416f-afcf-2b262d7e57b9 rr:logicalTable _:node18eo466o2x12 ;
+	rr:subjectMap _:node18eo466o2x13 .
+
+_:node18eo466o2x13 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E30_Right1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E30_Right> ;
+	rr:template "{\"ObjectImageRight\"}" .
+
+_:node18eo466o2x15 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> .
+
+km-dev:RefObjectMap_29aad39e-0429-429f-83a1-fe697cc172d5 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_10229678-0d08-4f68-aa4e-176b7ac28a8d .
+
+_:node18eo466o2x15 rr:objectMap km-dev:RefObjectMap_29aad39e-0429-429f-83a1-fe697cc172d5 .
+
+km-dev:TriplesMap_ebf6c9f6-6084-416f-afcf-2b262d7e57b9 rr:predicateObjectMap _:node18eo466o2x15 .
+
+_:node18eo466o2x16 rr:predicate rdfs:label .
+
+_:node18eo466o2x17 rr:column "ObjRightsType" ;
+	rr:datatype "" .
+
+_:node18eo466o2x16 rr:objectMap _:node18eo466o2x17 .
+
+km-dev:TriplesMap_ebf6c9f6-6084-416f-afcf-2b262d7e57b9 rr:predicateObjectMap _:node18eo466o2x16 .
+
+km-dev:TriplesMap_10229678-0d08-4f68-aa4e-176b7ac28a8d a rr:TriplesMap .
+
+_:node18eo466o2x1 km-dev:hasTriplesMap km-dev:TriplesMap_10229678-0d08-4f68-aa4e-176b7ac28a8d .
+
+_:node18eo466o2x18 rr:tableName "cbev2.WebObjectImages-sample.csv" .
+
+km-dev:TriplesMap_10229678-0d08-4f68-aa4e-176b7ac28a8d rr:logicalTable _:node18eo466o2x18 ;
+	rr:subjectMap _:node18eo466o2x19 .
+
+_:node18eo466o2x19 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type2" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+	rr:template "{\"ObjRightsType_URI\"}" .
+
+km-dev:TriplesMap_2a140134-f601-4ba2-9b14-4243d9297619 a rr:TriplesMap .
+
+_:node18eo466o2x1 km-dev:hasTriplesMap km-dev:TriplesMap_2a140134-f601-4ba2-9b14-4243d9297619 .
+
+_:node18eo466o2x21 rr:tableName "cbev2.WebObjectImages-sample.csv" .
+
+km-dev:TriplesMap_2a140134-f601-4ba2-9b14-4243d9297619 rr:logicalTable _:node18eo466o2x21 ;
+	rr:subjectMap _:node18eo466o2x22 .
+
+_:node18eo466o2x22 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+	rr:template "{\"MediaType_URI\"}" .
+
+km-dev:TriplesMap_3efdf18e-533a-4565-a6c0-03358f299e97 a rr:TriplesMap .
+
+_:node18eo466o2x1 km-dev:hasTriplesMap km-dev:TriplesMap_3efdf18e-533a-4565-a6c0-03358f299e97 .
+
+_:node18eo466o2x24 rr:tableName "cbev2.WebObjectImages-sample.csv" .
+
+km-dev:TriplesMap_3efdf18e-533a-4565-a6c0-03358f299e97 rr:logicalTable _:node18eo466o2x24 ;
+	rr:subjectMap _:node18eo466o2x25 .
+
+_:node18eo466o2x25 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type3" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+	rr:template "{\"ImageShowType_URI\"}" .

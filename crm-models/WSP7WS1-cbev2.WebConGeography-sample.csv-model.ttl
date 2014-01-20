@@ -10,9 +10,9 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node18e8iisdkx1 a km-dev:R2RMLMapping ;
-	km-dev:sourceName "cbev2.WebConGeography.Table.csv" ;
-	km-dev:modelPublicationTime "1389709849013"^^xsd:long ;
+_:node18envtv2lx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "cbev2.WebConGeography-sample.csv" ;
+	km-dev:modelPublicationTime "1390227160149"^^xsd:long ;
 	km-dev:modelVersion "0.1" ;
 	km-dev:hasWorksheetHistory """[
   {
@@ -98,7 +98,7 @@ _:node18e8iisdkx1 a km-dev:R2RMLMapping ;
       {
         \"name\": \"hNodeId\",
         \"type\": \"hNodeId\",
-        \"value\": [{\"columnName\": \"delete2\"}]
+        \"value\": [{\"columnName\": \"DeathCountryLable\"}]
       },
       {
         \"name\": \"errorDefaultValue\",
@@ -129,7 +129,7 @@ _:node18e8iisdkx1 a km-dev:R2RMLMapping ;
       {
         \"name\": \"hNodeId\",
         \"type\": \"hNodeId\",
-        \"value\": [{\"columnName\": \"delete3\"}]
+        \"value\": [{\"columnName\": \"BirthCountryLabel\"}]
       },
       {
         \"name\": \"errorDefaultValue\",
@@ -512,7 +512,7 @@ _:node18e8iisdkx1 a km-dev:R2RMLMapping ;
       {
         \"name\": \"hNodeId\",
         \"type\": \"hNodeId\",
-        \"value\": [{\"columnName\": \"delete4\"}]
+        \"value\": [{\"columnName\": \"AssociatedCountryLabel\"}]
       },
       {
         \"name\": \"errorDefaultValue\",
@@ -1394,88 +1394,6 @@ _:node18e8iisdkx1 a km-dev:R2RMLMapping ;
     \"tags\": [\"Transformation\"]
   },
   {
-    \"commandName\": \"SubmitEditPythonTransformationCommand\",
-    \"inputParameters\": [
-      {
-        \"name\": \"newColumnName\",
-        \"type\": \"other\",
-        \"value\": \"\"
-      },
-      {
-        \"name\": \"transformationCode\",
-        \"type\": \"other\",
-        \"value\": \"\\nif getValue(\\\"ConGeoCode\\\").find(\\\"Birth\\\")>=0:\\n    return getValue(\\\"County\\\")+\\\" \\\"+getValue(\\\"State\\\")+\\\" \\\"getValue(\\\"Country\\\")\\n\"
-      },
-      {
-        \"name\": \"worksheetId\",
-        \"type\": \"worksheetId\",
-        \"value\": \"W\"
-      },
-      {
-        \"name\": \"hNodeId\",
-        \"type\": \"hNodeId\",
-        \"value\": [{\"columnName\": \"delete2\"}]
-      },
-      {
-        \"name\": \"previousCommandId\",
-        \"type\": \"other\",
-        \"value\": \"C80016\"
-      },
-      {
-        \"name\": \"errorDefaultValue\",
-        \"type\": \"other\",
-        \"value\": \"\"
-      },
-      {
-        \"name\": \"targetHNodeId\",
-        \"type\": \"hNodeId\",
-        \"value\": [{\"columnName\": \"delete2\"}]
-      }
-    ],
-    \"tags\": [\"Transformation\"]
-  },
-  {
-    \"commandName\": \"SubmitEditPythonTransformationCommand\",
-    \"inputParameters\": [
-      {
-        \"name\": \"newColumnName\",
-        \"type\": \"other\",
-        \"value\": \"\"
-      },
-      {
-        \"name\": \"transformationCode\",
-        \"type\": \"other\",
-        \"value\": \"\\nif getValue(\\\"ConGeoCode\\\").find(\\\"Birth\\\")>=0:\\n    return getValue(\\\"County\\\")+\\\" \\\"+getValue(\\\"State\\\")+\\\" \\\"+getValue(\\\"Country\\\")\\n\"
-      },
-      {
-        \"name\": \"worksheetId\",
-        \"type\": \"worksheetId\",
-        \"value\": \"W\"
-      },
-      {
-        \"name\": \"hNodeId\",
-        \"type\": \"hNodeId\",
-        \"value\": [{\"columnName\": \"delete2\"}]
-      },
-      {
-        \"name\": \"previousCommandId\",
-        \"type\": \"other\",
-        \"value\": \"C80016\"
-      },
-      {
-        \"name\": \"errorDefaultValue\",
-        \"type\": \"other\",
-        \"value\": \"\"
-      },
-      {
-        \"name\": \"targetHNodeId\",
-        \"type\": \"hNodeId\",
-        \"value\": [{\"columnName\": \"delete2\"}]
-      }
-    ],
-    \"tags\": [\"Transformation\"]
-  },
-  {
     \"commandName\": \"SubmitPythonTransformationCommand\",
     \"inputParameters\": [
       {
@@ -1496,7 +1414,7 @@ _:node18e8iisdkx1 a km-dev:R2RMLMapping ;
       {
         \"name\": \"hNodeId\",
         \"type\": \"hNodeId\",
-        \"value\": [{\"columnName\": \"delete2\"}]
+        \"value\": [{\"columnName\": \"AssociatePlace\"}]
       },
       {
         \"name\": \"errorDefaultValue\",
@@ -1740,179 +1658,536 @@ _:node18e8iisdkx1 a km-dev:R2RMLMapping ;
       }
     ],
     \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"person-institution/\\\"+getValue(\\\"ConstituentID\\\")\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"PersonConstituent\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C1880\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"PersonConstituent\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"person-institution/\\\"+getValue(\\\"ConstituentID\\\")+\\\"/death\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Death\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C1440\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Death\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return \\\"person-institution/\\\"+getValue(\\\"ConstituentID\\\")+\\\"/death/place\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"DeathPlace\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C1336\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"DeathPlace\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"\\nreturn \\\"person-institution/\\\"+getValue(\\\"ConstituentID\\\")+\\\"/birth\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Birth\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C1447\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Birth\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"\\nreturn \\\"person-institution/\\\"+getValue(\\\"ConstituentID\\\")+\\\"/birth/place\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"BirthPlace\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C1551\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"BirthPlace\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"\\n\\nreturn \\\"person-institution/\\\"+getValue(\\\"ConstituentID\\\")+\\\"/associatedevent\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"AssociatedEvent\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C1662\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"AssociatedEvent\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"\\n\\nreturn \\\"person-institution/\\\"+getValue(\\\"ConstituentID\\\")+\\\"/associatedevent/place\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"AssociatePlace\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C1766\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"AssociatePlace\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"direction\": \"outgoing\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P69_is_associated_with\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P69_is_associated_with\",
+            \"edgeSource\": \"E21_Person1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E21_Person1\",
+            \"edgeTarget\": \"E5_Event1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E5_Event1\"
+          },
+          {
+            \"direction\": \"outgoing\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P93i_was_taken_out_of_existence_by\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P93i_was_taken_out_of_existence_by\",
+            \"edgeSource\": \"E21_Person1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E21_Person1\",
+            \"edgeTarget\": \"E69_Death1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E69_Death1\"
+          },
+          {
+            \"direction\": \"outgoing\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P98_brought_into_life\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P98_brought_into_life\",
+            \"edgeSource\": \"E21_Person1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E21_Person1\",
+            \"edgeTarget\": \"E67_Birth1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E67_Birth1\"
+          }
+        ]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP2:WS1AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P69_is_associated_with\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E21_Person1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E5_Event1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P100i_died_in\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E21_Person1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E69_Death1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P98i_was_born\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E21_Person1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E67_Birth1\"
+          }
+        ]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
   }
 ]
 """ .
 
-km-dev:TriplesMap_e17edec5-a15a-41ac-b3e5-eaab406cd9e7 a rr:TriplesMap .
+km-dev:TriplesMap_de92d811-ea9e-4ada-9bc7-cc7db7a9da29 a rr:TriplesMap .
 
-_:node18e8iisdkx1 km-dev:hasTriplesMap km-dev:TriplesMap_e17edec5-a15a-41ac-b3e5-eaab406cd9e7 .
+_:node18envtv2lx1 km-dev:hasTriplesMap km-dev:TriplesMap_de92d811-ea9e-4ada-9bc7-cc7db7a9da29 .
 
-_:node18e8iisdkx2 rr:tableName "cbev2.WebConGeography.Table.csv" .
+_:node18envtv2lx2 rr:tableName "cbev2.WebConGeography-sample.csv" .
 
-km-dev:TriplesMap_e17edec5-a15a-41ac-b3e5-eaab406cd9e7 rr:logicalTable _:node18e8iisdkx2 ;
-	rr:subjectMap _:node18e8iisdkx3 .
+km-dev:TriplesMap_de92d811-ea9e-4ada-9bc7-cc7db7a9da29 rr:logicalTable _:node18envtv2lx2 ;
+	rr:subjectMap _:node18envtv2lx3 .
 
-_:node18e8iisdkx3 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E21_Person1" ;
+_:node18envtv2lx3 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E21_Person1" ;
 	rr:class <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
 	rr:template "{\"PersonConstituent\"}" ;
 	a km-dev:steinerTreeRootNode .
 
-_:node18e8iisdkx5 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P69_is_associated_with> .
+_:node18envtv2lx5 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in> .
 
-km-dev:RefObjectMap_8a262deb-8f50-4e23-9941-d536760661de a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_1927c2bf-cb74-431e-a3fa-05eb6a13830f .
+km-dev:RefObjectMap_558a7370-fbf1-4ad9-bc05-6e585df88061 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_942c2a77-8543-4675-8979-538cc86ea6ea .
 
-_:node18e8iisdkx5 rr:objectMap km-dev:RefObjectMap_8a262deb-8f50-4e23-9941-d536760661de .
+_:node18envtv2lx5 rr:objectMap km-dev:RefObjectMap_558a7370-fbf1-4ad9-bc05-6e585df88061 .
 
-km-dev:TriplesMap_e17edec5-a15a-41ac-b3e5-eaab406cd9e7 rr:predicateObjectMap _:node18e8iisdkx5 .
+km-dev:TriplesMap_de92d811-ea9e-4ada-9bc7-cc7db7a9da29 rr:predicateObjectMap _:node18envtv2lx5 .
 
-_:node18e8iisdkx6 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P93i_was_taken_out_of_existence_by> .
+_:node18envtv2lx6 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P69_is_associated_with> .
 
-km-dev:RefObjectMap_b6077929-ce26-45d8-aae3-110b177865d1 a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_8296b10c-27f9-4391-ad54-93aaeba9f505 .
+km-dev:RefObjectMap_3883390c-b7ff-4f11-8257-6b2970d360c4 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_c9b17b6e-4b45-4992-9663-87be6a436396 .
 
-_:node18e8iisdkx6 rr:objectMap km-dev:RefObjectMap_b6077929-ce26-45d8-aae3-110b177865d1 .
+_:node18envtv2lx6 rr:objectMap km-dev:RefObjectMap_3883390c-b7ff-4f11-8257-6b2970d360c4 .
 
-km-dev:TriplesMap_e17edec5-a15a-41ac-b3e5-eaab406cd9e7 rr:predicateObjectMap _:node18e8iisdkx6 .
+km-dev:TriplesMap_de92d811-ea9e-4ada-9bc7-cc7db7a9da29 rr:predicateObjectMap _:node18envtv2lx6 .
 
-_:node18e8iisdkx7 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P98_brought_into_life> .
+_:node18envtv2lx7 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born> .
 
-km-dev:RefObjectMap_b23d066d-90f6-4c5c-b902-c3c892033a7b a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_870cda12-2e4e-490e-83cd-13d149055af5 .
+km-dev:RefObjectMap_ee7e3430-a581-4b89-b863-9d6a2788c14e a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_37a61a7b-18ec-4195-8f1f-d354978fbd9b .
 
-_:node18e8iisdkx7 rr:objectMap km-dev:RefObjectMap_b23d066d-90f6-4c5c-b902-c3c892033a7b .
+_:node18envtv2lx7 rr:objectMap km-dev:RefObjectMap_ee7e3430-a581-4b89-b863-9d6a2788c14e .
 
-km-dev:TriplesMap_e17edec5-a15a-41ac-b3e5-eaab406cd9e7 rr:predicateObjectMap _:node18e8iisdkx7 .
+km-dev:TriplesMap_de92d811-ea9e-4ada-9bc7-cc7db7a9da29 rr:predicateObjectMap _:node18envtv2lx7 .
 
-km-dev:TriplesMap_1927c2bf-cb74-431e-a3fa-05eb6a13830f a rr:TriplesMap .
+km-dev:TriplesMap_942c2a77-8543-4675-8979-538cc86ea6ea a rr:TriplesMap .
 
-_:node18e8iisdkx1 km-dev:hasTriplesMap km-dev:TriplesMap_1927c2bf-cb74-431e-a3fa-05eb6a13830f .
+_:node18envtv2lx1 km-dev:hasTriplesMap km-dev:TriplesMap_942c2a77-8543-4675-8979-538cc86ea6ea .
 
-_:node18e8iisdkx8 rr:tableName "cbev2.WebConGeography.Table.csv" .
+_:node18envtv2lx8 rr:tableName "cbev2.WebConGeography-sample.csv" .
 
-km-dev:TriplesMap_1927c2bf-cb74-431e-a3fa-05eb6a13830f rr:logicalTable _:node18e8iisdkx8 ;
-	rr:subjectMap _:node18e8iisdkx9 .
+km-dev:TriplesMap_942c2a77-8543-4675-8979-538cc86ea6ea rr:logicalTable _:node18envtv2lx8 ;
+	rr:subjectMap _:node18envtv2lx9 .
 
-_:node18e8iisdkx9 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E5_Event1" ;
-	rr:class <http://www.cidoc-crm.org/cidoc-crm/E5_Event> ;
-	rr:template "{\"AssociatedEvent\"}" .
-
-_:node18e8iisdkx11 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> .
-
-km-dev:RefObjectMap_f85c0ee1-06c5-48e1-aa26-ffe89044b232 a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_a03d2be2-0a22-48de-8c06-157cf2faad83 .
-
-_:node18e8iisdkx11 rr:objectMap km-dev:RefObjectMap_f85c0ee1-06c5-48e1-aa26-ffe89044b232 .
-
-km-dev:TriplesMap_1927c2bf-cb74-431e-a3fa-05eb6a13830f rr:predicateObjectMap _:node18e8iisdkx11 .
-
-km-dev:TriplesMap_8296b10c-27f9-4391-ad54-93aaeba9f505 a rr:TriplesMap .
-
-_:node18e8iisdkx1 km-dev:hasTriplesMap km-dev:TriplesMap_8296b10c-27f9-4391-ad54-93aaeba9f505 .
-
-_:node18e8iisdkx12 rr:tableName "cbev2.WebConGeography.Table.csv" .
-
-km-dev:TriplesMap_8296b10c-27f9-4391-ad54-93aaeba9f505 rr:logicalTable _:node18e8iisdkx12 ;
-	rr:subjectMap _:node18e8iisdkx13 .
-
-_:node18e8iisdkx13 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E69_Death1" ;
+_:node18envtv2lx9 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E69_Death1" ;
 	rr:class <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
 	rr:template "{\"Death\"}" .
 
-_:node18e8iisdkx15 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> .
+_:node18envtv2lx11 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> .
 
-km-dev:RefObjectMap_b3031880-c8f7-4cbd-967c-c2028bb739b6 a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_b552270d-931e-406a-bb57-bbea8a29763a .
+km-dev:RefObjectMap_084719c3-0bbb-4097-a78f-792890a0aeaa a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_aa861de7-5d4f-4be7-b9a8-a8eef56ea5e4 .
 
-_:node18e8iisdkx15 rr:objectMap km-dev:RefObjectMap_b3031880-c8f7-4cbd-967c-c2028bb739b6 .
+_:node18envtv2lx11 rr:objectMap km-dev:RefObjectMap_084719c3-0bbb-4097-a78f-792890a0aeaa .
 
-km-dev:TriplesMap_8296b10c-27f9-4391-ad54-93aaeba9f505 rr:predicateObjectMap _:node18e8iisdkx15 .
+km-dev:TriplesMap_942c2a77-8543-4675-8979-538cc86ea6ea rr:predicateObjectMap _:node18envtv2lx11 .
 
-km-dev:TriplesMap_870cda12-2e4e-490e-83cd-13d149055af5 a rr:TriplesMap .
+km-dev:TriplesMap_c9b17b6e-4b45-4992-9663-87be6a436396 a rr:TriplesMap .
 
-_:node18e8iisdkx1 km-dev:hasTriplesMap km-dev:TriplesMap_870cda12-2e4e-490e-83cd-13d149055af5 .
+_:node18envtv2lx1 km-dev:hasTriplesMap km-dev:TriplesMap_c9b17b6e-4b45-4992-9663-87be6a436396 .
 
-_:node18e8iisdkx16 rr:tableName "cbev2.WebConGeography.Table.csv" .
+_:node18envtv2lx12 rr:tableName "cbev2.WebConGeography-sample.csv" .
 
-km-dev:TriplesMap_870cda12-2e4e-490e-83cd-13d149055af5 rr:logicalTable _:node18e8iisdkx16 ;
-	rr:subjectMap _:node18e8iisdkx17 .
+km-dev:TriplesMap_c9b17b6e-4b45-4992-9663-87be6a436396 rr:logicalTable _:node18envtv2lx12 ;
+	rr:subjectMap _:node18envtv2lx13 .
 
-_:node18e8iisdkx17 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E67_Birth1" ;
+_:node18envtv2lx13 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E5_Event1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E5_Event> ;
+	rr:template "{\"AssociatedEvent\"}" .
+
+_:node18envtv2lx15 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> .
+
+km-dev:RefObjectMap_ee5f7cb6-2ae0-4f9c-87a3-072c90a8778f a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_537655c8-75d6-4544-9482-38b681711327 .
+
+_:node18envtv2lx15 rr:objectMap km-dev:RefObjectMap_ee5f7cb6-2ae0-4f9c-87a3-072c90a8778f .
+
+km-dev:TriplesMap_c9b17b6e-4b45-4992-9663-87be6a436396 rr:predicateObjectMap _:node18envtv2lx15 .
+
+km-dev:TriplesMap_37a61a7b-18ec-4195-8f1f-d354978fbd9b a rr:TriplesMap .
+
+_:node18envtv2lx1 km-dev:hasTriplesMap km-dev:TriplesMap_37a61a7b-18ec-4195-8f1f-d354978fbd9b .
+
+_:node18envtv2lx16 rr:tableName "cbev2.WebConGeography-sample.csv" .
+
+km-dev:TriplesMap_37a61a7b-18ec-4195-8f1f-d354978fbd9b rr:logicalTable _:node18envtv2lx16 ;
+	rr:subjectMap _:node18envtv2lx17 .
+
+_:node18envtv2lx17 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E67_Birth1" ;
 	rr:class <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
 	rr:template "{\"Birth\"}" .
 
-_:node18e8iisdkx19 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> .
+_:node18envtv2lx19 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> .
 
-km-dev:RefObjectMap_798fb979-239a-4876-a4c7-56fa2a00078a a rr:RefObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_be01d4ec-da54-4293-8207-f8a7b8762340 .
+km-dev:RefObjectMap_d657d2c1-4202-4898-8218-96ea2b149357 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_b48518df-d01d-49bb-bd8f-54a58ddc13f2 .
 
-_:node18e8iisdkx19 rr:objectMap km-dev:RefObjectMap_798fb979-239a-4876-a4c7-56fa2a00078a .
+_:node18envtv2lx19 rr:objectMap km-dev:RefObjectMap_d657d2c1-4202-4898-8218-96ea2b149357 .
 
-km-dev:TriplesMap_870cda12-2e4e-490e-83cd-13d149055af5 rr:predicateObjectMap _:node18e8iisdkx19 .
+km-dev:TriplesMap_37a61a7b-18ec-4195-8f1f-d354978fbd9b rr:predicateObjectMap _:node18envtv2lx19 .
 
-km-dev:TriplesMap_b552270d-931e-406a-bb57-bbea8a29763a a rr:TriplesMap .
+km-dev:TriplesMap_aa861de7-5d4f-4be7-b9a8-a8eef56ea5e4 a rr:TriplesMap .
 
-_:node18e8iisdkx1 km-dev:hasTriplesMap km-dev:TriplesMap_b552270d-931e-406a-bb57-bbea8a29763a .
+_:node18envtv2lx1 km-dev:hasTriplesMap km-dev:TriplesMap_aa861de7-5d4f-4be7-b9a8-a8eef56ea5e4 .
 
-_:node18e8iisdkx20 rr:tableName "cbev2.WebConGeography.Table.csv" .
+_:node18envtv2lx20 rr:tableName "cbev2.WebConGeography-sample.csv" .
 
-km-dev:TriplesMap_b552270d-931e-406a-bb57-bbea8a29763a rr:logicalTable _:node18e8iisdkx20 ;
-	rr:subjectMap _:node18e8iisdkx21 .
+km-dev:TriplesMap_aa861de7-5d4f-4be7-b9a8-a8eef56ea5e4 rr:logicalTable _:node18envtv2lx20 ;
+	rr:subjectMap _:node18envtv2lx21 .
 
-_:node18e8iisdkx21 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E53_Place1" ;
+_:node18envtv2lx21 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E53_Place1" ;
 	rr:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place> ;
 	rr:template "{\"DeathPlace\"}" .
 
-_:node18e8iisdkx23 rr:predicate rdfs:label .
+_:node18envtv2lx23 rr:predicate rdfs:label .
 
-_:node18e8iisdkx24 rr:column "DeathPlaceLabel" ;
+_:node18envtv2lx24 rr:column "DeathPlaceLabel" ;
 	rr:datatype "" .
 
-_:node18e8iisdkx23 rr:objectMap _:node18e8iisdkx24 .
+_:node18envtv2lx23 rr:objectMap _:node18envtv2lx24 .
 
-km-dev:TriplesMap_b552270d-931e-406a-bb57-bbea8a29763a rr:predicateObjectMap _:node18e8iisdkx23 .
+km-dev:TriplesMap_aa861de7-5d4f-4be7-b9a8-a8eef56ea5e4 rr:predicateObjectMap _:node18envtv2lx23 .
 
-km-dev:TriplesMap_be01d4ec-da54-4293-8207-f8a7b8762340 a rr:TriplesMap .
+km-dev:TriplesMap_b48518df-d01d-49bb-bd8f-54a58ddc13f2 a rr:TriplesMap .
 
-_:node18e8iisdkx1 km-dev:hasTriplesMap km-dev:TriplesMap_be01d4ec-da54-4293-8207-f8a7b8762340 .
+_:node18envtv2lx1 km-dev:hasTriplesMap km-dev:TriplesMap_b48518df-d01d-49bb-bd8f-54a58ddc13f2 .
 
-_:node18e8iisdkx25 rr:tableName "cbev2.WebConGeography.Table.csv" .
+_:node18envtv2lx25 rr:tableName "cbev2.WebConGeography-sample.csv" .
 
-km-dev:TriplesMap_be01d4ec-da54-4293-8207-f8a7b8762340 rr:logicalTable _:node18e8iisdkx25 ;
-	rr:subjectMap _:node18e8iisdkx26 .
+km-dev:TriplesMap_b48518df-d01d-49bb-bd8f-54a58ddc13f2 rr:logicalTable _:node18envtv2lx25 ;
+	rr:subjectMap _:node18envtv2lx26 .
 
-_:node18e8iisdkx26 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E53_Place2" ;
+_:node18envtv2lx26 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E53_Place2" ;
 	rr:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place> ;
 	rr:template "{\"BirthPlace\"}" .
 
-_:node18e8iisdkx28 rr:predicate rdfs:label .
+_:node18envtv2lx28 rr:predicate rdfs:label .
 
-_:node18e8iisdkx29 rr:column "BirthPlaceLabel" ;
+_:node18envtv2lx29 rr:column "BirthPlaceLabel" ;
 	rr:datatype "" .
 
-_:node18e8iisdkx28 rr:objectMap _:node18e8iisdkx29 .
+_:node18envtv2lx28 rr:objectMap _:node18envtv2lx29 .
 
-km-dev:TriplesMap_be01d4ec-da54-4293-8207-f8a7b8762340 rr:predicateObjectMap _:node18e8iisdkx28 .
+km-dev:TriplesMap_b48518df-d01d-49bb-bd8f-54a58ddc13f2 rr:predicateObjectMap _:node18envtv2lx28 .
 
-km-dev:TriplesMap_a03d2be2-0a22-48de-8c06-157cf2faad83 a rr:TriplesMap .
+km-dev:TriplesMap_537655c8-75d6-4544-9482-38b681711327 a rr:TriplesMap .
 
-_:node18e8iisdkx1 km-dev:hasTriplesMap km-dev:TriplesMap_a03d2be2-0a22-48de-8c06-157cf2faad83 .
+_:node18envtv2lx1 km-dev:hasTriplesMap km-dev:TriplesMap_537655c8-75d6-4544-9482-38b681711327 .
 
-_:node18e8iisdkx30 rr:tableName "cbev2.WebConGeography.Table.csv" .
+_:node18envtv2lx30 rr:tableName "cbev2.WebConGeography-sample.csv" .
 
-km-dev:TriplesMap_a03d2be2-0a22-48de-8c06-157cf2faad83 rr:logicalTable _:node18e8iisdkx30 ;
-	rr:subjectMap _:node18e8iisdkx31 .
+km-dev:TriplesMap_537655c8-75d6-4544-9482-38b681711327 rr:logicalTable _:node18envtv2lx30 ;
+	rr:subjectMap _:node18envtv2lx31 .
 
-_:node18e8iisdkx31 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E53_Place3" ;
+_:node18envtv2lx31 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E53_Place3" ;
 	rr:class <http://www.cidoc-crm.org/cidoc-crm/E53_Place> ;
 	rr:template "{\"AssociatePlace\"}" .
 
-_:node18e8iisdkx33 rr:predicate rdfs:label .
+_:node18envtv2lx33 rr:predicate rdfs:label .
 
-_:node18e8iisdkx34 rr:column "AssociatedPlace" ;
+_:node18envtv2lx34 rr:column "AssociatedPlace" ;
 	rr:datatype "" .
 
-_:node18e8iisdkx33 rr:objectMap _:node18e8iisdkx34 .
+_:node18envtv2lx33 rr:objectMap _:node18envtv2lx34 .
 
-km-dev:TriplesMap_a03d2be2-0a22-48de-8c06-157cf2faad83 rr:predicateObjectMap _:node18e8iisdkx33 .
+km-dev:TriplesMap_537655c8-75d6-4544-9482-38b681711327 rr:predicateObjectMap _:node18envtv2lx33 .
