@@ -155,27 +155,27 @@
 
 <!--WebObjDescription-->
    <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_exibitionlabel">
-        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm##E22_Man-Made_Object"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
      <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_gallarylabel">
-        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm##E22_Man-Made_Object"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
      <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_newacquisitionlabel">
-        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm##E22_Man-Made_Object"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
      <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_researchnotes">
-        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm##E22_Man-Made_Object"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
      <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_lucecenterlabel">
-        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm##E22_Man-Made_Object"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
