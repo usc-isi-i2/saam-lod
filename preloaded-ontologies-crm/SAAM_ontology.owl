@@ -18,7 +18,7 @@
      xmlns:crm="http://erlangen-crm.org/current/"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#">
     
-<!--table WebConsitituents -->
+<!--WebConsitituents -->
   
    <!--  PE_has_nationality is not used.-->
     <owl:ObjectProperty rdf:about="http://collecion.americanart.si.edu/id/ontology/PE_has_nationality">

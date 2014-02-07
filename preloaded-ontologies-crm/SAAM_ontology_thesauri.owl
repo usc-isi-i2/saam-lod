@@ -294,6 +294,13 @@
        <skos:prefLabel>Japanese</skos:prefLabel>
     </crm:E55_Type>
 
+     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Javanese">
+       <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
+       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:prefLabel>Javanese</skos:prefLabel>
+    </crm:E55_Type>
+
      <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Luxembourgeois">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
