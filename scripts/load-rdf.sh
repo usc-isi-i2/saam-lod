@@ -1,8 +1,7 @@
-### Commands to post the N3 files to the triple store
+### Script to post the N3 files to the triple store
 ### 
 ### Execute this script from the main saam-lod directory: sh scripts/load-rdf.sh
 ###
-
 
 # Uncomment to clear the repo 
 #curl -X DELETE http://lod.isi.edu/openrdf-sesame/repositories/saam_openrdf/statements
