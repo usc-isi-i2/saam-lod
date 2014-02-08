@@ -129,9 +129,9 @@
 
 <!-- WebConAltName-->
   <owl:ObjectProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_type_name">
-         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E21_Person"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E21_Person"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E55_Type"/>
-        <rdfs:label>person/institution code</rdfs:label>
+        <rdfs:label>name type</rdfs:label>
     </owl:ObjectProperty>
 
 
