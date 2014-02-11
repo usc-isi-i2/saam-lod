@@ -220,7 +220,7 @@
        <skos:prefLabel>German</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/German and French">
+     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/German-and-French">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
@@ -273,7 +273,7 @@
        <skos:prefLabel>Italian</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Italian or Spanish">
+     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Italian-or-Spanish">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
@@ -353,7 +353,7 @@
        <skos:prefLabel>Polish</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/PuertoRican">
+     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Puerto-Rican">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
@@ -385,14 +385,14 @@
        <skos:prefLabel>Scottish</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/South African">
+     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/South-African">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>South African</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/South American">
+     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/South-American">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
@@ -406,7 +406,7 @@
        <skos:prefLabel>Spanish</skos:prefLabel>
     </crm:E55_Type>
 
-    <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/New Spain">
+    <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Spanish-New-Spain">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
