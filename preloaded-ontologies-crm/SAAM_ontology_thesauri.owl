@@ -30,21 +30,21 @@
      -->
 
 <!-- WebConsituents/code -->
-    <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/code/Provisional">
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/code/Provisional">
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/code"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/code"/>
        <skos:prefLabel>Provisional</skos:prefLabel>
     </crm:E55_Type> 
 
-    <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/code/Candidate">
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/code/Candidate">
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/code"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/code"/>
        <skos:prefLabel>Candidate</skos:prefLabel>
     </crm:E55_Type> 
 
-    <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/code/Verified">
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/code/Verified">
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/code"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/code"/>
        <skos:prefLabel>Verified</skos:prefLabel>
     </crm:E55_Type> 
     
@@ -53,412 +53,412 @@
 
 
  <!-- WebConsituents/nationality-->
-    <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/American">
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/American">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>American</skos:prefLabel>
     </crm:E55_Type> 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Argentine">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Argentine">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Argentine</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Armenian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Armenian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Armenian</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Australian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Australian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Australian</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Austrian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Austrian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Austrian</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Belgian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Belgian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Belgian</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Bohemian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Bohemian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Bohemian</skos:prefLabel>
     </crm:E55_Type>
 
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Brazilian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Brazilian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Brazilian</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/British">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/British">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>British</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Burmese">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Burmese">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Burmese</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Canadian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Canadian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Canadian</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Chilean">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Chilean">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Chilean</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Chinese">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Chinese">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Chinese</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Cuban">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Cuban">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Cuban</skos:prefLabel>
     </crm:E55_Type>
 
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Czechoslovakian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Czechoslovakian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Czechoslovakian</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Danish">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Danish">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Danish</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Dutch">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Dutch">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Dutch</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/English">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/English">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>English</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/European">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/European">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>European</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Flemish">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Flemish">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Flemish</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/French">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/French">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>French</skos:prefLabel>
     </crm:E55_Type>
 
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/German">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/German">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>German</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/German-and-French">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/German-and-French">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>German and French</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Greek">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Greek">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Greek</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Indian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Indian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Indian</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Iranian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Iranian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Iranian</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Irish">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Irish">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Irish</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Israeli">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Israeli">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Israeli</skos:prefLabel>
     </crm:E55_Type>
 
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Italian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Italian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Italian</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Italian-or-Spanish">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Italian-or-Spanish">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Italian or Spanish</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Italian-Swiss">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Italian-Swiss">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Italian-Swiss</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Japanese">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Japanese">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Japanese</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Javanese">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Javanese">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Javanese</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Luxembourgeois">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Luxembourgeois">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Luxembourgeois</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Mexican">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Mexican">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Mexican</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Norwegian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Norwegian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Norwegian</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Panamanian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Panamanian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Panamanian</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Persian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Persian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Persian</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Peruvian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Peruvian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Peruvian</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Polish">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Polish">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Polish</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Puerto-Rican">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Puerto-Rican">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Puerto Rican</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Roman">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Roman">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Roman</skos:prefLabel>
     </crm:E55_Type>
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Russian">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Russian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Russian</skos:prefLabel>
     </crm:E55_Type>
 
 
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Scottish">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Scottish">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Scottish</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/South-African">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/South-African">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>South African</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/South-American">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/South-American">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>South American</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Spanish">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Spanish">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Spanish</skos:prefLabel>
     </crm:E55_Type>
 
-    <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Spanish-New-Spain">
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Spanish-New-Spain">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Swedish</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Swiss">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Swiss">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Swiss</skos:prefLabel>
     </crm:E55_Type>
 
-    <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Taiwanese">
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Taiwanese">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Taiwanese</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Turkish">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Turkish">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Turkish</skos:prefLabel>
     </crm:E55_Type>
 
-    <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Uruguayan">
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Uruguayan">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Uruguayan</skos:prefLabel>
     </crm:E55_Type>
 
-     <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Venezuelan">
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Venezuelan">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Venezuelan</skos:prefLabel>
     </crm:E55_Type>
 
-      <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Welsh">
+      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Welsh">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Welsh</skos:prefLabel>
     </crm:E55_Type>
 
-      <crm:E55_Type rdf:about="http://collecion.americanart.si.edu/id/thesauri/nationality/Yugoslavian">
+      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Yugoslavian">
        <rdf:type rdf:resource="http://erlangen-crm.org/current#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-       <skos:inScheme rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nationality"/>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Yugoslavian</skos:prefLabel>
     </crm:E55_Type>
 
@@ -468,138 +468,138 @@
 
 <!-- WebAltName/nametype-->
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Birth-or-Maiden-Name">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Birth-or-Maiden-Name">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Birth-or-Maiden-Name">
-	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Birth-or-Maiden-Name">
+	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<prefLabel xmlns="http://www.w3.org/2008/05/skos#">Birth or Maiden Name</prefLabel>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Variant-Name">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Variant-Name">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Variant-Name">
-	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Variant-Name">
+	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<prefLabel xmlns="http://www.w3.org/2008/05/skos#">Variant Name</prefLabel>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Married-Name">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Married-Name">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Married-Name">
-	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Married-Name">
+	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<prefLabel xmlns="http://www.w3.org/2008/05/skos#">Married Name</prefLabel>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Pseudonym">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Pseudonym">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Pseudonym">
-	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Pseudonym">
+	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<prefLabel xmlns="http://www.w3.org/2008/05/skos#">Pseudonym</prefLabel>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Conferred-Name">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Conferred-Name">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Conferred-Name">
-	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Conferred-Name">
+	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<prefLabel xmlns="http://www.w3.org/2008/05/skos#">Conferred Name</prefLabel>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Preferred-w/o-accents">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Preferred-w/o-accents">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Preferred-w/o-accents">
-	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Preferred-w/o-accents">
+	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<prefLabel xmlns="http://www.w3.org/2008/05/skos#">Preferred w/o accents</prefLabel>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/NEA-application-name">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/NEA-application-name">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/NEA-application-name">
-	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/NEA-application-name">
+	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<prefLabel xmlns="http://www.w3.org/2008/05/skos#">NEA application name</prefLabel>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/former-name">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/former-name">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/former-name">
-	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/former-name">
+	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<prefLabel xmlns="http://www.w3.org/2008/05/skos#">former name</prefLabel>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Later-Name">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Later-Name">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/nametype/Later-Name">
-	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Later-Name">
+	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/nametype"/>
+	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/nametype"/>
 	<prefLabel xmlns="http://www.w3.org/2008/05/skos#">Later Name</prefLabel>
 </rdf:Description>
 
@@ -607,394 +607,394 @@
 
 
 <!-- WebMaker/role -->
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Artist">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Artist">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Artist">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Artist">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Artist</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Printer">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Printer">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Printer">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Printer">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Printer</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Commissioner">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Commissioner">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Commissioner">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Commissioner">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Commissioner</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Publisher">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Publisher">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Publisher">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Publisher">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Publisher</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Manufacturer">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Manufacturer">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Manufacturer">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Manufacturer">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Manufacturer</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Photographer">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Photographer">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Photographer">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Photographer">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Photographer</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Papermaker">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Papermaker">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Papermaker">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Papermaker">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Papermaker</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Author">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Author">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Author">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Author">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Author</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Designer">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Designer">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Designer">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Designer">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Designer</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Fabricator">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Fabricator">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Fabricator">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Fabricator">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Fabricator</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Distributor">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Distributor">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Distributor">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Distributor">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Distributor</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Founder">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Founder">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Founder">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Founder">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Founder</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Typographer">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Typographer">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Typographer">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Typographer">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Typographer</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Workshop">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Workshop">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Workshop">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Workshop">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Workshop</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Assistant">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Assistant">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Assistant">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Assistant">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Assistant</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Art-Director">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Art-Director">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Art-Director">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Art-Director">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Art Director</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Retailer">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Retailer">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Retailer">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Retailer">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Retailer</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Inventor">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Inventor">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Inventor">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Inventor">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Inventor</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Lithographer">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Lithographer">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Lithographer">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Lithographer">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Lithographer</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Engraver">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Engraver">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Engraver">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Engraver">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Engraver</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Colorist">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Colorist">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Colorist">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Colorist">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Colorist</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Glassblower">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Glassblower">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Glassblower">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Glassblower">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Glassblower</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Remodeler">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Remodeler">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Remodeler">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Remodeler">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Remodeler</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Modeler">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Modeler">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Modeler">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Modeler">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Modeler</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Caster">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Caster">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Caster">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Caster">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Caster</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Sound">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Sound">
   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role">
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://collecion.americanart.si.edu/id/thesauri/role/Sound">
-  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Sound">
+  <inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
   <prefLabel xmlns="http://www.w3.org/2008/05/skos#">Sound</prefLabel>
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collecion.americanart.si.edu/id/thesauri/role"/>
+  <topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/role"/>
 </rdf:Description>
 
 

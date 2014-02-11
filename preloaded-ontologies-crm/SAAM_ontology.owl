@@ -21,7 +21,7 @@
 <!--WebConsitituents -->
   
    <!--  PE_has_nationality is not used.-->
-    <owl:ObjectProperty rdf:about="http://collecion.americanart.si.edu/id/ontology/PE_has_nationality">
+    <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontology/PE_has_nationality">
         <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P107i_is_current_or_former_member_of"/>
         <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E39_Actor"/>
         <rdfs:range rdf:resource="http://erlangen-crm.org/current/E74_Group"/>
@@ -31,8 +31,8 @@
 
         
 
-    <!-- http://collecion.americanart.si.edu/id/ontologies#PE_probably_is_current_or_former_member_of-->
-    <owl:ObjectProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_probably_is_current_or_former_member_of">
+    <!-- http://collection.americanart.si.edu/id/ontologies#PE_probably_is_current_or_former_member_of-->
+    <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_probably_is_current_or_former_member_of">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E39_Actor"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
         <rdfs:label>probably nationality</rdfs:label>
@@ -40,67 +40,67 @@
     </owl:ObjectProperty>
 
     <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm#P107i_is_current_or_former_member_of">
-        <rdfs:subPropertyOf rdf:resource="http://collecion.americanart.si.edu/id/ontologies#PE_probably_is_current_or_former_member_of"/>
+        <rdfs:subPropertyOf rdf:resource="http://collection.americanart.si.edu/id/ontologies#PE_probably_is_current_or_former_member_of"/>
     </owl:ObjectProperty>
 
 
     <!--PE_has_note_displaydate is not used.-->
-    <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_displaydate">
+    <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_displaydate">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E39_Actor"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
-     <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_firstname">
+     <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_firstname">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E82_Actor_Appellation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
     </owl:DatatypeProperty>
 
-    <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_lastname">
+    <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_lastname">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E82_Actor_Appellation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
     </owl:DatatypeProperty>
 
-    <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_suffix">
+    <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_suffix">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E82_Actor_Appellation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
     </owl:DatatypeProperty>
 
-    <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_nametitle">
+    <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_nametitle">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E82_Actor_Appellation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
     </owl:DatatypeProperty>
     
     <!-- PE_alphasortname is not used. -->
-    <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_alphasortname">
+    <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_alphasortname">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E82_Actor_Appellation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
     </owl:DatatypeProperty>
 
     
     <!-- PE_code is not used. -->
-     <owl:ObjectProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_code">
+     <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_code">
          <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E39_Actor"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E55_Type"/>
         <rdfs:label>person/institution code</rdfs:label>
     </owl:ObjectProperty>
 
   <!-- WebArtistBio-->
-     <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_artistbio">
+     <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_artistbio">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E39_Actor"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
-    <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_luceartistbio">
+    <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_luceartistbio">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E39_Actor"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
-    <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_luceartistquote">
+    <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_luceartistquote">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E39_Actor"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
-    <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_primaryartistbio">
+    <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_primaryartistbio">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E39_Actor"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
@@ -109,14 +109,14 @@
 <!-- WebArtistBioImages-->
 
     <!-- It is not used-->
-    <owl:ObjectProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_main_representation">
+    <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_main_representation">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E39_Actor"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E38_Image"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P138i_has_representation"/>
     </owl:ObjectProperty>
 
 
-     <owl:ObjectProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_type_image">
+     <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_type_image">
          <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E38_Image"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E55_Type"/>
         <rdfs:label>person/institution code</rdfs:label>
@@ -128,7 +128,7 @@
 <!-- ObjectCurLocView-->
 
 <!-- WebConAltName-->
-  <owl:ObjectProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_type_name">
+  <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_type_name">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E21_Person"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E55_Type"/>
         <rdfs:label>name type</rdfs:label>
@@ -138,7 +138,7 @@
 <!--WebObjOption-->
 
 
-     <owl:ObjectProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_subclass">
+     <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_subclass">
          <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
          <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E55_Type"/>
          <rdfs:label>person/institution code</rdfs:label>
@@ -146,36 +146,45 @@
 
 
 <!--WebObjDescription-->
-   <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_exibitionlabel">
+   <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_exibitionlabel">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
-     <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_gallarylabel">
+     <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_gallarylabel">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
-     <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_newacquisitionlabel">
+     <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_newacquisitionlabel">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
-     <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_researchnotes">
+     <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_researchnotes">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
-     <owl:DatatypeProperty rdf:about="http://collecion.americanart.si.edu/id/ontologies#PE_has_note_lucecenterlabel">
+     <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_lucecenterlabel">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
     </owl:DatatypeProperty>
 
+<!--WebMakers-->
+    <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontologies/PE_property">
+       <rdfs:domain rdf:resource="http://collection.americanart.si.edu/id/ontologies/EE_Association"/>
+       <rdfs:label>property</rdfs:label>
+       <rdfs:comment>This is to be used with EE_Association in order to assign attributes to subproperties of CRM asserted in the  Ontology</rdfs:comment>
+    </owl:ObjectProperty>
+
+     <owl:Class rdf:about="http://collection.americanart.si.edu/id/ontologies/EE_Association">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E13_Attribute_Assignment"/>
+        <rdfs:comment>This is a specialisation of Attribute Assignment in order to assign attributes and typing of properties which are sub properties / specialisations of CRM asserted in the  ontology</rdfs:comment>
+     </owl:Class>
 
 
-
-
-     </rdf:RDF>
+</rdf:RDF>
 
 
 
