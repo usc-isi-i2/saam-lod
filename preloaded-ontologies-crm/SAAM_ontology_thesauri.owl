@@ -948,54 +948,79 @@
     
     <!--WebObjectImage/mediatype-->
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/mediatype/ Digital-Image-from-Slide">
-               <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/mediatype"/>
                <skos:prefLabel> Digital-Image-from-Slide</skos:prefLabel>
     </crm:E55_Type> 
     
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/mediatype/Digital-Image-Direct-Capture">
-                   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
                    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                    <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/mediatype"/>
                    <skos:prefLabel>Digital-Image-Direct-Capture</skos:prefLabel>
     </crm:E55_Type> 
     
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/mediatype/Digital-Image-from-CT">
-                   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
                    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                    <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/mediatype"/>
                    <skos:prefLabel>Digital-Image-from-CT</skos:prefLabel>
     </crm:E55_Type> 
     
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/mediatype/Color-Transparency">
-                   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
                    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                    <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/mediatype"/>
                    <skos:prefLabel>Color-Transparency</skos:prefLabel>
     </crm:E55_Type> 
     
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/mediatype/Black-and-White-Print">
-                   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
                    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                    <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/mediatype"/>
                    <skos:prefLabel>Black-and-White-Print</skos:prefLabel>
     </crm:E55_Type> 
     
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/mediatype/Slide">
-                   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
                    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                    <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/mediatype"/>
                    <skos:prefLabel>Slide</skos:prefLabel>
     </crm:E55_Type> 
     
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/mediatype/Negative">
-                   <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
                    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                    <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/mediatype"/>
                    <skos:prefLabel>Negative</skos:prefLabel>
     </crm:E55_Type> 
- 
+
+    <!--WebObjectImage/imagedisplaytype-->
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/imagedisplaytype/undisplayimage">
+               <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+               <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/imagedisplaytype"/>
+               <skos:prefLabel>undisplay image</skos:prefLabel>
+    </crm:E55_Type> 
+
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/imagedisplaytype/displayimage">
+               <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+               <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/imagedisplaytype"/>
+               <skos:prefLabel>display image</skos:prefLabel>
+    </crm:E55_Type> 
+
+    <!--WebArtistBioImages/mediaview-->
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/mediaview/Juley">
+               <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+               <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/meidaview"/>
+               <skos:prefLabel>Juley </skos:prefLabel>
+     </crm:E55_Type> 
+
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/mediaview/Luce">
+               <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+               <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/meidaview"/>
+               <skos:prefLabel>Luce </skos:prefLabel>
+     </crm:E55_Type> 
+
+     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/mediaview/Permanent-Collection">
+               <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+               <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/meidaview"/>
+               <skos:prefLabel>Permanent Collection </skos:prefLabel>
+     </crm:E55_Type> 
+
 
 
 

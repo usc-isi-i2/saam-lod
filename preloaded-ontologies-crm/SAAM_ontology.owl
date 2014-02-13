@@ -107,15 +107,15 @@
 
 
 <!-- WebArtistBioImages-->
-
-    <!-- It is not used-->
     <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_main_representation">
-        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E39_Actor"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E21_Person"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E38_Image"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P138i_has_representation"/>
+        <rdfs:label>has main representation</rdfs:label>
+        <rdfs:comment>The primary image of an artist,which will display first if more than one image.</rdfs:comment>
     </owl:ObjectProperty>
 
-
+     <!--no be used-->
      <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_type_image">
          <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E38_Image"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E55_Type"/>
@@ -200,6 +200,9 @@
         <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E13_Attribute_Assignment"/>
         <rdfs:comment>This is a specialisation of Attribute Assignment in order to assign attributes and typing of properties which are sub properties / specialisations of CRM asserted in the  ontology</rdfs:comment>
      </owl:Class>
+
+<!--WebObjectImages-->
+   
 
 
 </rdf:RDF>
