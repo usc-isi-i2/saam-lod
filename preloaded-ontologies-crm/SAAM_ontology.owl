@@ -149,27 +149,45 @@
    <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_exibitionlabel">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
+        <rdfs:label>exibition label</rdfs:label>
     </owl:DatatypeProperty>
 
      <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_gallarylabel">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
+        <rdfs:label>gallary label</rdfs:label>
     </owl:DatatypeProperty>
 
      <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_newacquisitionlabel">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
+        <rdfs:label>new acquisition label</rdfs:label>
     </owl:DatatypeProperty>
 
      <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_researchnotes">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
+        <rdfs:label>research notes</rdfs:label>
     </owl:DatatypeProperty>
 
      <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_lucecenterlabel">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
+        <rdfs:label>luce center label</rdfs:label>
     </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_luceobjectquote">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
+        <rdfs:label>luce object quote</rdfs:label>
+    </owl:DatatypeProperty>
+
+     <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_videoclip">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
+        <rdfs:label>video clip</rdfs:label>
+    </owl:DatatypeProperty>
+
 
 <!--WebMakers-->
     <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontologies/PE_property">
