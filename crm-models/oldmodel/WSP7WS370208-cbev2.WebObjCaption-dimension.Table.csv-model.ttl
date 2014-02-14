@@ -1,0 +1,1509 @@
+@prefix dbtune: <http://dbtune.org/bbc/peel/work/> .
+@prefix ns1: <http://qudt.org/1.1/schema/quantity#> .
+@prefix genomes: <http://sws.geonames.org/> .
+@prefix yago: <http://mpii.de/yago/resource/> .
+@prefix opencyc: <http://sw.opencyc.org/concept/> .
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix id: <http://collection.britishmuseum.org/id/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix aam: <//http://collection.americanart.si.edu/id/ontology/> .
+@prefix omv: <http://omv.ontoware.org/2005/05/ontology#> .
+@prefix ns2: <http://qudt.org/1.1/schema/qudt#> .
+@prefix generations: <http://www.owl-ontologies.com/generations.owl#> .
+@prefix ns3: <http://qudt.org/1.1/vocab/unit#> .
+@prefix music-ont: <http://purl.org/ontology/mo/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix factbook: <http://www.daml.org/2001/12/factbook/factbook-ont#> .
+@prefix ns4: <http://qudt.org/1.1/vocab/quantity#> .
+@prefix quantity: <http://qudt.org/schema/quantity#> .
+@prefix fb: <http://rdf.freebase.com/ns/> .
+@prefix qudt-dimension: <http://qudt.org/vocab/dimension#> .
+@prefix geo-ont: <http://www.geonames.org/ontology#> .
+@prefix wordnet16: <http://xmlns.com/wordnet/1.6/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dtype: <http://www.linkedmodel.org/schema/dtype#> .
+@prefix oasis: <http://psi.oasis-open.org/iso/639/#> .
+@prefix csw: <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix ns5: <http://voag.linkedmodel.org/1.0/schema/voag#> .
+@prefix qudt-quantity: <http://qudt.org/vocab/quantity#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bbc-pont: <http://purl.org/ontology/po/> .
+@prefix ff: <http://factforge.net/> .
+@prefix dimension: <http://qudt.org/schema/dimension#> .
+@prefix qudt-unit: <http://qudt.org/vocab/unit#> .
+@prefix ot: <http://www.ontotext.com/> .
+@prefix ns6: <http://www.linkedmodel.org/1.2/schema/vaem#> .
+@prefix lingvoj: <http://www.lingvoj.org/ontology#> .
+@prefix umbel-ac: <http://umbel.org/umbel/ac/> .
+@prefix opencyc-en: <http://sw.opencyc.org/2008/06/10/concept/en/> .
+@prefix pkm: <http://proton.semanticweb.org/protonkm#> .
+@prefix voag: <http://voag.linkedmodel.org/schema/voag#> .
+@prefix ptop: <http://www.ontotext.com/proton/protontop#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix ns7: <http://qudt.org/1.1/schema/dimension#> .
+@prefix qudt: <http://qudt.org/schema/qudt#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc-term: <http://purl.org/dc/terms/> .
+@prefix pext: <http://proton.semanticweb.org/protonext#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns8: <http://qudt.org/1.1/vocab/dimensionalunit#> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix wordn-sc: <http://www.w3.org/2006/03/wn/wn20/schema/> .
+@prefix ns9: <http://www.linkedmodel.org/1.0/schema/dtype#> .
+@prefix dbp-prop: <http://dbpedia.org/property/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wot: <http://xmlns.com/wot/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix umbel-sc: <http://umbel.org/umbel/sc/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix wordnet: <http://www.w3.org/2006/03/wn/wn20/instances/> .
+@prefix ns10: <http://qudt.org/1.1/vocab/dimension#> .
+@prefix ub: <http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#> .
+@prefix idThes: <http://collection.britishmuseum.org/id/thesauri/> .
+@prefix creativecommons: <http://creativecommons.org/ns#> .
+@prefix sw-vocab: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix psys: <http://proton.semanticweb.org/protonsys#> .
+@prefix rso: <http://www.researchspace.org/ontology/> .
+@prefix umbel-en: <http://umbel.org/umbel/ne/wikipedia/> .
+@prefix om: <http://www.ontotext.com/owlim/> .
+@prefix dbp-ont: <http://dbpedia.org/ontology/> .
+@prefix nytimes: <http://data.nytimes.com/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node18e6lfhrnx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "cbev2.WebObjCaption-dimension.Table.csv" ;
+	km-dev:modelPublicationTime "1389645776760"^^xsd:long ;
+	km-dev:modelVersion "0.1" ;
+	km-dev:hasWorksheetHistory """[
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"DimensionInch\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"s= getValue(\\\"Dimensions\\\")\\nn1=s.find(\\\":\\\")\\nn2=s.find(\\\".\\\")\\nreturn s[n1+1:n2-3]\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Dimensions\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"DimensionCm\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"s= getValue(\\\"Dimensions\\\")\\nn1=s.find(\\\":\\\")\\nn2=s.find(\\\".\\\")\\nreturn s[n1+1:n2-3]\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Dimensions\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"DimensionCm\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"s= getValue(\\\"Dimensions\\\")\\nn1=s.find(\\\"(\\\")\\nn2=s.find(\\\")\\\")\\nreturn s[n1+1:n2-3]\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"DimensionInch\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"WidthCm\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"DimensionCm\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"WidthCm\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"s= getValue(\\\"DimensionInch\\\")\\nn1=s.find(\\\"x\\\")\\nreturn s[n1+1:len(s)]\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"DimensionCm\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"HeightCm\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"s= getValue(\\\"DimensionInch\\\")\\nn1=s.find(\\\"x\\\")\\nreturn s[n1+1:len(s)]\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"WidthCm\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"WidthInch\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"s= getValue(\\\"Dimensions\\\")\\nn1=s.find(\\\":\\\")\\nn2=s.find(\\\".\\\")\\nreturn s[n1+1:n2-3]\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"DimensionInch\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"HeightInch\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"s= getValue(\\\"Dimensions\\\")\\nn1=s.find(\\\":\\\")\\nn2=s.find(\\\".\\\")\\nreturn s[n1+1:n2-3]\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"WidthInch\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"s= getValue(\\\"DimensionCm\\\")\\nn1=s.find(\\\"x\\\")\\nreturn s[n1+1:len(s)]\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"WidthCm\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C490234\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"WidthCm\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"s= getValue(\\\"DimensionCm\\\")\\nn1=s.find(\\\"x\\\")\\nreturn s[n1+1:len(s)]\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"HeightCm\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C490236\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"HeightCm\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"s= getValue(\\\"DimensionCm\\\")\\nn1=s.find(\\\"x\\\")\\nreturn s[0:n1-1]\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"WidthCm\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C520248\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"WidthCm\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"s= getValue(\\\"DimensionInch\\\")\\nn1=s.find(\\\"x\\\")\\nreturn s[0:n1-1]\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"WidthInch\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C500240\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"WidthInch\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"s= getValue(\\\"DimensionInch\\\")\\nn1=s.find(\\\"x\\\")\\nreturn s[0:n1-1]\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"HeightInch\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C510244\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"HeightInch\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitEditPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"s= getValue(\\\"DimensionInch\\\")\\nn1=s.find(\\\"x\\\")\\nreturn s[n1+1:len(s)]\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"HeightInch\"}]
+      },
+      {
+        \"name\": \"previousCommandId\",
+        \"type\": \"other\",
+        \"value\": \"C520256\"
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      },
+      {
+        \"name\": \"targetHNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"HeightInch\"}]
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"Object\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return 'http://collection.americanart.si.edu/id/object/'+getValue(\\\"objectnumber\\\")\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"objectnumber\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SetMetaPropertyCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\",
+        \"value\": \"isUriOfClass\"
+      },
+      {
+        \"name\": \"metaPropertyValue\",
+        \"type\": \"other\",
+        \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"Object\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"DimensionTypeWidthCm\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return 'http://collection.americanart.si.edu/id/object/'+getValue(\\\"objectnumber\\\")+\\\"/DimensionTypeWidthCm\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"DimensionCm\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"DimensionTypeHeightCm\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return 'http://collection.americanart.si.edu/id/object/'+getValue(\\\"objectnumber\\\")+\\\"/DimensionTypeHeightCm\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"WidthCm\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"DimensionTypeWidthInch\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return 'http://collection.americanart.si.edu/id/object/'+getValue(\\\"objectnumber\\\")+\\\"/DimensionTypeWidthInch\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"DimensionInch\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SubmitPythonTransformationCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"newColumnName\",
+        \"type\": \"other\",
+        \"value\": \"DimensionTypeHeightInch\"
+      },
+      {
+        \"name\": \"transformationCode\",
+        \"type\": \"other\",
+        \"value\": \"return 'http://collection.americanart.si.edu/id/object/'+getValue(\\\"objectnumber\\\")+\\\"/DimensionTypeHeightInch\\\"\\n\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"WidthInch\"}]
+      },
+      {
+        \"name\": \"errorDefaultValue\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Transformation\"]
+  },
+  {
+    \"commandName\": \"SetSemanticTypeCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"DimensionTypeWidthCm\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"Domain\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+          \"FullType\": \"http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension\",
+          \"isPrimary\": true
+        }]
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SetMetaPropertyCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\",
+        \"value\": \"isUriOfClass\"
+      },
+      {
+        \"name\": \"metaPropertyValue\",
+        \"type\": \"other\",
+        \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension1\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"DimensionTypeWidthCm\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"direction\": \"outgoing\",
+          \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+          \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+          \"edgeSource\": \"E54_Dimension1\",
+          \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension1\",
+          \"edgeTarget\": \"E22_Man-Made_Object1\",
+          \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+        }]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS370208AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+          }
+        ]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SetSemanticTypeCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"WidthCm\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"Domain\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension1\",
+          \"FullType\": \"http://www.cidoc-crm.org/cidoc-crm/P90_has_value\",
+          \"isPrimary\": true
+        }]
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SetMetaPropertyCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\",
+        \"value\": \"isUriOfClass\"
+      },
+      {
+        \"name\": \"metaPropertyValue\",
+        \"type\": \"other\",
+        \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"DimensionTypeHeightCm\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SetMetaPropertyCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\",
+        \"value\": \"isUriOfClass\"
+      },
+      {
+        \"name\": \"metaPropertyValue\",
+        \"type\": \"other\",
+        \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"DimensionTypeWidthInch\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SetMetaPropertyCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\",
+        \"value\": \"isUriOfClass\"
+      },
+      {
+        \"name\": \"metaPropertyValue\",
+        \"type\": \"other\",
+        \"value\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"DimensionTypeHeightInch\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"ChangeInternalNodeLinksCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"initialEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+            \"edgeSource\": \"E54_Dimension1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension1\",
+            \"edgeTarget\": \"E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+          },
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+            \"edgeSource\": \"E54_Dimension2\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension2\",
+            \"edgeTarget\": \"E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+          },
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+            \"edgeSource\": \"E54_Dimension3\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension3\",
+            \"edgeTarget\": \"E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+          },
+          {
+            \"direction\": \"incoming\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+            \"edgeSource\": \"E54_Dimension4\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension4\",
+            \"edgeTarget\": \"E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+          },
+          {
+            \"direction\": \"outgoing\",
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension\",
+            \"edgeLabel\": \"http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension\",
+            \"edgeSource\": \"E22_Man-Made_Object1\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTarget\": \"E54_Dimension1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension1\"
+          }
+        ]
+      },
+      {
+        \"name\": \"alignmentId\",
+        \"type\": \"other\",
+        \"value\": \"WSP1:WS370208AL\"
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"newEdges\",
+        \"type\": \"other\",
+        \"value\": [
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension2\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension3\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension4\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension1\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension2\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension3\"
+          },
+          {
+            \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension\",
+            \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",
+            \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension4\"
+          }
+        ]
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SetSemanticTypeCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"HeightCm\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"Domain\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension2\",
+          \"FullType\": \"http://www.cidoc-crm.org/cidoc-crm/P90_has_value\",
+          \"isPrimary\": true
+        }]
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SetSemanticTypeCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"WidthInch\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"Domain\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension3\",
+          \"FullType\": \"http://www.cidoc-crm.org/cidoc-crm/P90_has_value\",
+          \"isPrimary\": true
+        }]
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  },
+  {
+    \"commandName\": \"SetSemanticTypeCommand\",
+    \"inputParameters\": [
+      {
+        \"name\": \"metaPropertyName\",
+        \"type\": \"other\"
+      },
+      {
+        \"name\": \"hNodeId\",
+        \"type\": \"hNodeId\",
+        \"value\": [{\"columnName\": \"HeightInch\"}]
+      },
+      {
+        \"name\": \"SemanticTypesArray\",
+        \"type\": \"other\",
+        \"value\": [{
+          \"Domain\": \"http://www.cidoc-crm.org/cidoc-crm/E54_Dimension4\",
+          \"FullType\": \"http://www.cidoc-crm.org/cidoc-crm/P90_has_value\",
+          \"isPrimary\": true
+        }]
+      },
+      {
+        \"name\": \"worksheetId\",
+        \"type\": \"worksheetId\",
+        \"value\": \"W\"
+      },
+      {
+        \"name\": \"isKey\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"trainAndShowUpdates\",
+        \"type\": \"other\",
+        \"value\": false
+      },
+      {
+        \"name\": \"rdfLiteralType\",
+        \"type\": \"other\",
+        \"value\": \"\"
+      }
+    ],
+    \"tags\": [\"Modeling\"]
+  }
+]
+""" .
+
+km-dev:TriplesMap_f1be2092-27ab-4a39-8076-46d8a3063eb9 a rr:TriplesMap .
+
+_:node18e6lfhrnx1 km-dev:hasTriplesMap km-dev:TriplesMap_f1be2092-27ab-4a39-8076-46d8a3063eb9 .
+
+_:node18e6lfhrnx2 rr:tableName "cbev2.WebObjCaption-dimension.Table.csv" .
+
+km-dev:TriplesMap_f1be2092-27ab-4a39-8076-46d8a3063eb9 rr:logicalTable _:node18e6lfhrnx2 ;
+	rr:subjectMap _:node18e6lfhrnx3 .
+
+_:node18e6lfhrnx3 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> ;
+	rr:template "{\"Object\"}" ;
+	a km-dev:steinerTreeRootNode .
+
+_:node18e6lfhrnx5 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> .
+
+km-dev:RefObjectMap_3a23732a-f861-461d-99fd-9929e10687cd a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_7f1e9a9f-9860-4853-95d8-938e17764a08 .
+
+_:node18e6lfhrnx5 rr:objectMap km-dev:RefObjectMap_3a23732a-f861-461d-99fd-9929e10687cd .
+
+km-dev:TriplesMap_f1be2092-27ab-4a39-8076-46d8a3063eb9 rr:predicateObjectMap _:node18e6lfhrnx5 .
+
+_:node18e6lfhrnx6 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> .
+
+km-dev:RefObjectMap_5946d365-87b6-45a1-9fe2-6e07a17f306a a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_b7db8c56-7d8c-4c95-b86d-2890d0de4ac2 .
+
+_:node18e6lfhrnx6 rr:objectMap km-dev:RefObjectMap_5946d365-87b6-45a1-9fe2-6e07a17f306a .
+
+km-dev:TriplesMap_f1be2092-27ab-4a39-8076-46d8a3063eb9 rr:predicateObjectMap _:node18e6lfhrnx6 .
+
+_:node18e6lfhrnx7 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> .
+
+km-dev:RefObjectMap_dd89ede9-6128-49a4-8dd1-2cf28b786f24 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_7348d0d5-4ac7-42c2-bc06-ea92d589bd2c .
+
+_:node18e6lfhrnx7 rr:objectMap km-dev:RefObjectMap_dd89ede9-6128-49a4-8dd1-2cf28b786f24 .
+
+km-dev:TriplesMap_f1be2092-27ab-4a39-8076-46d8a3063eb9 rr:predicateObjectMap _:node18e6lfhrnx7 .
+
+_:node18e6lfhrnx8 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> .
+
+km-dev:RefObjectMap_1a7a3ef2-d873-4d98-914e-e4475515896c a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_9a3caadc-a1b0-495a-bd54-1d57a101b13e .
+
+_:node18e6lfhrnx8 rr:objectMap km-dev:RefObjectMap_1a7a3ef2-d873-4d98-914e-e4475515896c .
+
+km-dev:TriplesMap_f1be2092-27ab-4a39-8076-46d8a3063eb9 rr:predicateObjectMap _:node18e6lfhrnx8 .
+
+km-dev:TriplesMap_7f1e9a9f-9860-4853-95d8-938e17764a08 a rr:TriplesMap .
+
+_:node18e6lfhrnx1 km-dev:hasTriplesMap km-dev:TriplesMap_7f1e9a9f-9860-4853-95d8-938e17764a08 .
+
+_:node18e6lfhrnx9 rr:tableName "cbev2.WebObjCaption-dimension.Table.csv" .
+
+km-dev:TriplesMap_7f1e9a9f-9860-4853-95d8-938e17764a08 rr:logicalTable _:node18e6lfhrnx9 ;
+	rr:subjectMap _:node18e6lfhrnx10 .
+
+_:node18e6lfhrnx10 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	rr:template "{\"DimensionTypeWidthCm\"}" .
+
+_:node18e6lfhrnx12 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of> .
+
+km-dev:RefObjectMap_8f9e7eed-f0e2-4af5-82c7-434763940265 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f1be2092-27ab-4a39-8076-46d8a3063eb9 .
+
+_:node18e6lfhrnx12 rr:objectMap km-dev:RefObjectMap_8f9e7eed-f0e2-4af5-82c7-434763940265 .
+
+km-dev:TriplesMap_7f1e9a9f-9860-4853-95d8-938e17764a08 rr:predicateObjectMap _:node18e6lfhrnx12 .
+
+_:node18e6lfhrnx13 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> .
+
+_:node18e6lfhrnx14 rr:column "WidthCm" ;
+	rr:datatype "" .
+
+_:node18e6lfhrnx13 rr:objectMap _:node18e6lfhrnx14 .
+
+km-dev:TriplesMap_7f1e9a9f-9860-4853-95d8-938e17764a08 rr:predicateObjectMap _:node18e6lfhrnx13 .
+
+km-dev:TriplesMap_7348d0d5-4ac7-42c2-bc06-ea92d589bd2c a rr:TriplesMap .
+
+_:node18e6lfhrnx1 km-dev:hasTriplesMap km-dev:TriplesMap_7348d0d5-4ac7-42c2-bc06-ea92d589bd2c .
+
+_:node18e6lfhrnx15 rr:tableName "cbev2.WebObjCaption-dimension.Table.csv" .
+
+km-dev:TriplesMap_7348d0d5-4ac7-42c2-bc06-ea92d589bd2c rr:logicalTable _:node18e6lfhrnx15 ;
+	rr:subjectMap _:node18e6lfhrnx16 .
+
+_:node18e6lfhrnx16 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension2" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	rr:template "{\"DimensionTypeHeightCm\"}" .
+
+_:node18e6lfhrnx18 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of> .
+
+km-dev:RefObjectMap_172b6227-0211-4b4b-89dc-d673c77f82df a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f1be2092-27ab-4a39-8076-46d8a3063eb9 .
+
+_:node18e6lfhrnx18 rr:objectMap km-dev:RefObjectMap_172b6227-0211-4b4b-89dc-d673c77f82df .
+
+km-dev:TriplesMap_7348d0d5-4ac7-42c2-bc06-ea92d589bd2c rr:predicateObjectMap _:node18e6lfhrnx18 .
+
+_:node18e6lfhrnx19 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> .
+
+_:node18e6lfhrnx20 rr:column "HeightCm" ;
+	rr:datatype "" .
+
+_:node18e6lfhrnx19 rr:objectMap _:node18e6lfhrnx20 .
+
+km-dev:TriplesMap_7348d0d5-4ac7-42c2-bc06-ea92d589bd2c rr:predicateObjectMap _:node18e6lfhrnx19 .
+
+km-dev:TriplesMap_9a3caadc-a1b0-495a-bd54-1d57a101b13e a rr:TriplesMap .
+
+_:node18e6lfhrnx1 km-dev:hasTriplesMap km-dev:TriplesMap_9a3caadc-a1b0-495a-bd54-1d57a101b13e .
+
+_:node18e6lfhrnx21 rr:tableName "cbev2.WebObjCaption-dimension.Table.csv" .
+
+km-dev:TriplesMap_9a3caadc-a1b0-495a-bd54-1d57a101b13e rr:logicalTable _:node18e6lfhrnx21 ;
+	rr:subjectMap _:node18e6lfhrnx22 .
+
+_:node18e6lfhrnx22 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension3" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	rr:template "{\"DimensionTypeWidthInch\"}" .
+
+_:node18e6lfhrnx24 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of> .
+
+km-dev:RefObjectMap_5479200e-16e3-41ac-a692-87ae44f708ed a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f1be2092-27ab-4a39-8076-46d8a3063eb9 .
+
+_:node18e6lfhrnx24 rr:objectMap km-dev:RefObjectMap_5479200e-16e3-41ac-a692-87ae44f708ed .
+
+km-dev:TriplesMap_9a3caadc-a1b0-495a-bd54-1d57a101b13e rr:predicateObjectMap _:node18e6lfhrnx24 .
+
+_:node18e6lfhrnx25 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> .
+
+_:node18e6lfhrnx26 rr:column "WidthInch" ;
+	rr:datatype "" .
+
+_:node18e6lfhrnx25 rr:objectMap _:node18e6lfhrnx26 .
+
+km-dev:TriplesMap_9a3caadc-a1b0-495a-bd54-1d57a101b13e rr:predicateObjectMap _:node18e6lfhrnx25 .
+
+km-dev:TriplesMap_b7db8c56-7d8c-4c95-b86d-2890d0de4ac2 a rr:TriplesMap .
+
+_:node18e6lfhrnx1 km-dev:hasTriplesMap km-dev:TriplesMap_b7db8c56-7d8c-4c95-b86d-2890d0de4ac2 .
+
+_:node18e6lfhrnx27 rr:tableName "cbev2.WebObjCaption-dimension.Table.csv" .
+
+km-dev:TriplesMap_b7db8c56-7d8c-4c95-b86d-2890d0de4ac2 rr:logicalTable _:node18e6lfhrnx27 ;
+	rr:subjectMap _:node18e6lfhrnx28 .
+
+_:node18e6lfhrnx28 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension4" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
+	rr:template "{\"DimensionTypeHeightInch\"}" .
+
+_:node18e6lfhrnx30 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of> .
+
+km-dev:RefObjectMap_c924d3bc-eb52-42f3-ba9b-bdbbe3e7a146 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f1be2092-27ab-4a39-8076-46d8a3063eb9 .
+
+_:node18e6lfhrnx30 rr:objectMap km-dev:RefObjectMap_c924d3bc-eb52-42f3-ba9b-bdbbe3e7a146 .
+
+km-dev:TriplesMap_b7db8c56-7d8c-4c95-b86d-2890d0de4ac2 rr:predicateObjectMap _:node18e6lfhrnx30 .
+
+_:node18e6lfhrnx31 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> .
+
+_:node18e6lfhrnx32 rr:column "HeightInch" ;
+	rr:datatype "" .
+
+_:node18e6lfhrnx31 rr:objectMap _:node18e6lfhrnx32 .
+
+km-dev:TriplesMap_b7db8c56-7d8c-4c95-b86d-2890d0de4ac2 rr:predicateObjectMap _:node18e6lfhrnx31 .
