@@ -1,0 +1,5 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/>. 
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<http://collection.americanart.si.edu/id/person-institution/2240> owl:sameAs <http://dbpedia.org/resource/Unichi_Hiratsuka>.
+<http://collection.americanart.si.edu/id/person-institution/29929> owl:sameAs <http://dbpedia.org/resource/Ubaldo_Vitali>.
