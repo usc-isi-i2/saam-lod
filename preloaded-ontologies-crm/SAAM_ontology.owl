@@ -15,7 +15,7 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm#"
+     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#">
     
 <!--WebConsitituents -->
@@ -152,7 +152,7 @@
         <rdfs:label>exibition label</rdfs:label>
     </owl:DatatypeProperty>
 
-     <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_gallarylabel">
+     <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_gallerylabel">
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P3_has_note"/>
         <rdfs:label>gallary label</rdfs:label>
