@@ -1090,6 +1090,319 @@
     </crm:E55_Type>
   
   
+  
+  
+<!--WebObjCaption/classification-->
+  <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Furniture">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Furniture</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Decorative-Arts"/>
+    </crm:E55_Type>
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Glass">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Glass</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Decorative-Arts"/>
+    </crm:E55_Type>
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Jewelry">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Jewelry</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Decorative-Arts"/>
+    </crm:E55_Type>
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Ceramic">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Ceramic</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Decorative-Arts"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Fiber">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Fiber</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Decorative-Arts"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Miniature">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Miniature</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Drawing"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Block-plate-stencil">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Block/plate/stencil</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Graphic-Arts"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Print">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Print</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Graphic-Arts"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Mechanica-Reproduction">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Mechanica-Reproduction</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Graphic-Arts"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Book">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Book</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Graphic-Arts"/>
+    </crm:E55_Type>
+    
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Archival-Material">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Archival Material</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Other"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Miniature">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Miniature</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Painting"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Mural">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Mural</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Painting"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Mixed-Media">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Mixed Media</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Painting"/>
+    </crm:E55_Type>
+    
+    |
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Phototransparency">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Phototransparency</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Photography"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Photoprint">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Photoprint</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Photography"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Photomechanical-Reproduction">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Photomechanical Reproduction</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Photography"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Maquette">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Maquette</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Sculpture"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Relief">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Relief</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Sculpture"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Assemblage ">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Assemblage</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Sculpture"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Kinetic">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Kinetic</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Sculpture"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Medal">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Medal</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Sculpture"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Miniature">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Miniature</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Sculpture"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Medal-Sample">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Medal-Sample</skos:prefLabel>
+    	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Sculpture"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Media-Arts">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Media-Arts</skos:prefLabel>
+    	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Sculpture">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Sculpture</skos:prefLabel>
+    	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    </crm:E55_Type>
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Sculpture">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Sculpture</skos:prefLabel>
+    	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    </crm:E55_Type>
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Photography">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Photography</skos:prefLabel>
+    	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Decorative-Arts">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Decorative-Arts</skos:prefLabel>
+    	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    </crm:E55_Type>
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Silhouette">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Silhouette</skos:prefLabel>
+    	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    </crm:E55_Type>
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Painting">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Painting</skos:prefLabel>
+    	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    </crm:E55_Type>
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Drawing">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Drawing</skos:prefLabel>
+    	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    </crm:E55_Type>
+    
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Other">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Other</skos:prefLabel>
+    	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    </crm:E55_Type>
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Graphic-Arts">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Graphic-Arts</skos:prefLabel>
+    	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    </crm:E55_Type>
+    
+    
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Installation-Art">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	<skos:scopeNote>note about the term.</skos:scopeNote>
+    	<skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    	<skos:prefLabel>Installation-Art</skos:prefLabel>
+    	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
+    </crm:E55_Type>
+    
+
+  
 
 
  <!--WebConGeography/place,not complete-->
