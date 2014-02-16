@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### Script to the N3 files for SAAM
+### Script to generate the N3 files for SAAM
 ### 
 ### Execute this script from the main saam-lod directory: sh scripts/generate-all-n3.sh
 ### It assumes that Karma has the same parent folder as saam-lod, if not, change the karma variable below
