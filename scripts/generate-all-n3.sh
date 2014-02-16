@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### Script to the N3 files for SAAM
+### Script to generate the N3 files for SAAM
 ### 
 ### Execute this script from the main saam-lod directory: sh scripts/generate-all-n3.sh
 ### It assumes that Karma has the same parent folder as saam-lod, if not, change the karma variable below
@@ -9,7 +9,7 @@
 
 saam=$(pwd)
 karma=$saam/../Web-Karma/
-modelDir=$saam/crm-models
+modelDir=$saam/crm-models/blue
 n3Dir=$saam/n3
 cd $karma
 
@@ -17,7 +17,7 @@ cd $karma
 MODELFILES=/$modelDir/*.ttl
 for modelFile in $MODELFILES
 do
-  echo "Processing $modelFile file..."
+  echo "Processing $modelFile file on table $tablename ..."
   # take action on each file. $f store current file name
   #cat $modelFile
   filename=$(basename $modelFile)
@@ -31,4 +31,5 @@ do
 --modelfilepath $modelFile \
 --outputfile $n3Filename" -Dexec.classpathScope=compile
 
+  echo "Done with $modelFile file on table $tablename"
 done
