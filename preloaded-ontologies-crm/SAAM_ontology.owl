@@ -137,7 +137,7 @@
 
 <!--WebObjOption-->
 
-    <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_object_classification">
+    <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_object_mainclass">
          <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E22_Man-Made_Object"/>
          <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm#P2_has_Type"/>
          <rdfs:label>object classification</rdfs:label>
@@ -149,6 +149,11 @@
              <rdfs:label>object subclassification</rdfs:label>
     </owl:ObjectProperty>
 
+   <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies/PE_medium_description">
+	<rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P3_has_note"/>
+	<rdfs:label>medium</rdfs:label>
+	<rdfs:comment>This is a sub-property of crm:P3_has_note, used to represent a medium description of an object</rdfs:comment>
+   </owl:DatatypeProperty>
 
 <!--WebObjDescription-->
    <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies#PE_has_note_exibitionlabel">

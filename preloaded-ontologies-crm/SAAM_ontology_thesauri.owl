@@ -30,6 +30,11 @@
      -->
 
 <!-- WebConsituents/code -->
+  <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/code">
+     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+     <skos:prefLabel>code</skos:prefLabel>
+  </rdf:Description>
+  
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/code/Provisional">
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/code"/>
@@ -53,6 +58,11 @@
 
 
  <!-- WebConsituents/nationality-->
+    <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality">
+      <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+      <skos:prefLabel>nationality</skos:prefLabel>
+    </rdf:Description>
+  
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/American">
        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -467,6 +477,10 @@
 
 
 <!-- WebAltName/nametype-->
+  <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype">
+      <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+      <skos:prefLabel>nametype</skos:prefLabel>
+    </rdf:Description>
 
 <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/nametype/Birth-or-Maiden-Name">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
@@ -607,8 +621,10 @@
 
 
 <!-- WebMaker/role -->
+
 <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role">
   <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+  <skos:prefLabel>role</skos:prefLabel>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/role/Artist">
@@ -923,7 +939,12 @@
 
 
 <!--WebObjectImage/righttype-->
-   <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/objrightstype/unrestricted">
+   <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/objrightstype">
+     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+      <skos:prefLabel>objrightstype</skos:prefLabel>
+   </rdf:Description>
+
+    <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/objrightstype/unrestricted">
        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E30_Right"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/objrighsttype"/>
@@ -947,6 +968,12 @@
     
     
     <!--WebObjectImage/mediatype-->
+    
+   <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/mediatype">
+         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+          <skos:prefLabel>image media type</skos:prefLabel>
+   </rdf:Description>
+    
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/mediatype/ Digital-Image-from-Slide">
                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/mediatype"/>
@@ -988,8 +1015,14 @@
                    <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/mediatype"/>
                    <skos:prefLabel>Negative</skos:prefLabel>
     </crm:E55_Type> 
+    
 
     <!--WebObjectImage/imagedisplaytype-->
+      <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/imagedisplaytype">
+             <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+              <skos:prefLabel>image display type</skos:prefLabel>
+     </rdf:Description>
+     
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/imagedisplaytype/undisplayimage">
                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
                <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/imagedisplaytype"/>
@@ -1023,6 +1056,12 @@
 
 <!--WebConGeography/placetype-->
 
+      <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/placetype">
+             <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+              <skos:prefLabel>place type</skos:prefLabel>
+     </rdf:Description>
+
+
 <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/placetype/City">
   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/placetype"/>
@@ -1050,6 +1089,11 @@
 
 
 <!-- WebObjDimensions_View/dimension -->
+      <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/dimension">
+             <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+              <skos:prefLabel>dimension</skos:prefLabel>
+     </rdf:Description>
+     
   <crm:E55_Type rdf:about="http://collection.britishmuseum.org/id/thesauri/dimension/height">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://collection.britishmuseum.org/id/thesauri/dimension"/>
@@ -1093,6 +1137,11 @@
   
   
 <!--WebObjCaption/classification-->
+  <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/classification">
+     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+     <skos:prefLabel>classification</skos:prefLabel>
+  </rdf:Description>
+
   <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Furniture">
     	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     	<skos:scopeNote>note about the term.</skos:scopeNote>
@@ -1401,6 +1450,27 @@
     	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification"/>
     </crm:E55_Type>
     
+
+
+<!--WebObjCaption/identifier-->
+ <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/identifier/id>
+       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+       <skos:scopeNote>id used in the database</skos:scopeNote>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/identifier"/>
+       <skos:prefLabel>id</skos:prefLabel>
+ </crm:E55_Type>
+       
+ <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/identifier/objnum>
+       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+       <skos:scopeNote>register number used in the management</skos:scopeNote>
+       <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/identifier"/>
+       <skos:prefLabel>objnum</skos:prefLabel>
+ </crm:E55_Type>
+ 
+ <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/identifier">
+     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+     <skos:prefLabel>identifier</skos:prefLabel>
+</rdf:Description>
 
   
 
