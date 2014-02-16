@@ -1048,6 +1048,50 @@
 </crm:E55_Type>
 
 
+
+<!-- WebObjDimensions_View/dimension -->
+  <crm:E55_Type rdf:about="http://collection.britishmuseum.org/id/thesauri/dimension/height">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://collection.britishmuseum.org/id/thesauri/dimension"/>
+    <skos:prefLabel>height</skos:prefLabel>
+  </crm:E55_Type>
+  
+  <crm:E55_Type rdf:about="http://collection.britishmuseum.org/id/thesauri/dimension/width">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.britishmuseum.org/id/thesauri/dimension"/>
+      <skos:prefLabel>width</skos:prefLabel>
+  </crm:E55_Type>
+  
+   <crm:E55_Type rdf:about="http://collection.britishmuseum.org/id/thesauri/dimension/depth">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.britishmuseum.org/id/thesauri/dimension"/>
+      <skos:prefLabel></skos:prefLabel>
+    </crm:E55_Type>
+  
+  
+   <crm:E55_Type rdf:about="http://collection.britishmuseum.org/id/thesauri/dimension/diamerter">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.britishmuseum.org/id/thesauri/dimension"/>
+      <skos:prefLabel>diamerter</skos:prefLabel>
+    </crm:E55_Type>
+  
+  
+   <crm:E55_Type rdf:about="http://collection.britishmuseum.org/id/thesauri/dimension/length">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.britishmuseum.org/id/thesauri/dimension"/>
+      <skos:prefLabel>length</skos:prefLabel>
+    </crm:E55_Type>
+  
+  
+   <crm:E55_Type rdf:about="http://collection.britishmuseum.org/id/thesauri/dimension/weight">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.britishmuseum.org/id/thesauri/dimension"/>
+      <skos:prefLabel>weight</skos:prefLabel>
+    </crm:E55_Type>
+  
+  
+
+
  <!--WebConGeography/place,not complete-->
 
 <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/place">

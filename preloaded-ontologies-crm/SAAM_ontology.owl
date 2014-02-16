@@ -21,7 +21,7 @@
 <!--WebConsitituents -->
   
    <!--  PE_has_nationality is not used.-->
-    <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontology/PE_has_nationality">
+    <owl:ObjectProperty rdf:about="http://collection.americanart.si.edu/id/ontologies/PE_has_nationality">
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P107i_is_current_or_former_member_of"/>
         <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
