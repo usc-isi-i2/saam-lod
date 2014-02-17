@@ -1265,7 +1265,6 @@
     	<skos:broader rdf:resource="http://collection.americanart.si.edu/id/thesauri/classification/Painting"/>
     </crm:E55_Type>
     
-    |
     
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/classification/Phototransparency">
     	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1453,14 +1452,14 @@
 
 
 <!--WebObjCaption/identifier-->
- <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/identifier/id>
+ <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/identifier/id">
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:scopeNote>id used in the database</skos:scopeNote>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/identifier"/>
        <skos:prefLabel>id</skos:prefLabel>
  </crm:E55_Type>
        
- <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/identifier/objnum>
+ <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/identifier/objnum">
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:scopeNote>register number used in the management</skos:scopeNote>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/identifier"/>
