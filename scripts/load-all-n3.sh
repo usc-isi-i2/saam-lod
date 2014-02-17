@@ -13,7 +13,7 @@ sesameUploadEndpoint=$sesameEndpoint?baseURI='<http://collection.americanart.si.
 
 
 # Uncomment to clear the repo 
-#curl -X DELETE $sesameEndpoint
+curl -X DELETE $sesameEndpoint
 
 N3FILES=/$n3Dir/*.n3
 #load all n3 files in the n3 directory
