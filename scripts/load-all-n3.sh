@@ -8,7 +8,6 @@
 saam=$(pwd)
 n3Dir=$saam/n3
 sameAsn3Dir=$n3Dir/n3-seeAlso
-sesameEndpoint=http://lod.isi.edu/openrdf-sesame/repositories/saam_openrdf/statements
 sesameUploadEndpoint=$sesameEndpoint?baseURI='<http://collection.americanart.si.edu/id/>'
 
 
