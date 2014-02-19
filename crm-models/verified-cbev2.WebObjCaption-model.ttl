@@ -1,0 +1,373 @@
+@prefix ns1: <crm> .
+@prefix ns2: <dc> .
+@prefix ns3: <dim> .
+@prefix ns4: <skos> .
+@prefix ns5: <qudt> .
+@prefix ns6: <rdf> .
+@prefix ns7: <foaf> .
+@prefix ns8: <cc> .
+@prefix ns9: <vs> .
+@prefix ns10: <owl> .
+@prefix ns11: <quantity> .
+@prefix ns12: <unit> .
+@prefix ns13: <dct> .
+@prefix ns14: <oecc> .
+@prefix ns15: <xsd> .
+@prefix ns16: <rdfs> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node18h5fs812x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "cbev2.WebObjCaption-sample.csv" ;
+	km-dev:modelPublicationTime "1392827572280"^^<http://www.w3.org/2001/XMLSchema#long> ;
+	km-dev:modelVersion "1.0" ;
+	km-dev:hasWorksheetHistory "[{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"Object_URI\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"object/\\\"+getValue(\\\"objectnumber\\\")\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ObjectID\"}],\"type\":\"hNodeId\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SubmitPythonTransformationCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"ObjectNumberIdentifier_URI\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"object/\\\"+getValue(\\\"objectnumber\\\")+\\\"/objnum\\\"\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"objectnumber\"}],\"type\":\"hNodeId\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SubmitPythonTransformationCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"ObjectIDIdentifier_URI\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"object/\\\"+getValue(\\\"objectnumber\\\")+\\\"/objnum\\\"\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Object_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SubmitPythonTransformationCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"object/\\\"+getValue(\\\"objectnumber\\\")+\\\"/id\\\"\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ObjectIDIdentifier_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"previousCommandId\",\"value\":\"C174\",\"type\":\"other\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"targetHNodeId\",\"value\":[{\"columnName\":\"ObjectIDIdentifier_URI\"}],\"type\":\"hNodeId\"}],\"commandName\":\"SubmitEditPythonTransformationCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ObjectNumberIdentifier_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"hTableId\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newColumnName\",\"value\":\"ObjnumType_URI\",\"type\":\"other\"},{\"name\":\"defaultValue\",\"value\":\"thesauri/identifier/objnum\",\"type\":\"other\"}],\"commandName\":\"AddColumnCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ObjectIDIdentifier_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"hTableId\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newColumnName\",\"value\":\"IDType_URI\",\"type\":\"other\"},{\"name\":\"defaultValue\",\"value\":\"thesauri/identifier/id\",\"type\":\"other\"}],\"commandName\":\"AddColumnCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"Classification_URI\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"thesauri/classification/\\\"+getValue(\\\"Classification\\\")\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Classification\"}],\"type\":\"hNodeId\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SubmitPythonTransformationCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"SubClassification_URI\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"thesauri/classification/\\\"+getValue(\\\"SubClassification\\\").replace(\\\" \\\",\\\"-\\\")\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"SubClassification\"}],\"type\":\"hNodeId\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SubmitPythonTransformationCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"Title_URI\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"object/\\\"+getValue(\\\"ojbectnumber\\\")+\\\"/title\\\"\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Title\"}],\"type\":\"hNodeId\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SubmitPythonTransformationCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"object/\\\"+getValue(\\\"objectnumber\\\")+\\\"/title\\\"\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Title_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"previousCommandId\",\"value\":\"C249\",\"type\":\"other\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"targetHNodeId\",\"value\":[{\"columnName\":\"Title_URI\"}],\"type\":\"hNodeId\"}],\"commandName\":\"SubmitEditPythonTransformationCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"CopyRight_URI\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"object/\\\"+getValue(\\\"objectnumber\\\")+\\\"/copyright\\\"\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"CreditLineRepro\"}],\"type\":\"hNodeId\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SubmitPythonTransformationCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"Acqusition_URI\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"object/\\\"+getValue(\\\"objectnumber\\\")+\\\"/acquisition\\\"\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Creditline\"}],\"type\":\"hNodeId\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SubmitPythonTransformationCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"CopyRight_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"hTableId\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newColumnName\",\"value\":\"Museum_URI\",\"type\":\"other\"},{\"name\":\"defaultValue\",\"value\":\"the-american-art-museum\",\"type\":\"other\"}],\"commandName\":\"AddColumnCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Object_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ObjectNumberIdentifier_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ObjectIDIdentifier_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ObjnumType_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"IDType_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Classification_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"SubClassification_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Title_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"CopyRight_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Acqusition_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Museum_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of\",\"direction\":\"incoming\",\"edgeSource\":\"E42_Identifier1\",\"edgeTarget\":\"E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS1AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"direction\":\"incoming\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E42_Identifier2\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS1AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type2\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ObjectID\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.w3.org/2000/01/rdf-schema#label\",\"isPrimary\":true,\"Domain\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"objectnumber\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.w3.org/2000/01/rdf-schema#label\",\"isPrimary\":true,\"Domain\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"direction\":\"incoming\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E42_Identifier1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P1i_identifies\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P1i_identifies\",\"direction\":\"outgoing\",\"edgeSource\":\"E42_Identifier1\",\"edgeTarget\":\"E55_Type1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS1AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Title\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.w3.org/2000/01/rdf-schema#label\",\"isPrimary\":true,\"Domain\":\"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E35_Title1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E30_Right1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E42_Identifier2\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E42_Identifier1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS1AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\"},{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_mainclass\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type3\"},{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_subsclass\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type4\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Medium\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://collection.americanart.si.edu/id/ontologies/PE_medium_description\",\"isPrimary\":true,\"Domain\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_mainclass\",\"edgeLabel\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_mainclass\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E55_Type3\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type3\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_subsclass\",\"edgeLabel\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_subsclass\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E55_Type4\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type4\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E35_Title1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E30_Right1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E42_Identifier2\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E42_Identifier1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS1AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_mainclass\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type3\"},{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_subsclass\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type4\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P50_has_current_keeper\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_mainclass\",\"edgeLabel\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_mainclass\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E55_Type3\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type3\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_subsclass\",\"edgeLabel\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_subsclass\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E55_Type4\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type4\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E35_Title1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E30_Right1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E42_Identifier2\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E42_Identifier1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner\",\"edgeLabel\":\"crm:P52_has_current_owner\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E40_Legal_Body1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P50_has_current_keeper\",\"edgeLabel\":\"crm:P50_has_current_keeper\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E40_Legal_Body1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS1AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_mainclass\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type3\"},{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_subsclass\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type4\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P50_has_current_keeper\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P30i_custody_transferred_through\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P24i_changed_ownership_through\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"CreditLineRepro\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.cidoc-crm.org/cidoc-crm/P3_has_note\",\"isPrimary\":true,\"Domain\":\"http://www.cidoc-crm.org/cidoc-crm/E30_Right\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"CreditLineRepro\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.cidoc-crm.org/cidoc-crm/P3_has_note\",\"isPrimary\":true,\"Domain\":\"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Creditline\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.cidoc-crm.org/cidoc-crm/P3_has_note\",\"isPrimary\":true,\"Domain\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P30i_custody_transferred_through\",\"edgeLabel\":\"crm:P30i_custody_transferred_through\",\"direction\":\"incoming\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E8_Acquisition1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P24i_changed_ownership_through\",\"edgeLabel\":\"crm:P24i_changed_ownership_through\",\"direction\":\"incoming\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E8_Acquisition1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS1AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P30i_custody_transferred_through\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P24i_changed_ownership_through\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P22_transferred_title_to\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P24_transferred_title_of\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P29_custody_received_by\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P30_transferred_custody_of\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"Acquisition_Same_URI\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return getValue(\\\"Acqusition_URI\\\")\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"dateend\"}],\"type\":\"hNodeId\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SubmitPythonTransformationCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody1\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Acquisition_Same_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P30_transferred_custody_of\",\"edgeLabel\":\"crm:P30_transferred_custody_of\",\"direction\":\"incoming\",\"edgeSource\":\"E8_Acquisition1\",\"edgeTarget\":\"E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P24_transferred_title_of\",\"edgeLabel\":\"crm:P24_transferred_title_of\",\"direction\":\"incoming\",\"edgeSource\":\"E8_Acquisition1\",\"edgeTarget\":\"E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\"},{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_mainclass\",\"edgeLabel\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_mainclass\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E55_Type3\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type3\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_subsclass\",\"edgeLabel\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_subsclass\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E55_Type4\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type4\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E35_Title1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E30_Right1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E42_Identifier2\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P30i_custody_transferred_through\",\"edgeLabel\":\"crm:P30i_custody_transferred_through\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E8_Acquisition1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"edgeLabel\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E42_Identifier1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P24i_changed_ownership_through\",\"edgeLabel\":\"crm:P24i_changed_ownership_through\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E8_Acquisition1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner\",\"edgeLabel\":\"crm:P52_has_current_owner\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E40_Legal_Body1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P50_has_current_keeper\",\"edgeLabel\":\"crm:P50_has_current_keeper\",\"direction\":\"outgoing\",\"edgeSource\":\"E22_Man-Made_Object1\",\"edgeTarget\":\"E40_Legal_Body1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS1AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P30_transferred_custody_of\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P24_transferred_title_of\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\"},{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_mainclass\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type3\"},{\"edgeId\":\"http://collection.americanart.si.edu/id/ontologies#PE_object_subsclass\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E55_Type4\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P102_has_title\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E35_Title1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E30_Right1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P24i_changed_ownership_through\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P50_has_current_keeper\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1\"},{\"edgeId\":\"http://www.cidoc-crm.org/cidoc-crm/P30i_custody_transferred_through\",\"edgeSourceId\":\"http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1\",\"edgeTargetId\":\"http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody1\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"thesauri/classification/\\\"+getValue(\\\"Classification\\\").replace(\\\" \\\",\\\"-\\\")\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Classification_URI\"}],\"type\":\"hNodeId\"},{\"name\":\"previousCommandId\",\"value\":\"C209\",\"type\":\"other\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"},{\"name\":\"targetHNodeId\",\"value\":[{\"columnName\":\"Classification_URI\"}],\"type\":\"hNodeId\"}],\"commandName\":\"SubmitEditPythonTransformationCommand\"}]" .
+
+km-dev:TriplesMap_1 a rr:TriplesMap .
+
+_:node18h5fs812x1 km-dev:hasTriplesMap km-dev:TriplesMap_1 .
+
+_:node18h5fs812x2 rr:tableName "cbev2.WebObjCaption-sample.csv" .
+
+km-dev:TriplesMap_1 rr:logicalTable _:node18h5fs812x2 ;
+	rr:subjectMap _:node18h5fs812x3 .
+
+_:node18h5fs812x3 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody> ;
+	rr:template "{Acqusition_URI}" .
+
+km-dev:TriplesMap_2 a rr:TriplesMap .
+
+_:node18h5fs812x1 km-dev:hasTriplesMap km-dev:TriplesMap_2 .
+
+_:node18h5fs812x5 rr:tableName "cbev2.WebObjCaption-sample.csv" .
+
+km-dev:TriplesMap_2 rr:logicalTable _:node18h5fs812x5 ;
+	rr:subjectMap _:node18h5fs812x6 .
+
+_:node18h5fs812x6 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> ;
+	rr:template "object/{objectnumber}" ;
+	a km-dev:steinerTreeRootNode .
+
+_:node18h5fs812x7 rr:predicate <http://collection.americanart.si.edu/id/ontologies#PE_object_mainclass> .
+
+km-dev:RefObjectMap_1 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_3 .
+
+_:node18h5fs812x7 rr:objectMap km-dev:RefObjectMap_1 .
+
+km-dev:TriplesMap_2 rr:predicateObjectMap _:node18h5fs812x7 .
+
+_:node18h5fs812x8 rr:predicate <http://collection.americanart.si.edu/id/ontologies#PE_object_subsclass> .
+
+km-dev:RefObjectMap_2 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_4 .
+
+_:node18h5fs812x8 rr:objectMap km-dev:RefObjectMap_2 .
+
+km-dev:TriplesMap_2 rr:predicateObjectMap _:node18h5fs812x8 .
+
+_:node18h5fs812x9 rr:predicate <http://collection.americanart.si.edu/id/ontologies/PE_medium_description> .
+
+_:node18h5fs812x10 rr:column "Medium" .
+
+_:node18h5fs812x9 rr:objectMap _:node18h5fs812x10 .
+
+km-dev:TriplesMap_2 rr:predicateObjectMap _:node18h5fs812x9 .
+
+_:node18h5fs812x12 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P102_has_title> .
+
+km-dev:RefObjectMap_3 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_5 .
+
+_:node18h5fs812x12 rr:objectMap km-dev:RefObjectMap_3 .
+
+km-dev:TriplesMap_2 rr:predicateObjectMap _:node18h5fs812x12 .
+
+_:node18h5fs812x13 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to> .
+
+km-dev:RefObjectMap_4 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_6 .
+
+_:node18h5fs812x13 rr:objectMap km-dev:RefObjectMap_4 .
+
+km-dev:TriplesMap_2 rr:predicateObjectMap _:node18h5fs812x13 .
+
+_:node18h5fs812x14 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> .
+
+km-dev:RefObjectMap_5 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_7 .
+
+_:node18h5fs812x14 rr:objectMap km-dev:RefObjectMap_5 .
+
+km-dev:TriplesMap_2 rr:predicateObjectMap _:node18h5fs812x14 .
+
+_:node18h5fs812x15 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P24i_changed_ownership_through> .
+
+km-dev:RefObjectMap_6 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_8 .
+
+_:node18h5fs812x15 rr:objectMap km-dev:RefObjectMap_6 .
+
+km-dev:TriplesMap_2 rr:predicateObjectMap _:node18h5fs812x15 .
+
+_:node18h5fs812x16 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P30i_custody_transferred_through> .
+
+km-dev:RefObjectMap_7 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_1 .
+
+_:node18h5fs812x16 rr:objectMap km-dev:RefObjectMap_7 .
+
+km-dev:TriplesMap_2 rr:predicateObjectMap _:node18h5fs812x16 .
+
+_:node18h5fs812x17 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier> .
+
+km-dev:RefObjectMap_8 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_9 .
+
+_:node18h5fs812x17 rr:objectMap km-dev:RefObjectMap_8 .
+
+km-dev:TriplesMap_2 rr:predicateObjectMap _:node18h5fs812x17 .
+
+_:node18h5fs812x18 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner> .
+
+km-dev:RefObjectMap_9 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_10 .
+
+_:node18h5fs812x18 rr:objectMap km-dev:RefObjectMap_9 .
+
+km-dev:TriplesMap_2 rr:predicateObjectMap _:node18h5fs812x18 .
+
+_:node18h5fs812x19 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P50_has_current_keeper> .
+
+km-dev:RefObjectMap_10 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_10 .
+
+_:node18h5fs812x19 rr:objectMap km-dev:RefObjectMap_10 .
+
+km-dev:TriplesMap_2 rr:predicateObjectMap _:node18h5fs812x19 .
+
+km-dev:TriplesMap_3 a rr:TriplesMap .
+
+_:node18h5fs812x1 km-dev:hasTriplesMap km-dev:TriplesMap_3 .
+
+_:node18h5fs812x20 rr:tableName "cbev2.WebObjCaption-sample.csv" .
+
+km-dev:TriplesMap_3 rr:logicalTable _:node18h5fs812x20 ;
+	rr:subjectMap _:node18h5fs812x21 .
+
+_:node18h5fs812x21 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type3" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+	rr:template "{Classification_URI}" .
+
+km-dev:TriplesMap_4 a rr:TriplesMap .
+
+_:node18h5fs812x1 km-dev:hasTriplesMap km-dev:TriplesMap_4 .
+
+_:node18h5fs812x23 rr:tableName "cbev2.WebObjCaption-sample.csv" .
+
+km-dev:TriplesMap_4 rr:logicalTable _:node18h5fs812x23 ;
+	rr:subjectMap _:node18h5fs812x24 .
+
+_:node18h5fs812x24 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type4" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+	rr:template "{SubClassification_URI}" .
+
+km-dev:TriplesMap_5 a rr:TriplesMap .
+
+_:node18h5fs812x1 km-dev:hasTriplesMap km-dev:TriplesMap_5 .
+
+_:node18h5fs812x26 rr:tableName "cbev2.WebObjCaption-sample.csv" .
+
+km-dev:TriplesMap_5 rr:logicalTable _:node18h5fs812x26 ;
+	rr:subjectMap _:node18h5fs812x27 .
+
+_:node18h5fs812x27 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E35_Title1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E35_Title> ;
+	rr:template "object/{objectnumber}/title" .
+
+_:node18h5fs812x29 rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> .
+
+_:node18h5fs812x30 rr:column "Title" .
+
+_:node18h5fs812x29 rr:objectMap _:node18h5fs812x30 .
+
+km-dev:TriplesMap_5 rr:predicateObjectMap _:node18h5fs812x29 .
+
+km-dev:TriplesMap_6 a rr:TriplesMap .
+
+_:node18h5fs812x1 km-dev:hasTriplesMap km-dev:TriplesMap_6 .
+
+_:node18h5fs812x31 rr:tableName "cbev2.WebObjCaption-sample.csv" .
+
+km-dev:TriplesMap_6 rr:logicalTable _:node18h5fs812x31 ;
+	rr:subjectMap _:node18h5fs812x32 .
+
+_:node18h5fs812x32 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E30_Right1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E30_Right> ;
+	rr:template "object/{objectnumber}/copyright" .
+
+_:node18h5fs812x34 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> .
+
+_:node18h5fs812x35 rr:column "CreditLineRepro" .
+
+_:node18h5fs812x34 rr:objectMap _:node18h5fs812x35 .
+
+km-dev:TriplesMap_6 rr:predicateObjectMap _:node18h5fs812x34 .
+
+km-dev:TriplesMap_7 a rr:TriplesMap .
+
+_:node18h5fs812x1 km-dev:hasTriplesMap km-dev:TriplesMap_7 .
+
+_:node18h5fs812x36 rr:tableName "cbev2.WebObjCaption-sample.csv" .
+
+km-dev:TriplesMap_7 rr:logicalTable _:node18h5fs812x36 ;
+	rr:subjectMap _:node18h5fs812x37 .
+
+_:node18h5fs812x37 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier2" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> ;
+	rr:template "object/{objectnumber}/id" .
+
+_:node18h5fs812x39 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> .
+
+km-dev:RefObjectMap_11 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_12 .
+
+_:node18h5fs812x39 rr:objectMap km-dev:RefObjectMap_11 .
+
+km-dev:TriplesMap_7 rr:predicateObjectMap _:node18h5fs812x39 .
+
+_:node18h5fs812x40 rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> .
+
+_:node18h5fs812x41 rr:column "ObjectID" .
+
+_:node18h5fs812x40 rr:objectMap _:node18h5fs812x41 .
+
+km-dev:TriplesMap_7 rr:predicateObjectMap _:node18h5fs812x40 .
+
+km-dev:TriplesMap_8 a rr:TriplesMap .
+
+_:node18h5fs812x1 km-dev:hasTriplesMap km-dev:TriplesMap_8 .
+
+_:node18h5fs812x42 rr:tableName "cbev2.WebObjCaption-sample.csv" .
+
+km-dev:TriplesMap_8 rr:logicalTable _:node18h5fs812x42 ;
+	rr:subjectMap _:node18h5fs812x43 .
+
+_:node18h5fs812x43 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition> ;
+	rr:template "object/{objectnumber}/acquisition" .
+
+_:node18h5fs812x45 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P22_transferred_title_to> .
+
+km-dev:RefObjectMap_12 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_10 .
+
+_:node18h5fs812x45 rr:objectMap km-dev:RefObjectMap_12 .
+
+km-dev:TriplesMap_8 rr:predicateObjectMap _:node18h5fs812x45 .
+
+_:node18h5fs812x46 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> .
+
+_:node18h5fs812x47 rr:column "Creditline" .
+
+_:node18h5fs812x46 rr:objectMap _:node18h5fs812x47 .
+
+km-dev:TriplesMap_8 rr:predicateObjectMap _:node18h5fs812x46 .
+
+_:node18h5fs812x48 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P29_custody_received_by> .
+
+km-dev:RefObjectMap_13 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_10 .
+
+_:node18h5fs812x48 rr:objectMap km-dev:RefObjectMap_13 .
+
+km-dev:TriplesMap_8 rr:predicateObjectMap _:node18h5fs812x48 .
+
+_:node18h5fs812x49 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P30_transferred_custody_of> .
+
+km-dev:RefObjectMap_14 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_2 .
+
+_:node18h5fs812x49 rr:objectMap km-dev:RefObjectMap_14 .
+
+km-dev:TriplesMap_8 rr:predicateObjectMap _:node18h5fs812x49 .
+
+_:node18h5fs812x50 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P24_transferred_title_of> .
+
+km-dev:RefObjectMap_15 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_2 .
+
+_:node18h5fs812x50 rr:objectMap km-dev:RefObjectMap_15 .
+
+km-dev:TriplesMap_8 rr:predicateObjectMap _:node18h5fs812x50 .
+
+km-dev:TriplesMap_9 a rr:TriplesMap .
+
+_:node18h5fs812x1 km-dev:hasTriplesMap km-dev:TriplesMap_9 .
+
+_:node18h5fs812x51 rr:tableName "cbev2.WebObjCaption-sample.csv" .
+
+km-dev:TriplesMap_9 rr:logicalTable _:node18h5fs812x51 ;
+	rr:subjectMap _:node18h5fs812x52 .
+
+_:node18h5fs812x52 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> ;
+	rr:template "object/{objectnumber}/objnum" .
+
+_:node18h5fs812x54 rr:predicate <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> .
+
+km-dev:RefObjectMap_16 a rr:RefObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_11 .
+
+_:node18h5fs812x54 rr:objectMap km-dev:RefObjectMap_16 .
+
+km-dev:TriplesMap_9 rr:predicateObjectMap _:node18h5fs812x54 .
+
+_:node18h5fs812x55 rr:predicate <http://www.w3.org/2000/01/rdf-schema#label> .
+
+_:node18h5fs812x56 rr:column "objectnumber" .
+
+_:node18h5fs812x55 rr:objectMap _:node18h5fs812x56 .
+
+km-dev:TriplesMap_9 rr:predicateObjectMap _:node18h5fs812x55 .
+
+km-dev:TriplesMap_10 a rr:TriplesMap .
+
+_:node18h5fs812x1 km-dev:hasTriplesMap km-dev:TriplesMap_10 .
+
+_:node18h5fs812x57 rr:tableName "cbev2.WebObjCaption-sample.csv" .
+
+km-dev:TriplesMap_10 rr:logicalTable _:node18h5fs812x57 ;
+	rr:subjectMap _:node18h5fs812x58 .
+
+_:node18h5fs812x58 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body> ;
+	rr:template "{Museum_URI}" .
+
+km-dev:TriplesMap_11 a rr:TriplesMap .
+
+_:node18h5fs812x1 km-dev:hasTriplesMap km-dev:TriplesMap_11 .
+
+_:node18h5fs812x60 rr:tableName "cbev2.WebObjCaption-sample.csv" .
+
+km-dev:TriplesMap_11 rr:logicalTable _:node18h5fs812x60 ;
+	rr:subjectMap _:node18h5fs812x61 .
+
+_:node18h5fs812x61 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type1" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+	rr:template "{ObjnumType_URI}" .
+
+km-dev:TriplesMap_12 a rr:TriplesMap .
+
+_:node18h5fs812x1 km-dev:hasTriplesMap km-dev:TriplesMap_12 .
+
+_:node18h5fs812x63 rr:tableName "cbev2.WebObjCaption-sample.csv" .
+
+km-dev:TriplesMap_12 rr:logicalTable _:node18h5fs812x63 ;
+	rr:subjectMap _:node18h5fs812x64 .
+
+_:node18h5fs812x64 km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type2" ;
+	rr:class <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+	rr:template "{IDType_URI}" .
