@@ -1470,64 +1470,6 @@
      <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
      <skos:prefLabel>identifier</skos:prefLabel>
 </rdf:Description>
-
-  
-
-
- <!--WebConGeography/place,not complete-->
-
-<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/place">
-	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/place/thesauri/place/Afghanistan">
-	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/place">
-	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/place/thesauri/place/Afghanistan">
-	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/place"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/place/thesauri/place/Afghanistan">
-	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/place/thesauri/place/Afghanistan">
-	<P2_has_type xmlns="http://www.cidoc-crm.org/cidoc-crm/" rdf:resource="http://collection.americanart.si.edu/id/thesauri/ placetype/Country"/>
-	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/place"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/place/thesauri/place/Algeria">
-	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos#Concept"/>
-</rdf:Description>
-
-
-<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/place/thesauri/place/Algeria">
-	<inScheme xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/place"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/place/thesauri/place/Algeria">
-	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-</rdf:Description>
-
-
-
-<rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/place/thesauri/place/Algeria">
-	<P2_has_type xmlns="http://www.cidoc-crm.org/cidoc-crm/" rdf:resource="http://collection.americanart.si.edu/id/thesauri/placetype/Country"/>
-	<topConceptOf xmlns="http://www.w3.org/2008/05/skos#" rdf:resource="http://collection.americanart.si.edu/id/thesauri/place"/>
-</rdf:Description>
-
-
-
-
-
-
-
-
 </rdf:RDF>
 
 
