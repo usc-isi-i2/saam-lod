@@ -2,9 +2,14 @@
 ::set modelFile=G:\工程\ISI\saam-lod\crm-models\test\cbev2.WebConDates-model.ttl
 ::set n3Filename=G:\工程\ISI\saam-lod\n3\cbev2.WebConDates.n3
 
-set tablename=dbo.WebMakers_view
-set modelFile=G:\工程\ISI\saam-lod\crm-models\test\dbo.WebMakers_view-model.ttl
-set n3Filename=G:\工程\ISI\saam-lod\n3\dbo.WebMakers_view.n3
+::set tablename=dbo.WebMakers_view
+::set modelFile=G:\工程\ISI\saam-lod\crm-models\test\dbo.WebMakers_view-model.ttl
+::set n3Filename=G:\工程\ISI\saam-lod\n3\dbo.WebMakers_view.n3
+
+set tablename=cbev2.WebArtistBioImages
+set modelFile=G:\工程\ISI\saam-lod\crm-models\test\cbev2.WebArtistBioImages-model.ttl
+set n3Filename=G:\工程\ISI\saam-lod\n3\cbev2.WebArtistBioImages.n3
+
 
 
 echo "Processing %name% file on table tablename ..."
