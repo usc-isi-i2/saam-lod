@@ -10,10 +10,13 @@
 ::set modelFile=G:\工程\ISI\saam-lod\crm-models\test\cbev2.WebArtistBioImages-model.ttl
 ::set n3Filename=G:\工程\ISI\saam-lod\n3\cbev2.WebArtistBioImages.n3
 
-set tablename=cbev2.WebConAltNames
-set modelFile=G:\工程\ISI\saam-lod\crm-models\test\cbev2.WebConAltNames-model.ttl
-set n3Filename=G:\工程\ISI\saam-lod\n3\cbev2.WebConAltNames.n3
+::set tablename=cbev2.WebConAltNames
+::set modelFile=G:\工程\ISI\saam-lod\crm-models\test\cbev2.WebConAltNames-model.ttl
+::set n3Filename=G:\工程\ISI\saam-lod\n3\cbev2.WebConAltNames.n3
 
+set tablename=cbev2.WebConGeography
+set modelFile=G:\工程\ISI\saam-lod\crm-models\test\cbev2.WebConGeography-model.ttl
+set n3Filename=G:\工程\ISI\saam-lod\n3\cbev2.WebConGeography.n3
 
 
 echo "Processing %name% file on table tablename ..."
