@@ -12,7 +12,7 @@
 
 saam=$(pwd)
 karma=$saam/../Web-Karma/
-modelDir=$saam/crm-models/blue
+modelDir=$saam/crm-models/final
 n3Dir=$saam/n3
 cd $karma
 
