@@ -1,0 +1,63 @@
+<thesauri/term/Subject_Specific> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/term/Subject_Specific/2031290> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/term/Subject_Specific/2031290> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/term/Subject_Specific> .
+<thesauri/term/Subject_Specific/2031290> <http://www.w3.org/2008/05/skos#prefLabel> "Portrait maleGrant, Ulysses S." .
+<thesauri/term/Subject_Specific/2031290> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/term/Subject_Specific/2031290> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/term/Subject_Specific> .
+
+<thesauri/term/Subject_Specific> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/term/Subject_Specific/2031291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/term/Subject_Specific/2031291> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/term/Subject_Specific> .
+<thesauri/term/Subject_Specific/2031291> <http://www.w3.org/2008/05/skos#prefLabel> "Portrait maleGrant, Ulysses S.head" .
+<thesauri/term/Subject_Specific/2031291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/term/Subject_Specific/2031291> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/term/Subject_Specific> .
+
+<thesauri/term/Subject_Specific> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/term/Subject_Specific/2031296> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/term/Subject_Specific/2031296> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/term/Subject_Specific> .
+<thesauri/term/Subject_Specific/2031296> <http://www.w3.org/2008/05/skos#prefLabel> "Portrait maleHamilton, Samuel W.bust" .
+<thesauri/term/Subject_Specific/2031296> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/term/Subject_Specific/2031296> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/term/Subject_Specific> .
+
+<thesauri/term/Loan_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/term/Loan_Status/7509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/term/Loan_Status/7509> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/term/Loan_Status> .
+<thesauri/term/Loan_Status/7509> <http://www.w3.org/2008/05/skos#prefLabel> "Art & Architecture ThesaurusACTIVITIES FACETDisciplinesdisciplines" .
+<thesauri/term/Loan_Status/7509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/term/Loan_Status/7509> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/term/Loan_Status> .
+
+<thesauri/term/Loan_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/term/Loan_Status/7678> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/term/Loan_Status/7678> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/term/Loan_Status> .
+<thesauri/term/Loan_Status/7678> <http://www.w3.org/2008/05/skos#prefLabel> "Art & Architecture ThesaurusACTIVITIES FACETDisciplinesdisciplinessocial sciencesplanningregional planning" .
+<thesauri/term/Loan_Status/7678> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/term/Loan_Status/7678> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/term/Loan_Status> .
+
+<thesauri/term/Mark_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/term/Mark_Type/2027390> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/term/Mark_Type/2027390> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/term/Mark_Type> .
+<thesauri/term/Mark_Type/2027390> <http://www.w3.org/2008/05/skos#prefLabel> "AuthoritiesAttributesObjects" .
+<thesauri/term/Mark_Type/2027390> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/term/Mark_Type/2027390> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/term/Mark_Type> .
+
+<thesauri/term/Object_-_Constituent_Cross_References> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/term/Object_-_Constituent_Cross_References/2027400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/term/Object_-_Constituent_Cross_References/2027400> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/term/Object_-_Constituent_Cross_References> .
+<thesauri/term/Object_-_Constituent_Cross_References/2027400> <http://www.w3.org/2008/05/skos#prefLabel> "Object related" .
+<thesauri/term/Object_-_Constituent_Cross_References/2027400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/term/Object_-_Constituent_Cross_References/2027400> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/term/Object_-_Constituent_Cross_References> .
+
+<thesauri/term/Occupation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/term/Occupation/2027404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/term/Occupation/2027404> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/term/Occupation> .
+<thesauri/term/Occupation/2027404> <http://www.w3.org/2008/05/skos#prefLabel> "artist" .
+<thesauri/term/Occupation/2027404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/term/Occupation/2027404> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/term/Occupation> .
+
+<thesauri/term/Subject_General> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/term/Subject_General/2027514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/term/Subject_General/2027514> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/term/Subject_General> .
+<thesauri/term/Subject_General/2027514> <http://www.w3.org/2008/05/skos#prefLabel> "Group" .
+<thesauri/term/Subject_General/2027514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/term/Subject_General/2027514> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/term/Subject_General> .
+
