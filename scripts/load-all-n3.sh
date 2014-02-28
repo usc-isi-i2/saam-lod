@@ -36,4 +36,4 @@ do
 done
 
 echo "Loading $sameAsn3Dir/seeAlsoWikipedia-seeAlsoytimes.rdf file..."
-curl -X POST -H "Content-Type:application/rdf+xml" -T $sameAsn3Dir/seeAlsoWikipedia-seeAlsoytimes.rdf $sesameUploadEndpoint
+curl -X POST -H "Content-Type:application/rdf+xml" -T $sameAsn3Dir/seeAlsoWikipedia-seeAlsoNytimes.rdf $sesameUploadEndpoint
