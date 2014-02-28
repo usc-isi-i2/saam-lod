@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/>. 
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<http://collection.americanart.si.edu/id/person-institution/105> owl:sameAs <http://dbpedia.org/resource/Vera_Eugenia_Andrus>.
+<http://collection.americanart.si.edu/id/person-institution/17753> owl:sameAs <http://dbpedia.org/resource/Vik_Muniz>.
+<http://collection.americanart.si.edu/id/person-institution/18206> owl:sameAs <http://dbpedia.org/resource/Victor_Moscoso>.
+<http://collection.americanart.si.edu/id/person-institution/2049> owl:sameAs <http://dbpedia.org/resource/Victor_Hammer>.
+<http://collection.americanart.si.edu/id/person-institution/2187> owl:sameAs <http://dbpedia.org/resource/Velino_Herrera>.
+<http://collection.americanart.si.edu/id/person-institution/2366> owl:sameAs <http://dbpedia.org/resource/Victoria_Hutson_Huntley>.
+<http://collection.americanart.si.edu/id/person-institution/2657> owl:sameAs <http://dbpedia.org/resource/Vera_Klement>.
+<http://collection.americanart.si.edu/id/person-institution/28951> owl:sameAs <http://dbpedia.org/resource/Vito_Acconci>.
+<http://collection.americanart.si.edu/id/person-institution/29308> owl:sameAs <http://dbpedia.org/resource/Vija_Celmins>.
+<http://collection.americanart.si.edu/id/person-institution/29669> owl:sameAs <http://dbpedia.org/resource/Vitaly_Komar>.
+<http://collection.americanart.si.edu/id/person-institution/3343> owl:sameAs <http://dbpedia.org/resource/Victor_Millonzi>.
+<http://collection.americanart.si.edu/id/person-institution/3507> owl:sameAs <http://dbpedia.org/resource/Victor_Nehlig>.
+<http://collection.americanart.si.edu/id/person-institution/3603> owl:sameAs <http://dbpedia.org/resource/Violet_Oakley>.
+<http://collection.americanart.si.edu/id/person-institution/363> owl:sameAs <http://dbpedia.org/resource/Vera_Berdich>.
+<http://collection.americanart.si.edu/id/person-institution/3758> owl:sameAs <http://dbpedia.org/resource/Vincent_Pepi>.
+<http://collection.americanart.si.edu/id/person-institution/3963> owl:sameAs <http://dbpedia.org/resource/Vinnie_Ream>.
+<http://collection.americanart.si.edu/id/person-institution/4167> owl:sameAs <http://dbpedia.org/resource/Victor_Rousseau>.
+<http://collection.americanart.si.edu/id/person-institution/4323> owl:sameAs <http://dbpedia.org/resource/Viktor_Schreckengost>.
+<http://collection.americanart.si.edu/id/person-institution/4359> owl:sameAs <http://dbpedia.org/resource/Victor_Segoffin>.
+<http://collection.americanart.si.edu/id/person-institution/6574> owl:sameAs <http://dbpedia.org/resource/Viola_Frey>.

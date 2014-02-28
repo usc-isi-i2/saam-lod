@@ -1,0 +1,7 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/>. 
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<http://collection.americanart.si.edu/id/person-institution/1859> owl:sameAs <http://dbpedia.org/resource/Xavier_Gonzalez>.
+<http://collection.americanart.si.edu/id/person-institution/236> owl:sameAs <http://dbpedia.org/resource/Xavier_J._Barile>.
+<http://collection.americanart.si.edu/id/person-institution/27666> owl:sameAs <http://dbpedia.org/resource/X._J._Kennedy>.
+<http://collection.americanart.si.edu/id/person-institution/3144> owl:sameAs <http://dbpedia.org/resource/Xavier_Mart%C3%ADnez>.
