@@ -1,0 +1,73 @@
+<thesauri/classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/classification/Collage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/classification/Collage> <http://www.w3.org/2008/05/skos#prefLabel> "Collage" .
+<thesauri/classification/Collage> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/classification> .
+<thesauri/classification/Collage> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/classification> .
+<thesauri/classification/Collage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+
+<thesauri/classification/Ceramic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/classification/Ceramic> <http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term> <thesauri/classification/Decorative-Arts> .
+<thesauri/classification/Ceramic> <http://www.w3.org/2008/05/skos#prefLabel> "Ceramic" .
+<thesauri/classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/2008/05/skos#prefLabel> "Decorative Arts" .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/classification> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/classification> .
+<thesauri/classification/Ceramic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/classification/Ceramic> <http://www.w3.org/2008/05/skos#broader> <thesauri/classification/Decorative-Arts> .
+<thesauri/classification/Ceramic> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/classification> .
+
+<thesauri/classification/Fiber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/classification/Fiber> <http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term> <thesauri/classification/Decorative-Arts> .
+<thesauri/classification/Fiber> <http://www.w3.org/2008/05/skos#prefLabel> "Fiber" .
+<thesauri/classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/2008/05/skos#prefLabel> "Decorative Arts" .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/classification> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/classification> .
+<thesauri/classification/Fiber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/classification/Fiber> <http://www.w3.org/2008/05/skos#broader> <thesauri/classification/Decorative-Arts> .
+<thesauri/classification/Fiber> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/classification> .
+
+<thesauri/classification/Jewelry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/classification/Jewelry> <http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term> <thesauri/classification/Decorative-Arts> .
+<thesauri/classification/Jewelry> <http://www.w3.org/2008/05/skos#prefLabel> "Jewelry" .
+<thesauri/classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/2008/05/skos#prefLabel> "Decorative Arts" .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/classification> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/classification> .
+<thesauri/classification/Jewelry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/classification/Jewelry> <http://www.w3.org/2008/05/skos#broader> <thesauri/classification/Decorative-Arts> .
+<thesauri/classification/Jewelry> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/classification> .
+
+<thesauri/classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/2008/05/skos#prefLabel> "Decorative Arts" .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/classification> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/classification> .
+<thesauri/classification/Decorative-Arts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+
+<thesauri/classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/classification/Drawing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/classification/Drawing> <http://www.w3.org/2008/05/skos#prefLabel> "Drawing" .
+<thesauri/classification/Drawing> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/classification> .
+<thesauri/classification/Drawing> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/classification> .
+<thesauri/classification/Drawing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+
+<thesauri/classification/Photoprint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/classification/Photography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<thesauri/classification/Photoprint> <http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term> <thesauri/classification/Photography> .
+<thesauri/classification/Photoprint> <http://www.w3.org/2008/05/skos#prefLabel> "Photoprint" .
+<thesauri/classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#ConceptScheme> .
+<thesauri/classification/Photography> <http://www.w3.org/2008/05/skos#prefLabel> "Photography" .
+<thesauri/classification/Photography> <http://www.w3.org/2008/05/skos#topConceptOf> <thesauri/classification> .
+<thesauri/classification/Photography> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/classification> .
+<thesauri/classification/Photoprint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/classification/Photography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos#Concept> .
+<thesauri/classification/Photoprint> <http://www.w3.org/2008/05/skos#broader> <thesauri/classification/Photography> .
+<thesauri/classification/Photoprint> <http://www.w3.org/2008/05/skos#inScheme> <thesauri/classification> .
+

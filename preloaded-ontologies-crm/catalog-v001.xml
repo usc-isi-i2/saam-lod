@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1392497873502" name="duplicate:http://collection.americanart.si.edu/id/ontologies" uri="SAAM_ontology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1392497873502" name="duplicate:http://collection.americanart.si.edu/id/ontologies" uri="SAAM_ontology_thesauri.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1392497873502" name="http://data.qudt.org/qudt/owl/1.0.0/unit.owl" uri="unit.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1392497873502" name="http://www.cidoc-crm.org/cidoc-crm/" uri="cidoc-crm.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1392497873502" name="http://www.w3.org/1999/02/22-rdf-syntax-ns" uri="rdf.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1392497873502" name="http://www.w3.org/2008/05/skos" uri="skos.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1393524175876" name="duplicate:http://collection.americanart.si.edu/id/ontologies" uri="SAAM_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1393524175876" name="duplicate:http://collection.americanart.si.edu/id/ontologies" uri="SAAM_ontology_thesauri.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1393524175876" name="duplicate:http://collection.americanart.si.edu/id/ontologies" uri="SAAM_thesauri_constant.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1393524175876" name="duplicate:http://collection.americanart.si.edu/id/ontologies" uri="thesaurisample.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1393524175876" name="http://data.qudt.org/qudt/owl/1.0.0/unit.owl" uri="unit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1393524175876" name="http://www.cidoc-crm.org/cidoc-crm/" uri="cidoc-crm.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1393524175876" name="http://www.w3.org/1999/02/22-rdf-syntax-ns" uri="rdf.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1393524175876" name="http://www.w3.org/2008/05/skos" uri="skos.owl"/>
     </group>
 </catalog>
