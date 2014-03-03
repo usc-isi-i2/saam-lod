@@ -12,7 +12,7 @@
 
 <http://americanart.si.edu/images/luce/artists/aarons_george.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E38_Image> .
 <person-institution/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
-<person-institution/2> <http://collection.americanart.si.edu/id/ontologies#PE_has_main_representation> <http://americanart.si.edu/images/luce/artists/aarons_george.jpg> .
+<person-institution/2> <http://collection.americanart.si.edu/id/ontologies/PE_has_main_representation> <http://americanart.si.edu/images/luce/artists/aarons_george.jpg> .
 <person-institution/2> <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation> <http://americanart.si.edu/images/luce/artists/aarons_george.jpg> .
 <person-institution/2/images/filename> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E75_Conceptual_Object_Appellation> .
 <http://americanart.si.edu/images/luce/artists/aarons_george.jpg> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <person-institution/2/images/filename> .
@@ -23,7 +23,7 @@
 
 <http://americanart.si.edu/images/JuleyBio/J0001165_1b.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E38_Image> .
 <person-institution/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
-<person-institution/23> <http://collection.americanart.si.edu/id/ontologies#PE_has_main_representation> <http://americanart.si.edu/images/JuleyBio/J0001165_1b.jpg> .
+<person-institution/23> <http://collection.americanart.si.edu/id/ontologies/PE_has_main_representation> <http://americanart.si.edu/images/JuleyBio/J0001165_1b.jpg> .
 <person-institution/23> <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation> <http://americanart.si.edu/images/JuleyBio/J0001165_1b.jpg> .
 <person-institution/23/images/filename> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E75_Conceptual_Object_Appellation> .
 <http://americanart.si.edu/images/JuleyBio/J0001165_1b.jpg> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <person-institution/23/images/filename> .
