@@ -15,7 +15,7 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm#"
+     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#">
     
     
@@ -64,28 +64,28 @@
     </rdf:Description>
   
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/American">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>American</skos:prefLabel>
     </crm:E55_Type> 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Argentine">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Argentine</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Armenian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Armenian</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Australian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Australian</skos:prefLabel>
@@ -93,7 +93,7 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Austrian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Austrian</skos:prefLabel>
@@ -101,7 +101,7 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Belgian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Belgian</skos:prefLabel>
@@ -109,7 +109,7 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Bohemian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Bohemian</skos:prefLabel>
@@ -118,35 +118,35 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Brazilian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Brazilian</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/British">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>British</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Burmese">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Burmese</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Canadian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Canadian</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Chilean">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Chilean</skos:prefLabel>
@@ -154,7 +154,7 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Chinese">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Chinese</skos:prefLabel>
@@ -162,7 +162,7 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Cuban">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Cuban</skos:prefLabel>
@@ -171,35 +171,35 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Czechoslovakian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Czechoslovakian</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Danish">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Danish</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Dutch">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Dutch</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/English">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>English</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/European">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>European</skos:prefLabel>
@@ -207,7 +207,7 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Flemish">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Flemish</skos:prefLabel>
@@ -215,7 +215,7 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/French">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>French</skos:prefLabel>
@@ -224,35 +224,35 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/German">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>German</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/German-and-French">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>German and French</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Greek">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Greek</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Indian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Indian</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Iranian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Iranian</skos:prefLabel>
@@ -260,7 +260,7 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Irish">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Irish</skos:prefLabel>
@@ -268,7 +268,7 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Israeli">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Israeli</skos:prefLabel>
@@ -277,42 +277,42 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Italian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Italian</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Italian-or-Spanish">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Italian or Spanish</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Italian-Swiss">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Italian-Swiss</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Japanese">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Japanese</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Javanese">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Javanese</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Luxembourgeois">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Luxembourgeois</skos:prefLabel>
@@ -320,7 +320,7 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Mexican">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Mexican</skos:prefLabel>
@@ -328,7 +328,7 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Norwegian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Norwegian</skos:prefLabel>
@@ -336,35 +336,35 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Panamanian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Panamanian</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Persian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Persian</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Peruvian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Peruvian</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Polish">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Polish</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Puerto-Rican">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Puerto Rican</skos:prefLabel>
@@ -372,7 +372,7 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Roman">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Roman</skos:prefLabel>
@@ -380,7 +380,7 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Russian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Russian</skos:prefLabel>
@@ -389,84 +389,84 @@
 
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Scottish">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Scottish</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/South-African">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>South African</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/South-American">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>South American</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Spanish">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Spanish</skos:prefLabel>
     </crm:E55_Type>
 
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Spanish-New-Spain">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Swedish</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Swiss">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Swiss</skos:prefLabel>
     </crm:E55_Type>
 
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Taiwanese">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Taiwanese</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Turkish">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Turkish</skos:prefLabel>
     </crm:E55_Type>
 
     <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Uruguayan">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Uruguayan</skos:prefLabel>
     </crm:E55_Type>
 
      <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Venezuelan">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Venezuelan</skos:prefLabel>
     </crm:E55_Type>
 
       <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Welsh">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Welsh</skos:prefLabel>
     </crm:E55_Type>
 
       <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/nationality/Yugoslavian">
-       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm#E74_Group"/>
+       <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
        <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/nationality"/>
        <skos:prefLabel>Yugoslavian</skos:prefLabel>

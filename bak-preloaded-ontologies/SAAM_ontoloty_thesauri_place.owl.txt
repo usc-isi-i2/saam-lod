@@ -11,7 +11,7 @@
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:crm="http://www.cidoc-crm.org/cidoc-crm#"
+   xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
 <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/place">
 <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
