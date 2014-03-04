@@ -15,7 +15,7 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm#"
+     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#">
 
 <!--These types are decied by the fields of the talbe. If the design of the tables is not changed, they will not been changed. If the design of the tables is changed, the models will not work-->
