@@ -1,0 +1,148 @@
+<object/1975.19.7/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1975.19.7/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:GA, CurRoom:D-42" .
+<object/1975.19.7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1975.19.7> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1975.19.7/location> .
+
+<object/L.1970.16.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+
+
+
+<object/1969.30.3/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1969.30.3/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:UNLOCATED" .
+<object/1969.30.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1969.30.3> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1969.30.3/location> .
+
+<object/1971.84.38/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1971.84.38/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:DISPOSED" .
+<object/1971.84.38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1971.84.38> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1971.84.38/location> .
+
+<object/1985.66.386/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1985.66.386/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:AA3/LUCE/CATLIN 4" .
+<object/1985.66.386> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1985.66.386> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1985.66.386/location> .
+
+<object/1966.36.70/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1966.36.70/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:GA, CurRoom:T" .
+<object/1966.36.70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1966.36.70> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1966.36.70/location> .
+
+<object/1975.50.1/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1975.50.1/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:GA, CurRoom:PREP" .
+<object/1975.50.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1975.50.1> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1975.50.1/location> .
+
+<object/1969.177.22/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1969.177.22/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:GA, CurRoom:C-43" .
+<object/1969.177.22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1969.177.22> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1969.177.22/location> .
+
+<object/1974.28.52/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1974.28.52/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:PS1, CurRoom:FS" .
+<object/1974.28.52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1974.28.52> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1974.28.52/location> .
+
+<object/NEA.0682.81.02/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/NEA.0682.81.02/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:REF RECORD-OBJECT NOT AT SAAM" .
+<object/NEA.0682.81.02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/NEA.0682.81.02> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/NEA.0682.81.02/location> .
+
+<object/1985.66.2/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1985.66.2/location> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "Smithsonian National Portrait Gallery, on view" .
+<object/1985.66.2/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:ML@NPG" .
+<object/1985.66.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1985.66.2> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1985.66.2/location> .
+
+<object/1999.102/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1999.102/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:JOINT OWNER'S CUSTODY" .
+<object/1999.102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1999.102> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1999.102/location> .
+
+<object/1967.59.733/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1967.59.733/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:HISTORICAL LOCATION" .
+<object/1967.59.733> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1967.59.733> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1967.59.733/location> .
+
+<object/1967.59.897/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1967.59.897/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:CONS" .
+<object/1967.59.897> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1967.59.897> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1967.59.897/location> .
+
+<object/NJP.1.GA.697/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/NJP.1.GA.697/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:APOLLO DR" .
+<object/NJP.1.GA.697> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/NJP.1.GA.697> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/NJP.1.GA.697/location> .
+
+<object/1991.161.5.6/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1991.161.5.6/location> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "Smithsonian American Art Museum, Luce Foundation Center, 4th Floor, 54A" .
+<object/1991.161.5.6/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:AA4@LUCE/54A" .
+<object/1991.161.5.6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1991.161.5.6> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1991.161.5.6/location> .
+
+<object/EXL.2009.3.29/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/EXL.2009.3.29/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:TOUR" .
+<object/EXL.2009.3.29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/EXL.2009.3.29> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/EXL.2009.3.29/location> .
+
+<object/1913.1.4/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1913.1.4/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:SUITLAND BLDG 27" .
+<object/1913.1.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1913.1.4> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1913.1.4/location> .
+
+<object/1970.357.8/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1970.357.8/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:SISC, CurRoom:BIN 4A" .
+<object/1970.357.8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1970.357.8> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1970.357.8/location> .
+
+<object/NJP.1.BK.4.1/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/NJP.1.BK.4.1/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:RSC" .
+<object/NJP.1.BK.4.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/NJP.1.BK.4.1> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/NJP.1.BK.4.1/location> .
+
+<object/2012.6.4/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/2012.6.4/location> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "Renwick Gallery, 1st Floor, Room 103" .
+<object/2012.6.4/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:RG1@103" .
+<object/2012.6.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/2012.6.4> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/2012.6.4/location> .
+
+<object/L.1979.17.4/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/L.1979.17.4/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:RETURNED" .
+<object/L.1979.17.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/L.1979.17.4> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/L.1979.17.4/location> .
+
+<object/2002.82/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/2002.82/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:PS5/FS/IV" .
+<object/2002.82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/2002.82> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/2002.82/location> .
+
+<object/1972.58/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1972.58/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:OFFSITE, ARTEX" .
+<object/1972.58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1972.58> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1972.58/location> .
+
+<object/1972.58/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1972.58/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:OFFSITE, ARTEX" .
+<object/1972.58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1972.58> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1972.58/location> .
+
+<object/VR.2012.11E/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/VR.2012.11E/location> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "See related accessioned objects for location information" .
+<object/VR.2012.11E/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:DO NOT UPDATE-VIRTUAL RECORD ONL" .
+<object/VR.2012.11E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/VR.2012.11E> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/VR.2012.11E/location> .
+
+<object/1918.5.22/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1918.5.22/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:DISPOSED" .
+<object/1918.5.22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1918.5.22> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1918.5.22/location> .
+
+<object/1952.5.2/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1952.5.2/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:DEACCESSIONED" .
+<object/1952.5.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1952.5.2> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1952.5.2/location> .
+
+<object/1986.65.134/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<object/1986.65.134/location> <http://www.w3.org/2000/01/rdf-schema#label> "CurSite:AA3/CONS" .
+<object/1986.65.134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<object/1986.65.134> <http://www.cidoc-crm.org/cidoc-crm/P55_has_current_location> <object/1986.65.134/location> .
+
