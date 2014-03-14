@@ -1,0 +1,16 @@
+ThesXrefType,TermMasterID,TableID,ID,ThesXrefTypeID,ThesXrefTableID,DisplayOrder,Remarks,Active,TermID,LocalTerm,CandidateTerm,Approved,PathTerm,objectnumber
+(not assigned),1544981,189,0,13,343,NULL,NULL,1,207247,NULL,NULL,NULL,NULL,NULL
+Ethnicity,1545012,23,12,18,343,NULL,NULL,1,2027421,1,0,1,Authorities\Attributes\Constituents\Ethnicity\Latino,1975.83.6
+Gender,1545009,23,9,19,343,NULL,NULL,1,2027418,1,0,1,Authorities\Attributes\Constituents\Gender\Female,1975.83.5
+Mark Type,1545096,108,15,3,343,NULL,NULL,1,2027539,1,0,1,Authorities\Attributes\Objects\Mark Type\variant mark,1975.83.7
+Medium,1545098,108,5,4,343,NULL,NULL,1,2027559,1,0,1,Authorities\Attributes\Objects\Medium\CHARCOAL,NULL
+Occupation,1544995,23,2,17,343,NULL,NULL,1,2027405,1,0,1,Authorities\Attributes\Constituents\Occupation\artist\sculptor,1973.28.2
+Patronage,1545099,108,7,10,343,NULL,NULL,1,2041913,1,1,1,"Authorities\Attributes\Objects\Patronage\New Deal\Works Progress Administration, Federal Art Project\New York",1975.83.10
+Process,1545100,108,14,8,343,NULL,NULL,1,2027560,1,0,1,Authorities\Attributes\Objects\Process\GELATIN SILVER,1975.83.15
+Project,1544998,23,2,16,343,NULL,NULL,1,2027407,1,0,1,Authorities\Attributes\Constituents\Project\SAAM permanent collection,1973.28.2
+Subject General,1545101,108,1,6,343,NULL,NULL,1,2027524,1,0,1,Authorities\Attributes\Objects\Subject General\Figure,1984.124.1
+Subject Specific,1545102,108,1,7,343,NULL,NULL,1,2027531,1,0,1,Authorities\Attributes\Objects\Subject Specific\Dress\ethnic\Persian dress,1984.124.1
+Support,1545103,108,1,5,343,NULL,NULL,1,2027536,1,0,1,Authorities\Attributes\Objects\Support\PAPER,1984.124.1
+Tools and Equipment,1566238,108,3,2,343,NULL,NULL,1,207245,NULL,NULL,NULL,NULL,1973.28.1
+Type,1562724,47,2,39,343,NULL,NULL,1,2045008,1,1,1,Authorities\Attributes\Exhibitions\Type\SAAM organized,1973.28.2
+Web Project,1567033,108,2,42,343,NULL,NULL,1,2049806,1,1,1,Authorities\Attributes\Objects\Web Project\ARTstor,1973.28.2
