@@ -151,7 +151,7 @@
     </owl:ObjectProperty>
 
    <owl:DatatypeProperty rdf:about="http://collection.americanart.si.edu/id/ontologies/PE_medium_description">
-	<rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P3_has_note"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
 	<rdfs:label>medium</rdfs:label>
 	<rdfs:comment>This is a sub-property of crm:P3_has_note, used to represent a medium description of an object</rdfs:comment>
    </owl:DatatypeProperty>
