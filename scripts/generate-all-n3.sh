@@ -11,7 +11,7 @@
 ###
 
 saam=$(pwd)
-karma=$saam/../Web-Karma/
+karma=$saam/../Web-Karma/karma-offline
 modelDir=$saam/crm-models/final
 n3Dir=$saam/n3
 cd $karma
