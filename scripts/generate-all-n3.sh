@@ -11,7 +11,7 @@
 ###
 
 saam=$(pwd)
-karma=$saam/../Web-Karma/karma-offline
+karma=$saam/../Web-Karma/
 modelDir=$saam/crm-models/final
 n3Dir=$saam/n3
 cd $karma
@@ -30,10 +30,11 @@ do
   echo "Processing $modelFile file on table $tablename ..."
   mvn exec:java -Dexec.mainClass="edu.isi.karma.rdf.OfflineRdfGenerator" -Dexec.args=" \
 --sourcetype DB --dbtype SQLServer \
---hostname lod.isi.edu --username sa --password isi4676 \
---portnumber 1433 --dbname smithsonian02042014 --tablename $tablename \
+--hostname $1 --username $2 --password $3 \
+--portnumber $4 --dbname $5 --tablename $tablename \
 --modelfilepath $modelFile \
 --outputfile $n3Filename" -Dexec.classpathScope=compile
 
   echo "Done with $modelFile file on table $tablename"
 done
+
