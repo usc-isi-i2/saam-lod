@@ -17,7 +17,7 @@ n3Dir=$saam/n3
 cd $karma
 
 
-MODELFILES=/$modelDir/*.ttl
+MODELFILES=$modelDir/*.ttl
 for modelFile in $MODELFILES
 do
   # take action on each file. $f store current file name

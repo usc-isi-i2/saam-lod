@@ -11,13 +11,13 @@
 ###
 
 saam=$(pwd)
-karma=$saam/../Web-Karma/
+karma=$saam/../Web-Karma/karma-offline
 modelDir=$saam/crm-models/test
-n3Dir=$saam/n4
+n3Dir=$saam/test
 cd $karma
 
 
-MODELFILES=/$modelDir/*.ttl
+MODELFILES=$modelDir/*.ttl
 for modelFile in $MODELFILES
 do
   # take action on each file. $f store current file name
@@ -37,3 +37,5 @@ do
 
   echo "Done with $modelFile file on table $tablename"
 done
+
+
