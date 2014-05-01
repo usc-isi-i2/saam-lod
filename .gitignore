@@ -3,3 +3,7 @@
 *.log
 
 *.n3
+
+crm-models/final/dbo.Place_view-model.ttl
+
+crm-models/final/dbo.WebConstituents_institution_view-model.ttl
