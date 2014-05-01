@@ -100,16 +100,8 @@
 
 <object/1973.171/images/filename> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E75_Conceptual_Object_Appellation> .
 <object/1973.171/images/filename> <http://www.w3.org/2000/01/rdf-schema#label> "1973.171_1a.jpg" .
-<http://americanart.si.edu/images/1973/1973.171_1a.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E38_Image> .
-<thesauri/objrightstype/restricted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E30_Right> .
-<http://americanart.si.edu/images/1973/1973.171_1a.jpg> <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to> <thesauri/objrightstype/restricted> .
-<http://americanart.si.edu/images/1973/1973.171_1a.jpg> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <object/1973.171/images/filename> .
-<thesauri/imagedisplaytype/undisplayimage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-<http://americanart.si.edu/images/1973/1973.171_1a.jpg> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <thesauri/imagedisplaytype/undisplayimage> .
-<thesauri/mediatype/Digital-Image-from-CT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-<http://americanart.si.edu/images/1973/1973.171_1a.jpg> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <thesauri/mediatype/Digital-Image-from-CT> .
 <object/1973.171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
-<object/1973.171> <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation> <http://americanart.si.edu/images/1973/1973.171_1a.jpg> .
+
 
 <object/1966.33.8/images/filename> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E75_Conceptual_Object_Appellation> .
 <object/1966.33.8/images/filename> <http://www.w3.org/2000/01/rdf-schema#label> "1966.33.8_1a.jpg" .
