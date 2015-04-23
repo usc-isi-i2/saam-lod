@@ -1,0 +1,73 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="dbo.Place_view.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E53_Place1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n4[style="filled",color="white",fillcolor="lightgray",label="E53_Place2"];
+n5[shape="plaintext",style="filled",fillcolor="gold",label="CityURI"];
+n6[shape="plaintext",style="filled",fillcolor="gold",label="City"];
+n7[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n8[style="filled",color="white",fillcolor="lightgray",label="E53_Place3"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="CountyURI"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="County"];
+n11[style="filled",color="white",fillcolor="lightgray",label="E55_Type3"];
+n12[style="filled",color="white",fillcolor="lightgray",label="E53_Place4"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="StateURI"];
+n14[shape="plaintext",style="filled",fillcolor="gold",label="State"];
+n15[style="filled",color="white",fillcolor="lightgray",label="E55_Type4"];
+n16[shape="plaintext",style="filled",fillcolor="gold",label="CountryURI"];
+n17[shape="plaintext",style="filled",fillcolor="gold",label="Country"];
+n18[shape="plaintext",style="filled",fillcolor="gold",label="CityTypeURI"];
+n19[style="filled",color="white",fillcolor="lightgray",label="ConceptScheme1"];
+n20[shape="plaintext",style="filled",fillcolor="gold",label="CountyTypeURI"];
+n21[shape="plaintext",style="filled",fillcolor="gold",label="StateTypeURI"];
+n22[shape="plaintext",style="filled",fillcolor="gold",label="CountryTypeURI"];
+n23[style="filled",color="white",fillcolor="lightgray",label="Concept1"];
+n24[shape="plaintext",style="filled",fillcolor="gold",label="CitySameURI"];
+n25[style="filled",color="white",fillcolor="lightgray",label="Concept2"];
+n26[shape="plaintext",style="filled",fillcolor="gold",label="CountySameURI"];
+n27[style="filled",color="white",fillcolor="lightgray",label="Concept3"];
+n28[shape="plaintext",style="filled",fillcolor="gold",label="StateSameURI"];
+n29[style="filled",color="white",fillcolor="lightgray",label="Concept4"];
+n30[shape="plaintext",style="filled",fillcolor="gold",label="CountrySameURI"];
+n31[shape="plaintext",style="filled",fillcolor="gold",label="PlaceInSchemeURI"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="P2_has_type"]
+n2 -> n4[color="brown",fontcolor="black",label="P88i_forms_part_of"]
+n2 -> n5[color="brown",fontcolor="black",label="classLink"]
+n2 -> n6[color="brown",fontcolor="black",label="prefLabel"]
+n4 -> n7[color="brown",fontcolor="black",label="P2_has_type"]
+n4 -> n8[color="brown",fontcolor="black",label="P88i_forms_part_of"]
+n4 -> n9[color="brown",fontcolor="black",label="classLink"]
+n4 -> n10[color="brown",fontcolor="black",label="prefLabel"]
+n8 -> n11[color="brown",fontcolor="black",label="P2_has_type"]
+n8 -> n12[color="brown",fontcolor="black",label="P88i_forms_part_of"]
+n8 -> n13[color="brown",fontcolor="black",label="classLink"]
+n8 -> n14[color="brown",fontcolor="black",label="prefLabel"]
+n12 -> n15[color="brown",fontcolor="black",label="P2_has_type"]
+n12 -> n16[color="brown",fontcolor="black",label="classLink"]
+n12 -> n17[color="brown",fontcolor="black",label="prefLabel"]
+n3 -> n18[color="brown",fontcolor="black",label="classLink"]
+n3 -> n19[color="brown",fontcolor="black",label="inScheme"]
+n7 -> n20[color="brown",fontcolor="black",label="classLink"]
+n11 -> n21[color="brown",fontcolor="black",label="classLink"]
+n15 -> n22[color="brown",fontcolor="black",label="classLink"]
+n23 -> n24[color="brown",fontcolor="black",label="classLink"]
+n23 -> n25[color="brown",fontcolor="black",label="broader"]
+n23 -> n19[color="brown",fontcolor="black",label="inScheme"]
+n25 -> n26[color="brown",fontcolor="black",label="classLink"]
+n25 -> n27[color="brown",fontcolor="black",label="broader"]
+n27 -> n28[color="brown",fontcolor="black",label="classLink"]
+n27 -> n29[color="brown",fontcolor="black",label="broader"]
+n29 -> n30[color="brown",fontcolor="black",label="classLink"]
+n19 -> n31[color="brown",fontcolor="black",label="classLink"]
+n15 -> n19[color="brown",fontcolor="black",label="inScheme"]
+n27 -> n19[color="brown",fontcolor="black",label="inScheme"]
+n25 -> n19[color="brown",fontcolor="black",label="inScheme"]
+n11 -> n19[color="brown",fontcolor="black",label="inScheme"]
+n7 -> n19[color="brown",fontcolor="black",label="inScheme"]
+n29 -> n19[color="brown",fontcolor="black",label="topConceptOf"]
+}

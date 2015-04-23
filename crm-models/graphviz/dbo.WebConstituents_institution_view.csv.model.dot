@@ -1,0 +1,47 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="dbo.WebConstituents_institution_view.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E40_Legal_Body1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n4[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation1"];
+n5[style="filled",color="white",fillcolor="lightgray",label="E42_Identifier1"];
+n6[style="filled",color="white",fillcolor="lightgray",label="E63_Beginning_of_Existence1"];
+n7[style="filled",color="white",fillcolor="lightgray",label="E64_End_of_Existence1"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="PersonInstitutionURI"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="PersonInstitutionIdentifierURI"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="ConstituentID"];
+n11[style="filled",color="white",fillcolor="lightgray",label="E52_Time-Span1"];
+n12[shape="plaintext",style="filled",fillcolor="gold",label="BeginDate"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="BeginDateURI"];
+n14[style="filled",color="white",fillcolor="lightgray",label="E52_Time-Span2"];
+n15[shape="plaintext",style="filled",fillcolor="gold",label="EndDate"];
+n16[shape="plaintext",style="filled",fillcolor="gold",label="EndDateURI"];
+n17[shape="plaintext",style="filled",fillcolor="gold",label="BirthURI"];
+n18[shape="plaintext",style="filled",fillcolor="gold",label="DeathURI"];
+n19[shape="plaintext",style="filled",fillcolor="gold",label="NationalityThesauriURI"];
+n20[shape="plaintext",style="filled",fillcolor="gold",label="AppellationURI"];
+n21[shape="plaintext",style="filled",fillcolor="gold",label="DisplayName"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="PX_nationality"]
+n2 -> n4[color="brown",fontcolor="black",label="P1_is_identified_by"]
+n2 -> n5[color="brown",fontcolor="black",label="P48_has_preferred_identifier"]
+n2 -> n6[color="brown",fontcolor="black",label="P92i_was_brought_into_existence_by"]
+n2 -> n7[color="brown",fontcolor="black",label="P93i_was_taken_out_of_existence_by"]
+n2 -> n8[color="brown",fontcolor="black",label="classLink"]
+n5 -> n9[color="brown",fontcolor="black",label="classLink"]
+n5 -> n10[color="brown",fontcolor="black",label="label"]
+n11 -> n12[color="brown",fontcolor="black",label="P82_at_some_time_within"]
+n11 -> n13[color="brown",fontcolor="black",label="classLink"]
+n14 -> n15[color="brown",fontcolor="black",label="P82_at_some_time_within"]
+n14 -> n16[color="brown",fontcolor="black",label="classLink"]
+n6 -> n11[color="brown",fontcolor="black",label="P4_has_time-span"]
+n6 -> n17[color="brown",fontcolor="black",label="classLink"]
+n7 -> n14[color="brown",fontcolor="black",label="P4_has_time-span"]
+n7 -> n18[color="brown",fontcolor="black",label="classLink"]
+n3 -> n19[color="brown",fontcolor="black",label="classLink"]
+n4 -> n20[color="brown",fontcolor="black",label="classLink"]
+n4 -> n21[color="brown",fontcolor="black",label="label"]
+}

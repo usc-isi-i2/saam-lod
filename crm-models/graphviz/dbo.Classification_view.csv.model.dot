@@ -1,0 +1,33 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="dbo.Classification_view.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n3[shape="plaintext",style="filled",fillcolor="gold",label="ClassificationURI"];
+n4[style="filled",color="white",fillcolor="lightgray",label="ConceptScheme1"];
+n5[shape="plaintext",style="filled",fillcolor="gold",label="Classification"];
+n6[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="SubClassificationURI"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="SubClassification"];
+n9[style="filled",color="white",fillcolor="lightgray",label="Concept1"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="ClassificationSameURI"];
+n11[style="filled",color="white",fillcolor="lightgray",label="Concept2"];
+n12[shape="plaintext",style="filled",fillcolor="gold",label="SubClassificationSameURI"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="InSchemeURI"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="classLink"]
+n2 -> n4[color="brown",fontcolor="black",label="inScheme"]
+n2 -> n5[color="brown",fontcolor="black",label="prefLabel"]
+n6 -> n7[color="brown",fontcolor="black",label="classLink"]
+n6 -> n4[color="brown",fontcolor="black",label="inScheme"]
+n6 -> n8[color="brown",fontcolor="black",label="prefLabel"]
+n9 -> n10[color="brown",fontcolor="black",label="classLink"]
+n9 -> n4[color="brown",fontcolor="black",label="topConceptOf"]
+n11 -> n12[color="brown",fontcolor="black",label="classLink"]
+n11 -> n4[color="brown",fontcolor="black",label="inScheme"]
+n4 -> n13[color="brown",fontcolor="black",label="classLink"]
+n11 -> n9[color="brown",fontcolor="black",label="broader"]
+n6 -> n2[color="brown",fontcolor="black",label="P127_has_broader_term"]
+}

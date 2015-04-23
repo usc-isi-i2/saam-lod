@@ -1,0 +1,31 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="cbev2.WebConGeography.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E21_Person1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="E69_Death1"];
+n4[style="filled",color="white",fillcolor="lightgray",label="E53_Place3"];
+n5[style="filled",color="white",fillcolor="lightgray",label="E67_Birth1"];
+n6[shape="plaintext",style="filled",fillcolor="gold",label="PersonInstitutionURI"];
+n7[style="filled",color="white",fillcolor="lightgray",label="E53_Place1"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="BirthPlaceURI"];
+n9[style="filled",color="white",fillcolor="lightgray",label="E53_Place2"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="DeathPlaceURI"];
+n11[shape="plaintext",style="filled",fillcolor="gold",label="ResidencePlaceURI"];
+n12[shape="plaintext",style="filled",fillcolor="gold",label="BirthURI"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="DeathURI"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="P100i_died_in"]
+n2 -> n4[color="brown",fontcolor="black",label="P74_has_current_or_former_residence"]
+n2 -> n5[color="brown",fontcolor="black",label="P98i_was_born"]
+n2 -> n6[color="brown",fontcolor="black",label="classLink"]
+n7 -> n8[color="brown",fontcolor="black",label="classLink"]
+n9 -> n10[color="brown",fontcolor="black",label="classLink"]
+n4 -> n11[color="brown",fontcolor="black",label="classLink"]
+n5 -> n7[color="brown",fontcolor="black",label="P7_took_place_at"]
+n5 -> n12[color="brown",fontcolor="black",label="classLink"]
+n3 -> n9[color="brown",fontcolor="black",label="P7_took_place_at"]
+n3 -> n13[color="brown",fontcolor="black",label="classLink"]
+}

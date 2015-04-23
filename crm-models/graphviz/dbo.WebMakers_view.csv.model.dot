@@ -1,0 +1,43 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="dbo.WebMakers_view.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="EX_Association1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="E12_Production1"];
+n4[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n5[shape="plaintext",style="filled",fillcolor="gold",label="RoleAssociationURI"];
+n6[style="filled",color="white",fillcolor="lightgray",label="E39_Actor1"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="ProductionURI"];
+n8[style="filled",color="white",fillcolor="lightgray",label="E22_Man-Made_Object1"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="ObjectURI"];
+n10[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation1"];
+n11[shape="plaintext",style="filled",fillcolor="gold",label="PersonInstitutionURI"];
+n12[shape="plaintext",style="filled",fillcolor="gold",label="Maker"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="RoleURI"];
+n14[shape="plaintext",style="filled",fillcolor="gold",label="FirstName"];
+n15[shape="plaintext",style="filled",fillcolor="gold",label="LastName"];
+n16[shape="plaintext",style="filled",fillcolor="gold",label="NameTitle"];
+n17[shape="plaintext",style="filled",fillcolor="gold",label="Suffix"];
+n18[shape="plaintext",style="filled",fillcolor="gold",label="AppellationURI"];
+n19[shape="plaintext",style="filled",fillcolor="gold",label="DisplayName"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="P140_assigned_attribute_to"]
+n2 -> n4[color="brown",fontcolor="black",label="P2_has_type"]
+n2 -> n5[color="brown",fontcolor="black",label="classLink"]
+n3 -> n6[color="brown",fontcolor="black",label="P14_carried_out_by"]
+n3 -> n7[color="brown",fontcolor="black",label="classLink"]
+n8 -> n3[color="brown",fontcolor="black",label="P108i_was_produced_by"]
+n8 -> n9[color="brown",fontcolor="black",label="classLink"]
+n6 -> n10[color="brown",fontcolor="black",label="P1_is_identified_by"]
+n6 -> n11[color="brown",fontcolor="black",label="classLink"]
+n6 -> n12[color="brown",fontcolor="black",label="label"]
+n4 -> n13[color="brown",fontcolor="black",label="classLink"]
+n10 -> n14[color="brown",fontcolor="black",label="PE_firstname"]
+n10 -> n15[color="brown",fontcolor="black",label="PE_lastname"]
+n10 -> n16[color="brown",fontcolor="black",label="PE_nametitle"]
+n10 -> n17[color="brown",fontcolor="black",label="PE_suffix"]
+n10 -> n18[color="brown",fontcolor="black",label="classLink"]
+n10 -> n19[color="brown",fontcolor="black",label="label"]
+}

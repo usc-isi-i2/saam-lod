@@ -1,0 +1,27 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="dbo.WebObjDimensionsSplit_view.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E22_Man-Made_Object1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="E54_Dimension1"];
+n4[shape="plaintext",style="filled",fillcolor="gold",label="ObjectURI"];
+n5[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n6[shape="plaintext",style="filled",fillcolor="gold",label="value"];
+n7[style="filled",color="white",fillcolor="lightgray",label="E58_Measurement_Unit1"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="DimensionURI"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="DimensionTypeURI"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="type"];
+n11[shape="plaintext",style="filled",fillcolor="gold",label="UnitURI"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="P43_has_dimension"]
+n2 -> n4[color="brown",fontcolor="black",label="classLink"]
+n3 -> n5[color="brown",fontcolor="black",label="P2_has_type"]
+n3 -> n6[color="brown",fontcolor="black",label="P90_has_value"]
+n3 -> n7[color="brown",fontcolor="black",label="P91_has_unit"]
+n3 -> n8[color="brown",fontcolor="black",label="classLink"]
+n5 -> n9[color="brown",fontcolor="black",label="classLink"]
+n5 -> n10[color="brown",fontcolor="black",label="label"]
+n7 -> n11[color="brown",fontcolor="black",label="classLink"]
+}

@@ -1,0 +1,21 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="dbo.Thesauri_view.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n3[shape="plaintext",style="filled",fillcolor="gold",label="TypeURI"];
+n4[style="filled",color="white",fillcolor="lightgray",label="ConceptScheme1"];
+n5[shape="plaintext",style="filled",fillcolor="gold",label="TypeLabel"];
+n6[style="filled",color="white",fillcolor="lightgray",label="Concept1"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="TypeSameURI"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="InSchemeURI"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="classLink"]
+n2 -> n4[color="brown",fontcolor="black",label="inScheme"]
+n2 -> n5[color="brown",fontcolor="black",label="prefLabel"]
+n6 -> n7[color="brown",fontcolor="black",label="classLink"]
+n6 -> n4[color="brown",fontcolor="black",label="topConceptOf"]
+n4 -> n8[color="brown",fontcolor="black",label="classLink"]
+}

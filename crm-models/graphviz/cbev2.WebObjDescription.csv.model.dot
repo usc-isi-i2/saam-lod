@@ -1,0 +1,25 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="cbev2.WebObjDescription.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E22_Man-Made_Object1"];
+n3[shape="plaintext",style="filled",fillcolor="gold",label="ExhibitionLabel"];
+n4[shape="plaintext",style="filled",fillcolor="gold",label="GalleryLabel"];
+n5[shape="plaintext",style="filled",fillcolor="gold",label="LuceCenterLabel"];
+n6[shape="plaintext",style="filled",fillcolor="gold",label="LuceObjectQuote"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="NewAcquisitionLabel"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="ResearchNotes"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="VideoClip"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="ObjectURI"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="PE_has_note_exibitionlabel"]
+n2 -> n4[color="brown",fontcolor="black",label="PE_has_note_gallerylabel"]
+n2 -> n5[color="brown",fontcolor="black",label="PE_has_note_lucecenterlabel"]
+n2 -> n6[color="brown",fontcolor="black",label="PE_has_note_luceobjectquote"]
+n2 -> n7[color="brown",fontcolor="black",label="PE_has_note_newacquisitionlabel"]
+n2 -> n8[color="brown",fontcolor="black",label="PE_has_note_researchnotes"]
+n2 -> n9[color="brown",fontcolor="black",label="PE_has_note_videoclip"]
+n2 -> n10[color="brown",fontcolor="black",label="classLink"]
+}
