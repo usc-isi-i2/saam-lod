@@ -1,0 +1,31 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="cbev2.WebArtistBioImages.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E21_Person1"];
+n3[shape="plaintext",style="filled",fillcolor="gold",label="PersonInstitutionURI"];
+n4[style="filled",color="white",fillcolor="lightgray",label="E22_Man-Made_Object1"];
+n5[shape="plaintext",style="filled",fillcolor="gold",label="ObjectURI"];
+n6[style="filled",color="white",fillcolor="lightgray",label="E38_Image1"];
+n7[style="filled",color="white",fillcolor="lightgray",label="E75_Conceptual_Object_Appellation1"];
+n8[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="PublicCaption"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="PersonImageURI"];
+n11[shape="plaintext",style="filled",fillcolor="gold",label="MediaViewURI"];
+n12[shape="plaintext",style="filled",fillcolor="gold",label="FileNameURI"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="FileName"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="classLink"]
+n4 -> n5[color="brown",fontcolor="black",label="classLink"]
+n6 -> n2[color="brown",fontcolor="black",label="P138_represents"]
+n6 -> n4[color="brown",fontcolor="black",label="P138_represents"]
+n6 -> n7[color="brown",fontcolor="black",label="P1_is_identified_by"]
+n6 -> n8[color="brown",fontcolor="black",label="P2_has_type"]
+n6 -> n9[color="brown",fontcolor="black",label="P3_has_note"]
+n6 -> n10[color="brown",fontcolor="black",label="classLink"]
+n8 -> n11[color="brown",fontcolor="black",label="classLink"]
+n7 -> n12[color="brown",fontcolor="black",label="classLink"]
+n7 -> n13[color="brown",fontcolor="black",label="label"]
+}

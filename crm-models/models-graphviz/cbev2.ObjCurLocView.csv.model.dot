@@ -1,0 +1,19 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="cbev2.ObjCurLocView.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E22_Man-Made_Object1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="E53_Place1"];
+n4[shape="plaintext",style="filled",fillcolor="gold",label="ObjectURI"];
+n5[shape="plaintext",style="filled",fillcolor="gold",label="Description"];
+n6[shape="plaintext",style="filled",fillcolor="gold",label="LocationURI"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="LocationLabel"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="P55_has_current_location"]
+n2 -> n4[color="brown",fontcolor="black",label="classLink"]
+n3 -> n5[color="brown",fontcolor="black",label="P3_has_note"]
+n3 -> n6[color="brown",fontcolor="black",label="classLink"]
+n3 -> n7[color="brown",fontcolor="black",label="label"]
+}

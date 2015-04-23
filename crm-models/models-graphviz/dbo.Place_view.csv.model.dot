@@ -1,0 +1,63 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="dbo.Place_view.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E48_Place_Name1"];
+n3[shape="plaintext",style="filled",fillcolor="gold",label="CityAppellationURI"];
+n4[shape="plaintext",style="filled",fillcolor="gold",label="City"];
+n5[style="filled",color="white",fillcolor="lightgray",label="E48_Place_Name2"];
+n6[shape="plaintext",style="filled",fillcolor="gold",label="CountyAppellationURI"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="County"];
+n8[style="filled",color="white",fillcolor="lightgray",label="E48_Place_Name3"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="StateAppellationURI"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="State"];
+n11[style="filled",color="white",fillcolor="lightgray",label="E48_Place_Name4"];
+n12[shape="plaintext",style="filled",fillcolor="gold",label="CountryAppellationURI"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="Country"];
+n14[style="filled",color="white",fillcolor="lightgray",label="E53_Place1"];
+n15[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n16[style="filled",color="white",fillcolor="lightgray",label="E53_Place2"];
+n17[shape="plaintext",style="filled",fillcolor="gold",label="CityURI"];
+n18[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n19[style="filled",color="white",fillcolor="lightgray",label="E53_Place3"];
+n20[shape="plaintext",style="filled",fillcolor="gold",label="CountyURI"];
+n21[style="filled",color="white",fillcolor="lightgray",label="E55_Type3"];
+n22[style="filled",color="white",fillcolor="lightgray",label="E53_Place4"];
+n23[shape="plaintext",style="filled",fillcolor="gold",label="StateURI"];
+n24[style="filled",color="white",fillcolor="lightgray",label="E55_Type4"];
+n25[shape="plaintext",style="filled",fillcolor="gold",label="CountryURI"];
+n26[shape="plaintext",style="filled",fillcolor="gold",label="CityTypeURI"];
+n27[shape="plaintext",style="filled",fillcolor="gold",label="CountyTypeURI"];
+n28[shape="plaintext",style="filled",fillcolor="gold",label="StateTypeURI"];
+n29[shape="plaintext",style="filled",fillcolor="gold",label="CountryTypeURI"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="classLink"]
+n2 -> n4[color="brown",fontcolor="black",label="label"]
+n5 -> n6[color="brown",fontcolor="black",label="classLink"]
+n5 -> n7[color="brown",fontcolor="black",label="label"]
+n8 -> n9[color="brown",fontcolor="black",label="classLink"]
+n8 -> n10[color="brown",fontcolor="black",label="label"]
+n11 -> n12[color="brown",fontcolor="black",label="classLink"]
+n11 -> n13[color="brown",fontcolor="black",label="label"]
+n14 -> n15[color="brown",fontcolor="black",label="P2_has_type"]
+n14 -> n2[color="brown",fontcolor="black",label="P87_is_identified_by"]
+n14 -> n16[color="brown",fontcolor="black",label="P89_falls_within"]
+n14 -> n17[color="brown",fontcolor="black",label="classLink"]
+n16 -> n18[color="brown",fontcolor="black",label="P2_has_type"]
+n16 -> n5[color="brown",fontcolor="black",label="P87_is_identified_by"]
+n16 -> n19[color="brown",fontcolor="black",label="P89_falls_within"]
+n16 -> n20[color="brown",fontcolor="black",label="classLink"]
+n19 -> n21[color="brown",fontcolor="black",label="P2_has_type"]
+n19 -> n8[color="brown",fontcolor="black",label="P87_is_identified_by"]
+n19 -> n22[color="brown",fontcolor="black",label="P89_falls_within"]
+n19 -> n23[color="brown",fontcolor="black",label="classLink"]
+n22 -> n24[color="brown",fontcolor="black",label="P2_has_type"]
+n22 -> n11[color="brown",fontcolor="black",label="P87_is_identified_by"]
+n22 -> n25[color="brown",fontcolor="black",label="classLink"]
+n15 -> n26[color="brown",fontcolor="black",label="classLink"]
+n18 -> n27[color="brown",fontcolor="black",label="classLink"]
+n21 -> n28[color="brown",fontcolor="black",label="classLink"]
+n24 -> n29[color="brown",fontcolor="black",label="classLink"]
+}

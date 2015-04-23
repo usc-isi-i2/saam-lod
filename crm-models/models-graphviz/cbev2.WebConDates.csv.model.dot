@@ -1,0 +1,35 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="cbev2.WebConDates.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E21_Person1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="E69_Death1"];
+n4[style="filled",color="white",fillcolor="lightgray",label="E67_Birth1"];
+n5[shape="plaintext",style="filled",fillcolor="gold",label="PersonInstitutionURI"];
+n6[style="filled",color="white",fillcolor="lightgray",label="E52_Time-Span1"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="BirthBegDateLabel"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="BirthEndDateLabel"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="BirthDateURI"];
+n10[style="filled",color="white",fillcolor="lightgray",label="E52_Time-Span2"];
+n11[shape="plaintext",style="filled",fillcolor="gold",label="DeathBegDateLabel"];
+n12[shape="plaintext",style="filled",fillcolor="gold",label="DeathEndDateLabel"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="DeathDateURI"];
+n14[shape="plaintext",style="filled",fillcolor="gold",label="BirthURI"];
+n15[shape="plaintext",style="filled",fillcolor="gold",label="DeathURI"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="P100i_died_in"]
+n2 -> n4[color="brown",fontcolor="black",label="P98i_was_born"]
+n2 -> n5[color="brown",fontcolor="black",label="classLink"]
+n6 -> n7[color="brown",fontcolor="black",label="P82a_begin_of_the_begin"]
+n6 -> n8[color="brown",fontcolor="black",label="P82b_end_of_the_end"]
+n6 -> n9[color="brown",fontcolor="black",label="classLink"]
+n10 -> n11[color="brown",fontcolor="black",label="P82a_begin_of_the_begin"]
+n10 -> n12[color="brown",fontcolor="black",label="P82b_end_of_the_end"]
+n10 -> n13[color="brown",fontcolor="black",label="classLink"]
+n4 -> n6[color="brown",fontcolor="black",label="P4_has_time-span"]
+n4 -> n14[color="brown",fontcolor="black",label="classLink"]
+n3 -> n10[color="brown",fontcolor="black",label="P4_has_time-span"]
+n3 -> n15[color="brown",fontcolor="black",label="classLink"]
+}
