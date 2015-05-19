@@ -1,0 +1,19 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="dbo.Classification_view.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n3[shape="plaintext",style="filled",fillcolor="gold",label="ClassificationURI"];
+n4[shape="plaintext",style="filled",fillcolor="gold",label="Classification"];
+n5[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n6[shape="plaintext",style="filled",fillcolor="gold",label="SubClassificationURI"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="SubClassification"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="classLink"]
+n2 -> n4[color="brown",fontcolor="black",label="label"]
+n5 -> n2[color="brown",fontcolor="black",label="P127_has_broader_term"]
+n5 -> n6[color="brown",fontcolor="black",label="classLink"]
+n5 -> n7[color="brown",fontcolor="black",label="label"]
+}

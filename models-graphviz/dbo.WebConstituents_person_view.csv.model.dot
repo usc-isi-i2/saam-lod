@@ -1,0 +1,74 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="dbo.WebConstituents_person_view.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E21_Person1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="E69_Death1"];
+n4[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation1"];
+n5[style="filled",color="white",fillcolor="lightgray",label="E42_Identifier1"];
+n6[style="filled",color="white",fillcolor="lightgray",label="E67_Birth1"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="PersonInstitutionURI"];
+n8[style="filled",color="white",fillcolor="lightgray",label="E40_Legal_Body1"];
+n9[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="PersonInstitutionIdentifierURI"];
+n11[shape="plaintext",style="filled",fillcolor="gold",label="ConstituentID"];
+n12[style="filled",color="white",fillcolor="lightgray",label="E52_Time-Span1"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="BeginDate"];
+n14[shape="plaintext",style="filled",fillcolor="gold",label="BirthDateURI"];
+n15[style="filled",color="white",fillcolor="lightgray",label="E52_Time-Span2"];
+n16[shape="plaintext",style="filled",fillcolor="gold",label="EndDate"];
+n17[shape="plaintext",style="filled",fillcolor="gold",label="DeathDateURI"];
+n18[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n19[shape="plaintext",style="filled",fillcolor="gold",label="FirstNameURI"];
+n20[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n21[shape="plaintext",style="filled",fillcolor="gold",label="LastNameURI"];
+n22[style="filled",color="white",fillcolor="lightgray",label="E55_Type3"];
+n23[shape="plaintext",style="filled",fillcolor="gold",label="DisplayNameTypeURI"];
+n24[shape="plaintext",style="filled",fillcolor="gold",label="BirthURI"];
+n25[shape="plaintext",style="filled",fillcolor="gold",label="DeathURI"];
+n26[shape="plaintext",style="filled",fillcolor="gold",label="NationalityThesauriURI"];
+n27[shape="plaintext",style="filled",fillcolor="gold",label="Nationality"];
+n28[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation2"];
+n29[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation3"];
+n30[shape="plaintext",style="filled",fillcolor="gold",label="AppelationURI"];
+n31[shape="plaintext",style="filled",fillcolor="gold",label="DisplayName"];
+n32[shape="plaintext",style="filled",fillcolor="gold",label="FirstNameAppellationURI"];
+n33[shape="plaintext",style="filled",fillcolor="gold",label="FirstName"];
+n34[shape="plaintext",style="filled",fillcolor="gold",label="LastNameAppellationURI"];
+n35[shape="plaintext",style="filled",fillcolor="gold",label="LastName"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="P100i_died_in"]
+n2 -> n4[color="brown",fontcolor="black",label="P131_is_identified_by"]
+n2 -> n5[color="brown",fontcolor="black",label="P48_has_preferred_identifier"]
+n2 -> n6[color="brown",fontcolor="black",label="P98i_was_born"]
+n2 -> n7[color="brown",fontcolor="black",label="classLink"]
+n8 -> n9[color="brown",fontcolor="black",label="P107i_is_current_or_former_member_of"]
+n5 -> n10[color="brown",fontcolor="black",label="classLink"]
+n5 -> n11[color="brown",fontcolor="black",label="label"]
+n12 -> n13[color="brown",fontcolor="black",label="P82_at_some_time_within"]
+n12 -> n14[color="brown",fontcolor="black",label="classLink"]
+n15 -> n16[color="brown",fontcolor="black",label="P82_at_some_time_within"]
+n15 -> n17[color="brown",fontcolor="black",label="classLink"]
+n18 -> n19[color="brown",fontcolor="black",label="classLink"]
+n20 -> n21[color="brown",fontcolor="black",label="classLink"]
+n22 -> n23[color="brown",fontcolor="black",label="classLink"]
+n6 -> n12[color="brown",fontcolor="black",label="P4_has_time-span"]
+n6 -> n24[color="brown",fontcolor="black",label="classLink"]
+n3 -> n15[color="brown",fontcolor="black",label="P4_has_time-span"]
+n3 -> n25[color="brown",fontcolor="black",label="classLink"]
+n9 -> n26[color="brown",fontcolor="black",label="classLink"]
+n9 -> n27[color="brown",fontcolor="black",label="label"]
+n4 -> n28[color="brown",fontcolor="black",label="P106_is_composed_of"]
+n4 -> n29[color="brown",fontcolor="black",label="P106_is_composed_of"]
+n4 -> n22[color="brown",fontcolor="black",label="P2_has_type"]
+n4 -> n30[color="brown",fontcolor="black",label="classLink"]
+n4 -> n31[color="brown",fontcolor="black",label="label"]
+n28 -> n18[color="brown",fontcolor="black",label="P2_has_type"]
+n28 -> n32[color="brown",fontcolor="black",label="classLink"]
+n28 -> n33[color="brown",fontcolor="black",label="label"]
+n29 -> n20[color="brown",fontcolor="black",label="P2_has_type"]
+n29 -> n34[color="brown",fontcolor="black",label="classLink"]
+n29 -> n35[color="brown",fontcolor="black",label="label"]
+}

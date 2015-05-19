@@ -1,0 +1,37 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="cbev2.WebConAltNames.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E21_Person1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation1"];
+n4[shape="plaintext",style="filled",fillcolor="gold",label="PersonInstitutionURI"];
+n5[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n6[shape="plaintext",style="filled",fillcolor="gold",label="NameTypeURI"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="NameType"];
+n8[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="FirstNameURI"];
+n10[style="filled",color="white",fillcolor="lightgray",label="E55_Type3"];
+n11[shape="plaintext",style="filled",fillcolor="gold",label="LastNameURI"];
+n12[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation2"];
+n13[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation3"];
+n14[shape="plaintext",style="filled",fillcolor="gold",label="NameLabel"];
+n15[shape="plaintext",style="filled",fillcolor="gold",label="FirstName"];
+n16[shape="plaintext",style="filled",fillcolor="gold",label="LastName"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="P131_is_identified_by"]
+n2 -> n4[color="brown",fontcolor="black",label="classLink"]
+n5 -> n6[color="brown",fontcolor="black",label="classLink"]
+n5 -> n7[color="brown",fontcolor="black",label="label"]
+n8 -> n9[color="brown",fontcolor="black",label="classLink"]
+n10 -> n11[color="brown",fontcolor="black",label="classLink"]
+n3 -> n12[color="brown",fontcolor="black",label="P106_is_composed_of"]
+n3 -> n13[color="brown",fontcolor="black",label="P106_is_composed_of"]
+n3 -> n5[color="brown",fontcolor="black",label="P2_has_type"]
+n3 -> n14[color="brown",fontcolor="black",label="label"]
+n12 -> n8[color="brown",fontcolor="black",label="P2_has_type"]
+n12 -> n15[color="brown",fontcolor="black",label="label"]
+n13 -> n10[color="brown",fontcolor="black",label="P2_has_type"]
+n13 -> n16[color="brown",fontcolor="black",label="label"]
+}

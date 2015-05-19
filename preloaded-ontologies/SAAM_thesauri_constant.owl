@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/jwan/ontologies/2014/0/untitled-ontology-13#"
+     xml:base="http://collection.americanart.si.edu/id/ontologies"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:crm="http://erlangen-crm.org/current/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!--These types are decied by the fields of the talbe. If the design of the tables is not changed, they will not been changed. If the design of the tables is changed, the models will not work-->
+
+<!--WebObjCaption/identifier-->
+  <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/identifier">
+      <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+      <skos:prefLabel>identifier</skos:prefLabel>
+  </rdf:Description>
+
+  <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/identifier/id">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:scopeNote>id is only used in the database</skos:scopeNote>
+      <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/identifier"/>
+      <skos:prefLabel>id</skos:prefLabel>
+  </crm:E55_Type>
+       
+  <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/identifier/objnum">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:scopeNote>The register number is used in the management</skos:scopeNote>
+      <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/identifier"/>
+      <skos:prefLabel>objnum</skos:prefLabel>
+  </crm:E55_Type>
+ 
+<!-- WebObjDimensions_View/dimension -->
+  <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/dimension">
+      <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+      <skos:prefLabel>dimension</skos:prefLabel>
+  </rdf:Description>
+     
+  <crm:E55_Type rdf:about="http://collection.britishmuseum.org/id/thesauri/dimension/height">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.britishmuseum.org/id/thesauri/dimension"/>
+      <skos:prefLabel>height</skos:prefLabel>
+  </crm:E55_Type>
+  
+  <crm:E55_Type rdf:about="http://collection.britishmuseum.org/id/thesauri/dimension/width">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.britishmuseum.org/id/thesauri/dimension"/>
+      <skos:prefLabel>width</skos:prefLabel>
+  </crm:E55_Type>
+  
+  <crm:E55_Type rdf:about="http://collection.britishmuseum.org/id/thesauri/dimension/depth">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.britishmuseum.org/id/thesauri/dimension"/>
+      <skos:prefLabel>depth</skos:prefLabel>
+  </crm:E55_Type>
+  
+  <crm:E55_Type rdf:about="http://collection.britishmuseum.org/id/thesauri/dimension/diamerter">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.britishmuseum.org/id/thesauri/dimension"/>
+      <skos:prefLabel>diamerter</skos:prefLabel>
+  </crm:E55_Type>
+  
+  <crm:E55_Type rdf:about="http://collection.britishmuseum.org/id/thesauri/dimension/length">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.britishmuseum.org/id/thesauri/dimension"/>
+      <skos:prefLabel>length</skos:prefLabel>
+  </crm:E55_Type>
+  
+  <crm:E55_Type rdf:about="http://collection.britishmuseum.org/id/thesauri/dimension/weight">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.britishmuseum.org/id/thesauri/dimension"/>
+      <skos:prefLabel>weight</skos:prefLabel>
+  </crm:E55_Type>
+  
+  
+  <!--WebConGeography/placetype-->
+  <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/placetype">
+      <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+      <skos:prefLabel>place type</skos:prefLabel>
+  </rdf:Description>
+
+  <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/placetype/City">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/placetype"/>
+      <skos:prefLabel>City</skos:prefLabel>
+  </crm:E55_Type>
+
+  <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/placetype/County">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/placetype"/>
+      <skos:prefLabel>county</skos:prefLabel>
+  </crm:E55_Type>
+
+  <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/placetype/State">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/placetype"/>
+      <skos:prefLabel>State</skos:prefLabel>
+  </crm:E55_Type>
+
+  <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/placetype/Country">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/placetype"/>
+      <skos:prefLabel>Country</skos:prefLabel>
+  </crm:E55_Type>
+
+<!--WebObjectImage/imagedisplaytype-->
+  <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/imagedisplaytype">
+      <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+      <skos:prefLabel>image display type</skos:prefLabel>
+  </rdf:Description>
+     
+  <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/imagedisplaytype/undisplayimage">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/imagedisplaytype"/>
+      <skos:prefLabel>undisplay image</skos:prefLabel>
+  </crm:E55_Type> 
+
+  <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/imagedisplaytype/displayimage">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/imagedisplaytype"/>
+      <skos:prefLabel>display image</skos:prefLabel>
+  </crm:E55_Type> 
+
+<!--WebObjectImage/righttype-->
+<!--This type is different from others. They are decided by the content of the records.But because now these valuea are not uniform,so we write these by manual.-->
+  <rdf:Description rdf:about="http://collection.americanart.si.edu/id/thesauri/objrightstype">
+      <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+      <skos:prefLabel>objrightstype</skos:prefLabel>
+  </rdf:Description>
+
+  <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/objrightstype/unrestricted">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E30_Right"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/objrighsttype"/>
+      <skos:prefLabel>unrestricted right </skos:prefLabel>
+  </crm:E55_Type> 
+    
+  <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/objrightstype/restricted">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E30_Right"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/objrighsttype"/>
+      <skos:prefLabel>restricted right</skos:prefLabel>
+  </crm:E55_Type> 
+    
+  <crm:E55_Type rdf:about="http://collection.americanart.si.edu/id/thesauri/objrightstype/undetermined">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E30_Right"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://collection.americanart.si.edu/id/thesauri/objrighsttype"/>
+      <skos:prefLabel>undetermined right</skos:prefLabel>
+  </crm:E55_Type> 
+
+</rdf:RDF>

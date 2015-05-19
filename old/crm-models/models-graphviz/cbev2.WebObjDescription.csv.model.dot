@@ -1,0 +1,23 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="cbev2.WebObjDescription.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E22_Man-Made_Object1"];
+n3[shape="plaintext",style="filled",fillcolor="gold",label="ObjectURI"];
+n4[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n5[shape="plaintext",style="filled",fillcolor="gold",label="TextTypeURI"];
+n6[shape="plaintext",style="filled",fillcolor="gold",label="TextType"];
+n7[style="filled",color="white",fillcolor="lightgray",label="E73_Information_Object1"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="Description"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="InformationObjectURI"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="classLink"]
+n4 -> n5[color="brown",fontcolor="black",label="classLink"]
+n4 -> n6[color="brown",fontcolor="black",label="label"]
+n7 -> n2[color="brown",fontcolor="black",label="P129_is_about"]
+n7 -> n4[color="brown",fontcolor="black",label="P2_has_type"]
+n7 -> n8[color="brown",fontcolor="black",label="P3_has_note"]
+n7 -> n9[color="brown",fontcolor="black",label="classLink"]
+}

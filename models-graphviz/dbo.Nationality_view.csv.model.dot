@@ -1,0 +1,13 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="dbo.Nationality_view.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n3[shape="plaintext",style="filled",fillcolor="gold",label="NationalityThesauriURI"];
+n4[shape="plaintext",style="filled",fillcolor="gold",label="NationalityLabel"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="classLink"]
+n2 -> n4[color="brown",fontcolor="black",label="label"]
+}

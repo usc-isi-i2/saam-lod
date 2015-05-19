@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xml:base="http://erlangen-crm.org/current/">
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/Object">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/Place">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/Escape">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/Ethname">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/Matcult">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/Material">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/School">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/Subject">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/Technique">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/Treatment">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/Ware">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/State">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/Analysis">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/Category">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/Typeseries">
+</owl:Class>
+
+<owl:Class rdf:about="http://collection.britishmuseum.org/id/thesauri/Location">
+</owl:Class>
+
+</rdf:RDF>
+
