@@ -14,8 +14,6 @@ n8[shape="plaintext",style="filled",fillcolor="gold",label="PublicCaption"];
 n9[shape="plaintext",style="filled",fillcolor="gold",label="PersonImageURI"];
 n10[shape="plaintext",style="filled",fillcolor="gold",label="FileNameURI"];
 n11[shape="plaintext",style="filled",fillcolor="gold",label="FileName"];
-n12[style="filled",color="white",fillcolor="lightgray",label="E78_Collection1"];
-n13[shape="plaintext",style="filled",fillcolor="gold",label="MediaViewURI"];
 }
 n2 -> n3[color="brown",fontcolor="black",label="classLink"]
 n4 -> n5[color="brown",fontcolor="black",label="classLink"]
@@ -26,5 +24,4 @@ n6 -> n8[color="brown",fontcolor="black",label="P3_has_note"]
 n6 -> n9[color="brown",fontcolor="black",label="classLink"]
 n7 -> n10[color="brown",fontcolor="black",label="classLink"]
 n7 -> n11[color="brown",fontcolor="black",label="label"]
-n12 -> n13[color="brown",fontcolor="black",label="classLink"]
 }

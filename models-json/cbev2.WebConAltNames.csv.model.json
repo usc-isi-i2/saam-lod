@@ -4,78 +4,105 @@
     "description": null,
     "sourceColumns": [
         {
-            "id": "HN313",
-            "hNodeId": "HN313",
+            "id": "HN4221",
+            "hNodeId": "HN4221",
             "columnName": "PersonInstitutionURI"
         },
         {
-            "id": "HN368",
-            "hNodeId": "HN368",
+            "id": "HN4388",
+            "hNodeId": "HN4388",
             "columnName": "NameTypeURI"
         },
         {
-            "id": "HN125",
-            "hNodeId": "HN125",
+            "id": "HN3322",
+            "hNodeId": "HN3322",
             "columnName": "NameType"
         },
         {
-            "id": "HN390",
-            "hNodeId": "HN390",
+            "id": "HN4442",
+            "hNodeId": "HN4442",
             "columnName": "FirstNameURI"
         },
         {
-            "id": "HN437",
-            "hNodeId": "HN437",
+            "id": "HN4601",
+            "hNodeId": "HN4601",
             "columnName": "LastNameURI"
         },
         {
-            "id": "HN341",
-            "hNodeId": "HN341",
+            "id": "HN4697",
+            "hNodeId": "HN4697",
+            "columnName": "ActorAppellationURI"
+        },
+        {
+            "id": "HN4313",
+            "hNodeId": "HN4313",
             "columnName": "NameLabel"
         },
         {
-            "id": "HN123",
-            "hNodeId": "HN123",
+            "id": "HN4751",
+            "hNodeId": "HN4751",
+            "columnName": "FirstNameAppellationURI"
+        },
+        {
+            "id": "HN3320",
+            "hNodeId": "HN3320",
             "columnName": "FirstName"
         },
         {
-            "id": "HN124",
-            "hNodeId": "HN124",
+            "id": "HN4784",
+            "hNodeId": "HN4784",
+            "columnName": "LastNameAppellationURI"
+        },
+        {
+            "id": "HN3321",
+            "hNodeId": "HN3321",
             "columnName": "LastName"
         }
     ],
     "mappingToSourceColumns": [
         {
-            "id": "HN123",
-            "sourceColumnId": "HN123"
+            "id": "HN4784",
+            "sourceColumnId": "HN4784"
         },
         {
-            "id": "HN124",
-            "sourceColumnId": "HN124"
+            "id": "HN3322",
+            "sourceColumnId": "HN3322"
         },
         {
-            "id": "HN390",
-            "sourceColumnId": "HN390"
+            "id": "HN3321",
+            "sourceColumnId": "HN3321"
         },
         {
-            "id": "HN125",
-            "sourceColumnId": "HN125"
+            "id": "HN4697",
+            "sourceColumnId": "HN4697"
         },
         {
-            "id": "HN368",
-            "sourceColumnId": "HN368"
+            "id": "HN4442",
+            "sourceColumnId": "HN4442"
         },
         {
-            "id": "HN341",
-            "sourceColumnId": "HN341"
+            "id": "HN3320",
+            "sourceColumnId": "HN3320"
         },
         {
-            "id": "HN437",
-            "sourceColumnId": "HN437"
+            "id": "HN4601",
+            "sourceColumnId": "HN4601"
         },
         {
-            "id": "HN313",
-            "sourceColumnId": "HN313"
+            "id": "HN4221",
+            "sourceColumnId": "HN4221"
+        },
+        {
+            "id": "HN4751",
+            "sourceColumnId": "HN4751"
+        },
+        {
+            "id": "HN4388",
+            "sourceColumnId": "HN4388"
+        },
+        {
+            "id": "HN4313",
+            "sourceColumnId": "HN4313"
         }
     ],
     "graph": {
@@ -97,17 +124,17 @@
                 "modelIds": []
             },
             {
-                "id": "HN313",
+                "id": "HN4221",
                 "label": {
-                    "uri": "HN313"
+                    "uri": "HN4221"
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN313",
+                "hNodeId": "HN4221",
                 "columnName": "PersonInstitutionURI",
                 "rdfLiteralType": null,
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN313",
+                        "hNodeId": "HN4221",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E21_Person"
                         },
@@ -120,7 +147,7 @@
                 ],
                 "learnedSemanticTypes": [
                     {
-                        "hNodeId": "HN313",
+                        "hNodeId": "HN4221",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E21_Person"
                         },
@@ -128,10 +155,10 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.349403721370316
+                        "confidenceScore": 0.34430733457475665
                     },
                     {
-                        "hNodeId": "HN313",
+                        "hNodeId": "HN4221",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
                         },
@@ -139,10 +166,21 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.3057282708454039
+                        "confidenceScore": 0.30443350835801497
                     },
                     {
-                        "hNodeId": "HN313",
+                        "hNodeId": "HN4221",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E69_Death"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.17941381695327982
+                    },
+                    {
+                        "hNodeId": "HN4221",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E39_Actor"
                         },
@@ -150,18 +188,7 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.1733049009262791
-                    },
-                    {
-                        "hNodeId": "HN313",
-                        "domain": {
-                            "uri": "http://erlangen-crm.org/current/E67_Birth"
-                        },
-                        "type": {
-                            "uri": "http://isi.edu/integration/karma/dev#classLink"
-                        },
-                        "origin": "CRFModel",
-                        "confidenceScore": 0.171563106858001
+                        "confidenceScore": 0.17184534011394856
                     }
                 ],
                 "modelIds": []
@@ -175,17 +202,17 @@
                 "modelIds": []
             },
             {
-                "id": "HN368",
+                "id": "HN4388",
                 "label": {
-                    "uri": "HN368"
+                    "uri": "HN4388"
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN368",
+                "hNodeId": "HN4388",
                 "columnName": "NameTypeURI",
                 "rdfLiteralType": null,
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN368",
+                        "hNodeId": "HN4388",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E55_Type"
                         },
@@ -198,18 +225,7 @@
                 ],
                 "learnedSemanticTypes": [
                     {
-                        "hNodeId": "HN368",
-                        "domain": {
-                            "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-                        },
-                        "type": {
-                            "uri": "http://isi.edu/integration/karma/dev#classLink"
-                        },
-                        "origin": "CRFModel",
-                        "confidenceScore": 0.41724619491733655
-                    },
-                    {
-                        "hNodeId": "HN368",
+                        "hNodeId": "HN4388",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E55_Type"
                         },
@@ -217,10 +233,21 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.3817311094359436
+                        "confidenceScore": 0.5645550358902225
                     },
                     {
-                        "hNodeId": "HN368",
+                        "hNodeId": "HN4388",
+                        "domain": {
+                            "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.16062604587408716
+                    },
+                    {
+                        "hNodeId": "HN4388",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E78_Collection"
                         },
@@ -228,10 +255,10 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.10508952405186302
+                        "confidenceScore": 0.14366831334566266
                     },
                     {
-                        "hNodeId": "HN368",
+                        "hNodeId": "HN4388",
                         "domain": {
                             "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                         },
@@ -239,23 +266,23 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.09593317159485679
+                        "confidenceScore": 0.13115060489002767
                     }
                 ],
                 "modelIds": []
             },
             {
-                "id": "HN125",
+                "id": "HN3322",
                 "label": {
-                    "uri": "HN125"
+                    "uri": "HN3322"
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN125",
+                "hNodeId": "HN3322",
                 "columnName": "NameType",
                 "rdfLiteralType": null,
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN125",
+                        "hNodeId": "HN3322",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E55_Type"
                         },
@@ -268,7 +295,7 @@
                 ],
                 "learnedSemanticTypes": [
                     {
-                        "hNodeId": "HN125",
+                        "hNodeId": "HN3322",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
                         },
@@ -276,10 +303,10 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.9681432968826128
+                        "confidenceScore": 0.9646569608154493
                     },
                     {
-                        "hNodeId": "HN125",
+                        "hNodeId": "HN3322",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E33_Linguistic_Object"
                         },
@@ -287,21 +314,10 @@
                             "uri": "http://erlangen-crm.org/current/P3_has_note"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.022967374765820708
+                        "confidenceScore": 0.026828393316123
                     },
                     {
-                        "hNodeId": "HN125",
-                        "domain": {
-                            "uri": "http://erlangen-crm.org/current/E67_Birth"
-                        },
-                        "type": {
-                            "uri": "http://isi.edu/integration/karma/dev#classLink"
-                        },
-                        "origin": "CRFModel",
-                        "confidenceScore": 0.004584602252551818
-                    },
-                    {
-                        "hNodeId": "HN125",
+                        "hNodeId": "HN3322",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E63_Beginning_of_Existence"
                         },
@@ -309,7 +325,18 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.004304726099014679
+                        "confidenceScore": 0.004339225079690738
+                    },
+                    {
+                        "hNodeId": "HN3322",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E67_Birth"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.004175420788737001
                     }
                 ],
                 "modelIds": []
@@ -323,17 +350,17 @@
                 "modelIds": []
             },
             {
-                "id": "HN390",
+                "id": "HN4442",
                 "label": {
-                    "uri": "HN390"
+                    "uri": "HN4442"
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN390",
+                "hNodeId": "HN4442",
                 "columnName": "FirstNameURI",
                 "rdfLiteralType": null,
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN390",
+                        "hNodeId": "HN4442",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E55_Type"
                         },
@@ -346,18 +373,7 @@
                 ],
                 "learnedSemanticTypes": [
                     {
-                        "hNodeId": "HN390",
-                        "domain": {
-                            "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-                        },
-                        "type": {
-                            "uri": "http://isi.edu/integration/karma/dev#classLink"
-                        },
-                        "origin": "CRFModel",
-                        "confidenceScore": 0.4172462211527076
-                    },
-                    {
-                        "hNodeId": "HN390",
+                        "hNodeId": "HN4442",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E55_Type"
                         },
@@ -365,10 +381,21 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.38173108641724396
+                        "confidenceScore": 0.5645550318551273
                     },
                     {
-                        "hNodeId": "HN390",
+                        "hNodeId": "HN4442",
+                        "domain": {
+                            "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.16062605096606192
+                    },
+                    {
+                        "hNodeId": "HN4442",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E78_Collection"
                         },
@@ -376,10 +403,10 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.10508952125996004
+                        "confidenceScore": 0.14366830134022807
                     },
                     {
-                        "hNodeId": "HN390",
+                        "hNodeId": "HN4442",
                         "domain": {
                             "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                         },
@@ -387,7 +414,7 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.09593317117008836
+                        "confidenceScore": 0.13115061583858267
                     }
                 ],
                 "modelIds": []
@@ -401,17 +428,17 @@
                 "modelIds": []
             },
             {
-                "id": "HN437",
+                "id": "HN4601",
                 "label": {
-                    "uri": "HN437"
+                    "uri": "HN4601"
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN437",
+                "hNodeId": "HN4601",
                 "columnName": "LastNameURI",
                 "rdfLiteralType": null,
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN437",
+                        "hNodeId": "HN4601",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E55_Type"
                         },
@@ -424,7 +451,7 @@
                 ],
                 "learnedSemanticTypes": [
                     {
-                        "hNodeId": "HN437",
+                        "hNodeId": "HN4601",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E55_Type"
                         },
@@ -432,10 +459,10 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.638377485584347
+                        "confidenceScore": 0.7601298209648628
                     },
                     {
-                        "hNodeId": "HN437",
+                        "hNodeId": "HN4601",
                         "domain": {
                             "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
                         },
@@ -443,10 +470,10 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.24404531089826434
+                        "confidenceScore": 0.08646251744732243
                     },
                     {
-                        "hNodeId": "HN437",
+                        "hNodeId": "HN4601",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E78_Collection"
                         },
@@ -454,18 +481,18 @@
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.06146635555959585
+                        "confidenceScore": 0.0773344243609659
                     },
                     {
-                        "hNodeId": "HN437",
+                        "hNodeId": "HN4601",
                         "domain": {
-                            "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+                            "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
                         },
                         "type": {
                             "uri": "http://isi.edu/integration/karma/dev#classLink"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.056110847957792774
+                        "confidenceScore": 0.07607323722684886
                     }
                 ],
                 "modelIds": []
@@ -487,17 +514,87 @@
                 "modelIds": []
             },
             {
-                "id": "HN341",
+                "id": "HN4697",
                 "label": {
-                    "uri": "HN341"
+                    "uri": "HN4697"
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN341",
+                "hNodeId": "HN4697",
+                "columnName": "ActorAppellationURI",
+                "rdfLiteralType": null,
+                "userSemanticTypes": [
+                    {
+                        "hNodeId": "HN4697",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "User",
+                        "confidenceScore": 1.0
+                    }
+                ],
+                "learnedSemanticTypes": [
+                    {
+                        "hNodeId": "HN4697",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.514349492856385
+                    },
+                    {
+                        "hNodeId": "HN4697",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E21_Person"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.24024057599466164
+                    },
+                    {
+                        "hNodeId": "HN4697",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E69_Death"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.12547563999791222
+                    },
+                    {
+                        "hNodeId": "HN4697",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E39_Actor"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.11993429115104118
+                    }
+                ],
+                "modelIds": []
+            },
+            {
+                "id": "HN4313",
+                "label": {
+                    "uri": "HN4313"
+                },
+                "type": "ColumnNode",
+                "hNodeId": "HN4313",
                 "columnName": "NameLabel",
                 "rdfLiteralType": null,
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN341",
+                        "hNodeId": "HN4313",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
                         },
@@ -510,7 +607,7 @@
                 ],
                 "learnedSemanticTypes": [
                     {
-                        "hNodeId": "HN341",
+                        "hNodeId": "HN4313",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
                         },
@@ -518,10 +615,10 @@
                             "uri": "http://www.w3.org/2000/01/rdf-schema#label"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.997568057822547
+                        "confidenceScore": 0.9975535047418037
                     },
                     {
-                        "hNodeId": "HN341",
+                        "hNodeId": "HN4313",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E33_Linguistic_Object"
                         },
@@ -529,23 +626,93 @@
                             "uri": "http://erlangen-crm.org/current/P3_has_note"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.002431942177453064
+                        "confidenceScore": 0.0024464952581962625
                     }
                 ],
                 "modelIds": []
             },
             {
-                "id": "HN123",
+                "id": "HN4751",
                 "label": {
-                    "uri": "HN123"
+                    "uri": "HN4751"
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN123",
+                "hNodeId": "HN4751",
+                "columnName": "FirstNameAppellationURI",
+                "rdfLiteralType": null,
+                "userSemanticTypes": [
+                    {
+                        "hNodeId": "HN4751",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "User",
+                        "confidenceScore": 1.0
+                    }
+                ],
+                "learnedSemanticTypes": [
+                    {
+                        "hNodeId": "HN4751",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.5018793380103744
+                    },
+                    {
+                        "hNodeId": "HN4751",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E21_Person"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.24413489776951156
+                    },
+                    {
+                        "hNodeId": "HN4751",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E69_Death"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.1316869551951033
+                    },
+                    {
+                        "hNodeId": "HN4751",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E39_Actor"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.12229880902501075
+                    }
+                ],
+                "modelIds": []
+            },
+            {
+                "id": "HN3320",
+                "label": {
+                    "uri": "HN3320"
+                },
+                "type": "ColumnNode",
+                "hNodeId": "HN3320",
                 "columnName": "FirstName",
                 "rdfLiteralType": null,
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN123",
+                        "hNodeId": "HN3320",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
                         },
@@ -558,7 +725,7 @@
                 ],
                 "learnedSemanticTypes": [
                     {
-                        "hNodeId": "HN123",
+                        "hNodeId": "HN3320",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
                         },
@@ -566,10 +733,10 @@
                             "uri": "http://www.w3.org/2000/01/rdf-schema#label"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.9887824043888874
+                        "confidenceScore": 0.9887255769950832
                     },
                     {
-                        "hNodeId": "HN123",
+                        "hNodeId": "HN3320",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E33_Linguistic_Object"
                         },
@@ -577,23 +744,93 @@
                             "uri": "http://erlangen-crm.org/current/P3_has_note"
                         },
                         "origin": "CRFModel",
-                        "confidenceScore": 0.011217595611112623
+                        "confidenceScore": 0.01127442300491675
                     }
                 ],
                 "modelIds": []
             },
             {
-                "id": "HN124",
+                "id": "HN4784",
                 "label": {
-                    "uri": "HN124"
+                    "uri": "HN4784"
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN124",
+                "hNodeId": "HN4784",
+                "columnName": "LastNameAppellationURI",
+                "rdfLiteralType": null,
+                "userSemanticTypes": [
+                    {
+                        "hNodeId": "HN4784",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "User",
+                        "confidenceScore": 1.0
+                    }
+                ],
+                "learnedSemanticTypes": [
+                    {
+                        "hNodeId": "HN4784",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.5638619810789325
+                    },
+                    {
+                        "hNodeId": "HN4784",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E55_Type"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.21010610693593554
+                    },
+                    {
+                        "hNodeId": "HN4784",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E21_Person"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.14782188002274863
+                    },
+                    {
+                        "hNodeId": "HN4784",
+                        "domain": {
+                            "uri": "http://erlangen-crm.org/current/E69_Death"
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink"
+                        },
+                        "origin": "CRFModel",
+                        "confidenceScore": 0.07821003196238337
+                    }
+                ],
+                "modelIds": []
+            },
+            {
+                "id": "HN3321",
+                "label": {
+                    "uri": "HN3321"
+                },
+                "type": "ColumnNode",
+                "hNodeId": "HN3321",
                 "columnName": "LastName",
                 "rdfLiteralType": null,
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN124",
+                        "hNodeId": "HN3321",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
                         },
@@ -606,7 +843,7 @@
                 ],
                 "learnedSemanticTypes": [
                     {
-                        "hNodeId": "HN124",
+                        "hNodeId": "HN3321",
                         "domain": {
                             "uri": "http://erlangen-crm.org/current/E82_Actor_Appellation"
                         },
@@ -634,7 +871,7 @@
                 "modelIds": []
             },
             {
-                "id": "http://erlangen-crm.org/current/E21_Person1---http://isi.edu/integration/karma/dev#classLink---HN313",
+                "id": "http://erlangen-crm.org/current/E21_Person1---http://isi.edu/integration/karma/dev#classLink---HN4221",
                 "weight": 0.01,
                 "type": "ClassInstanceLink",
                 "label": {
@@ -645,7 +882,7 @@
                 "modelIds": []
             },
             {
-                "id": "http://erlangen-crm.org/current/E55_Type1---http://isi.edu/integration/karma/dev#classLink---HN368",
+                "id": "http://erlangen-crm.org/current/E55_Type1---http://isi.edu/integration/karma/dev#classLink---HN4388",
                 "weight": 0.01,
                 "type": "ClassInstanceLink",
                 "label": {
@@ -656,7 +893,7 @@
                 "modelIds": []
             },
             {
-                "id": "http://erlangen-crm.org/current/E55_Type1---http://www.w3.org/2000/01/rdf-schema#label---HN125",
+                "id": "http://erlangen-crm.org/current/E55_Type1---http://www.w3.org/2000/01/rdf-schema#label---HN3322",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
@@ -667,7 +904,7 @@
                 "modelIds": []
             },
             {
-                "id": "http://erlangen-crm.org/current/E55_Type2---http://isi.edu/integration/karma/dev#classLink---HN390",
+                "id": "http://erlangen-crm.org/current/E55_Type2---http://isi.edu/integration/karma/dev#classLink---HN4442",
                 "weight": 0.01,
                 "type": "ClassInstanceLink",
                 "label": {
@@ -678,7 +915,7 @@
                 "modelIds": []
             },
             {
-                "id": "http://erlangen-crm.org/current/E55_Type3---http://isi.edu/integration/karma/dev#classLink---HN437",
+                "id": "http://erlangen-crm.org/current/E55_Type3---http://isi.edu/integration/karma/dev#classLink---HN4601",
                 "weight": 0.01,
                 "type": "ClassInstanceLink",
                 "label": {
@@ -725,7 +962,18 @@
                 "modelIds": []
             },
             {
-                "id": "http://erlangen-crm.org/current/E82_Actor_Appellation1---http://www.w3.org/2000/01/rdf-schema#label---HN341",
+                "id": "http://erlangen-crm.org/current/E82_Actor_Appellation1---http://isi.edu/integration/karma/dev#classLink---HN4697",
+                "weight": 0.01,
+                "type": "ClassInstanceLink",
+                "label": {
+                    "uri": "http://isi.edu/integration/karma/dev#classLink"
+                },
+                "status": "ForcedByUser",
+                "keyInfo": "UriOfInstance",
+                "modelIds": []
+            },
+            {
+                "id": "http://erlangen-crm.org/current/E82_Actor_Appellation1---http://www.w3.org/2000/01/rdf-schema#label---HN4313",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
@@ -748,7 +996,18 @@
                 "modelIds": []
             },
             {
-                "id": "http://erlangen-crm.org/current/E82_Actor_Appellation2---http://www.w3.org/2000/01/rdf-schema#label---HN123",
+                "id": "http://erlangen-crm.org/current/E82_Actor_Appellation2---http://isi.edu/integration/karma/dev#classLink---HN4751",
+                "weight": 0.01,
+                "type": "ClassInstanceLink",
+                "label": {
+                    "uri": "http://isi.edu/integration/karma/dev#classLink"
+                },
+                "status": "ForcedByUser",
+                "keyInfo": "UriOfInstance",
+                "modelIds": []
+            },
+            {
+                "id": "http://erlangen-crm.org/current/E82_Actor_Appellation2---http://www.w3.org/2000/01/rdf-schema#label---HN3320",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
@@ -771,7 +1030,18 @@
                 "modelIds": []
             },
             {
-                "id": "http://erlangen-crm.org/current/E82_Actor_Appellation3---http://www.w3.org/2000/01/rdf-schema#label---HN124",
+                "id": "http://erlangen-crm.org/current/E82_Actor_Appellation3---http://isi.edu/integration/karma/dev#classLink---HN4784",
+                "weight": 0.01,
+                "type": "ClassInstanceLink",
+                "label": {
+                    "uri": "http://isi.edu/integration/karma/dev#classLink"
+                },
+                "status": "ForcedByUser",
+                "keyInfo": "UriOfInstance",
+                "modelIds": []
+            },
+            {
+                "id": "http://erlangen-crm.org/current/E82_Actor_Appellation3---http://www.w3.org/2000/01/rdf-schema#label---HN3321",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {

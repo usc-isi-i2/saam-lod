@@ -78,12 +78,12 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
+_:node19lnc5hjdx1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "cbev2.WebConAltNames.csv" ;
-	km-dev:modelPublicationTime "1432043971170"^^xsd:long ;
+	km-dev:modelPublicationTime "1432082368109"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"ConstituentID\"}],[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"NameType\"}],[{\"columnName\":\"NameTitle\"}],[{\"columnName\":\"Suffix\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"FirstNameURI\"}],[{\"columnName\":\"NameTypeURI\"}],[{\"columnName\":\"NameType\"}],[{\"columnName\":\"NameLabel\"}],[{\"columnName\":\"LastNameURI\"}],[{\"columnName\":\"PersonInstitutionURI\"}]]" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"NameTitle\"}],[{\"columnName\":\"NameType\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"Suffix\"}],[{\"columnName\":\"ConstituentID\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"LastNameAppellationURI\"}],[{\"columnName\":\"NameType\"}],[{\"columnName\":\"ActorAppellationURI\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"FirstNameURI\"}],[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"LastNameURI\"}],[{\"columnName\":\"PersonInstitutionURI\"}],[{\"columnName\":\"FirstNameAppellationURI\"}],[{\"columnName\":\"NameTypeURI\"}],[{\"columnName\":\"NameLabel\"}]]" ;
 	km-dev:hasModelLabel "cbev2.WebConAltNames.csv" ;
 	km-dev:hasBaseURI "http://localhost:8080/source/" ;
 	km-dev:hasWorksheetHistory """[
@@ -174,8 +174,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E21_Person1 (add)\",
                     \"DomainId\": \"http://erlangen-crm.org/current/E21_Person1\",
                     \"DomainUri\": \"http://erlangen-crm.org/current/E21_Person\"
@@ -233,8 +233,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
                 \"value\": [{
                     \"edgeTargetUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\",
                     \"edgeId\": \"http://erlangen-crm.org/current/P1_is_identified_by\",
-                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation1 (add)\",
                     \"edgeSourceId\": \"http://erlangen-crm.org/current/E21_Person1\",
+                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation1 (add)\",
                     \"edgeSourceUri\": \"http://erlangen-crm.org/current/E21_Person1\"
                 }],
                 \"type\": \"other\"
@@ -280,8 +280,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
                 \"value\": [{
                     \"edgeTargetUri\": \"http://erlangen-crm.org/current/E55_Type\",
                     \"edgeId\": \"http://erlangen-crm.org/current/P2_has_type\",
-                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E55_Type1 (add)\",
                     \"edgeSourceId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation1\",
+                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E55_Type1 (add)\",
                     \"edgeSourceUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation1\"
                 }],
                 \"type\": \"other\"
@@ -339,7 +339,7 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"inputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"FirstName\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"LastName\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"NameTitle\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"Suffix\\\"}]}]\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"NameTitle\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"LastName\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"FirstName\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"Suffix\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             },
             {
@@ -371,8 +371,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E82_Actor_Appellation1\",
                     \"DomainId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation1\",
                     \"DomainUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\"
@@ -423,8 +423,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E55_Type1\",
                     \"DomainId\": \"http://erlangen-crm.org/current/E55_Type1\",
                     \"DomainUri\": \"http://erlangen-crm.org/current/E55_Type\"
@@ -479,7 +479,7 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"transformationCode\",
-                \"value\": \"s=getValue(\\\"NameType\\\")\\ns=s.replace(\\\" \\\",\\\"_\\\")\\ns=s.replace(\\\"/\\\",\\\"_\\\")\\nreturn \\\"thesauri/nametype/\\\"+s\",
+                \"value\": \"s=getValue(\\\"NameType\\\")\\ns=s.replace(\\\" \\\",\\\"_\\\")\\ns=s.replace(\\\"/\\\",\\\"_\\\").lower()\\nreturn \\\"thesauri/nametype/\\\"+s\",
                 \"type\": \"other\"
             },
             {
@@ -541,8 +541,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E55_Type1\",
                     \"DomainId\": \"http://erlangen-crm.org/current/E55_Type1\",
                     \"DomainUri\": \"http://erlangen-crm.org/current/E55_Type\"
@@ -597,7 +597,7 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"transformationCode\",
-                \"value\": \"if getValue(\\\"FirstName\\\"):\\n    return \\\"thesauri/nametype/first_name\\\"\\nelse:\\n    return \\\"\\\"\",
+                \"value\": \"if getValue(\\\"FirstName\\\"):\\n    return \\\"thesauri/nametype/firstname\\\"\\nelse:\\n    return \\\"\\\"\",
                 \"type\": \"other\"
             },
             {
@@ -659,8 +659,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E55_Type2 (add)\",
                     \"DomainId\": \"http://erlangen-crm.org/current/E55_Type2\",
                     \"DomainUri\": \"http://erlangen-crm.org/current/E55_Type\"
@@ -718,8 +718,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
                 \"value\": [{
                     \"edgeTargetUri\": \"http://erlangen-crm.org/current/E55_Type2\",
                     \"edgeId\": \"http://erlangen-crm.org/current/P2_has_type\",
-                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E55_Type2\",
                     \"edgeSourceId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation2 (add)\",
+                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E55_Type2\",
                     \"edgeSourceUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\"
                 }],
                 \"type\": \"other\"
@@ -765,8 +765,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
                 \"value\": [{
                     \"edgeTargetUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation2\",
                     \"edgeId\": \"http://erlangen-crm.org/current/P106_is_composed_of\",
-                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation2\",
                     \"edgeSourceId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation1\",
+                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation2\",
                     \"edgeSourceUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\"
                 }],
                 \"type\": \"other\"
@@ -805,8 +805,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E82_Actor_Appellation2\",
                     \"DomainId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation2\",
                     \"DomainUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\"
@@ -857,8 +857,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E82_Actor_Appellation3 (add)\",
                     \"DomainId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation3\",
                     \"DomainUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\"
@@ -916,8 +916,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
                 \"value\": [{
                     \"edgeTargetUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation3\",
                     \"edgeId\": \"http://erlangen-crm.org/current/P106_is_composed_of\",
-                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation3\",
                     \"edgeSourceId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation1\",
+                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation3\",
                     \"edgeSourceUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\"
                 }],
                 \"type\": \"other\"
@@ -960,7 +960,7 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"transformationCode\",
-                \"value\": \"if getValue(\\\"LastName\\\"):\\n    return \\\"thesauri/nametype/last_name\\\"\\nelse:\\n    return \\\"\\\"\",
+                \"value\": \"if getValue(\\\"LastName\\\"):\\n    return \\\"thesauri/nametype/lastname\\\"\\nelse:\\n    return \\\"\\\"\",
                 \"type\": \"other\"
             },
             {
@@ -1022,8 +1022,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E55_Type3 (add)\",
                     \"DomainId\": \"http://erlangen-crm.org/current/E55_Type3\",
                     \"DomainUri\": \"http://erlangen-crm.org/current/E55_Type\"
@@ -1081,8 +1081,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
                 \"value\": [{
                     \"edgeTargetUri\": \"http://erlangen-crm.org/current/E55_Type3\",
                     \"edgeId\": \"http://erlangen-crm.org/current/P2_has_type\",
-                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E55_Type3\",
                     \"edgeSourceId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation3\",
+                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E55_Type3\",
                     \"edgeSourceUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\"
                 }],
                 \"type\": \"other\"
@@ -1117,8 +1117,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
                 \"name\": \"initialEdges\",
                 \"value\": [{
                     \"edgeId\": \"http://erlangen-crm.org/current/P1_is_identified_by\",
-                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation1\",
-                    \"edgeSourceId\": \"http://erlangen-crm.org/current/E21_Person1\"
+                    \"edgeSourceId\": \"http://erlangen-crm.org/current/E21_Person1\",
+                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation1\"
                 }],
                 \"type\": \"other\"
             },
@@ -1132,8 +1132,8 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
                 \"value\": [{
                     \"edgeTargetUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\",
                     \"edgeId\": \"http://erlangen-crm.org/current/P131_is_identified_by\",
-                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation1\",
                     \"edgeSourceId\": \"http://erlangen-crm.org/current/E21_Person1\",
+                    \"edgeTargetId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation1\",
                     \"edgeSourceUri\": \"http://erlangen-crm.org/current/E21_Person\"
                 }],
                 \"type\": \"other\"
@@ -1150,340 +1150,691 @@ _:node19lm7hoj1x1 a km-dev:R2RMLMapping ;
             }
         ],
         \"commandName\": \"ChangeInternalNodeLinksCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"NameTypeURI\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"ActorAppellationURI\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"return getValue(\\\"PersonInstitutionURI\\\")+\\\"/appellation/\\\"+getValue(\\\"NameType\\\").lower().replace(\\\" \\\",\\\"_\\\")\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"NameType\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"PersonInstitutionURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ActorAppellationURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"ActorAppellationURI\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"value\": \"isUriOfClass\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"value\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"value\": \"http://erlangen-crm.org/current/E82_Actor_Appellation1\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
+                    \"DomainLabel\": \"crm:E82_Actor_Appellation1\",
+                    \"DomainId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation1\",
+                    \"DomainUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ActorAppellationURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ActorAppellationURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetMetaPropertyCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"FirstNameURI\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"FirstNameAppellationURI\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"if getValue(\\\"FirstName\\\"):\\n    return getValue(\\\"PersonInstitutionURI\\\")+\\\"/appellation/firstname\\\"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"FirstName\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"PersonInstitutionURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"FirstNameAppellationURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"LastNameURI\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"LastNameAppellationURI\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"if getValue(\\\"LastName\\\"):\\n    return getValue(\\\"PersonInstitutionURI\\\")+\\\"/appellation/lastname\\\"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"LastName\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"PersonInstitutionURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"LastNameAppellationURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"FirstNameAppellationURI\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"value\": \"isUriOfClass\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"value\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"value\": \"http://erlangen-crm.org/current/E82_Actor_Appellation2\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
+                    \"DomainLabel\": \"crm:E82_Actor_Appellation2\",
+                    \"DomainId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation2\",
+                    \"DomainUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"FirstNameAppellationURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"FirstNameAppellationURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetMetaPropertyCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"LastNameAppellationURI\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"value\": \"isUriOfClass\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"value\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"value\": \"http://erlangen-crm.org/current/E82_Actor_Appellation3\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
+                    \"DomainLabel\": \"crm:E82_Actor_Appellation3\",
+                    \"DomainId\": \"http://erlangen-crm.org/current/E82_Actor_Appellation3\",
+                    \"DomainUri\": \"http://erlangen-crm.org/current/E82_Actor_Appellation\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"LastNameAppellationURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"LastNameAppellationURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetMetaPropertyCommand\"
     }
 ]""" .
 
-km-dev:TriplesMap_aff0dbb8-caa5-4735-b023-04a750b00168 a rr:TriplesMap .
+km-dev:TriplesMap_a2f933ed-9dfb-4e7e-a795-498917b6374e a rr:TriplesMap .
 
-_:node19lm7hoj1x1 km-dev:hasTriplesMap km-dev:TriplesMap_aff0dbb8-caa5-4735-b023-04a750b00168 .
+_:node19lnc5hjdx1 km-dev:hasTriplesMap km-dev:TriplesMap_a2f933ed-9dfb-4e7e-a795-498917b6374e .
 
-km-dev:TriplesMap_aff0dbb8-caa5-4735-b023-04a750b00168 km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:TriplesMap_a2f933ed-9dfb-4e7e-a795-498917b6374e km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x2 rr:tableName "cbev2.WebConAltNames.csv" ;
+_:node19lnc5hjdx2 rr:tableName "cbev2.WebConAltNames.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasLogicalTable _:node19lm7hoj1x2 .
+_:node19lnc5hjdx1 km-dev:hasLogicalTable _:node19lnc5hjdx2 .
 
-km-dev:TriplesMap_aff0dbb8-caa5-4735-b023-04a750b00168 rr:logicalTable _:node19lm7hoj1x2 ;
-	rr:subjectMap _:node19lm7hoj1x3 .
+km-dev:TriplesMap_a2f933ed-9dfb-4e7e-a795-498917b6374e rr:logicalTable _:node19lnc5hjdx2 ;
+	rr:subjectMap _:node19lnc5hjdx3 .
 
-_:node19lm7hoj1x1 km-dev:hasSubjectMap _:node19lm7hoj1x3 .
+_:node19lnc5hjdx1 km-dev:hasSubjectMap _:node19lnc5hjdx3 .
 
-_:node19lm7hoj1x3 km-dev:isPartOfMapping _:node19lm7hoj1x1 ;
+_:node19lnc5hjdx3 km-dev:isPartOfMapping _:node19lnc5hjdx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E21_Person1" ;
 	rr:class crm:E21_Person ;
 	rr:template "person-institution/{ConstituentID}" ;
 	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_e88fec30-6f6a-4b17-b4fd-af338630b362 rr:predicate crm:P131_is_identified_by .
+km-dev:PredicateObjectMap_2c43ea2b-dcc4-4211-86d9-8f3aec50ad69 rr:predicate crm:P131_is_identified_by .
 
-km-dev:RefObjectMap_726c2458-88e0-4050-83f6-34f5c3c74cf5 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_37a8fe91-b6d1-43ab-a24c-f1703899f9bc ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:RefObjectMap_8b192419-5ce4-41a3-b24e-3a12fde96098 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_9d8a113a-b952-430c-9276-a36d950022e4 ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasObjectMap km-dev:RefObjectMap_726c2458-88e0-4050-83f6-34f5c3c74cf5 .
+_:node19lnc5hjdx1 km-dev:hasObjectMap km-dev:RefObjectMap_8b192419-5ce4-41a3-b24e-3a12fde96098 .
 
-km-dev:PredicateObjectMap_e88fec30-6f6a-4b17-b4fd-af338630b362 rr:objectMap km-dev:RefObjectMap_726c2458-88e0-4050-83f6-34f5c3c74cf5 .
+km-dev:PredicateObjectMap_2c43ea2b-dcc4-4211-86d9-8f3aec50ad69 rr:objectMap km-dev:RefObjectMap_8b192419-5ce4-41a3-b24e-3a12fde96098 .
 
-km-dev:TriplesMap_aff0dbb8-caa5-4735-b023-04a750b00168 rr:predicateObjectMap km-dev:PredicateObjectMap_e88fec30-6f6a-4b17-b4fd-af338630b362 .
+km-dev:TriplesMap_a2f933ed-9dfb-4e7e-a795-498917b6374e rr:predicateObjectMap km-dev:PredicateObjectMap_2c43ea2b-dcc4-4211-86d9-8f3aec50ad69 .
 
-km-dev:PredicateObjectMap_e88fec30-6f6a-4b17-b4fd-af338630b362 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:PredicateObjectMap_2c43ea2b-dcc4-4211-86d9-8f3aec50ad69 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e88fec30-6f6a-4b17-b4fd-af338630b362 .
+_:node19lnc5hjdx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2c43ea2b-dcc4-4211-86d9-8f3aec50ad69 .
 
-km-dev:TriplesMap_37a8fe91-b6d1-43ab-a24c-f1703899f9bc a rr:TriplesMap .
+km-dev:TriplesMap_9d8a113a-b952-430c-9276-a36d950022e4 a rr:TriplesMap .
 
-_:node19lm7hoj1x1 km-dev:hasTriplesMap km-dev:TriplesMap_37a8fe91-b6d1-43ab-a24c-f1703899f9bc .
+_:node19lnc5hjdx1 km-dev:hasTriplesMap km-dev:TriplesMap_9d8a113a-b952-430c-9276-a36d950022e4 .
 
-km-dev:TriplesMap_37a8fe91-b6d1-43ab-a24c-f1703899f9bc km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:TriplesMap_9d8a113a-b952-430c-9276-a36d950022e4 km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x4 rr:tableName "cbev2.WebConAltNames.csv" ;
+_:node19lnc5hjdx4 rr:tableName "cbev2.WebConAltNames.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasLogicalTable _:node19lm7hoj1x4 .
+_:node19lnc5hjdx1 km-dev:hasLogicalTable _:node19lnc5hjdx4 .
 
-km-dev:TriplesMap_37a8fe91-b6d1-43ab-a24c-f1703899f9bc rr:logicalTable _:node19lm7hoj1x4 ;
-	rr:subjectMap _:node19lm7hoj1x5 .
+km-dev:TriplesMap_9d8a113a-b952-430c-9276-a36d950022e4 rr:logicalTable _:node19lnc5hjdx4 ;
+	rr:subjectMap _:node19lnc5hjdx5 .
 
-_:node19lm7hoj1x1 km-dev:hasSubjectMap _:node19lm7hoj1x5 .
+_:node19lnc5hjdx1 km-dev:hasSubjectMap _:node19lnc5hjdx5 .
 
-_:node19lm7hoj1x5 km-dev:isPartOfMapping _:node19lm7hoj1x1 ;
+_:node19lnc5hjdx5 km-dev:isPartOfMapping _:node19lnc5hjdx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E82_Actor_Appellation1" ;
 	rr:class crm:E82_Actor_Appellation ;
-	rr:termType rr:BlankNode ;
-	km-dev:namePrefix "crm:E82_Actor_Appellation1" .
+	rr:template "{ActorAppellationURI}" .
 
-km-dev:PredicateObjectMap_c437f420-5d86-48dd-89ee-43ce74ab1fcd rr:predicate crm:P106_is_composed_of .
+km-dev:PredicateObjectMap_3f145a4e-a25c-441d-9b1c-6cdf72b590dc rr:predicate crm:P106_is_composed_of .
 
-km-dev:RefObjectMap_5f202e48-ac36-4bca-aedb-4ed3c6a87632 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_ca22abde-53a8-45bb-b955-a19e1afd5afd ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:RefObjectMap_cdccb6c7-731b-4eca-91da-8a935bdfd671 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_be2ae270-8964-4907-9e75-be495c12afc5 ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasObjectMap km-dev:RefObjectMap_5f202e48-ac36-4bca-aedb-4ed3c6a87632 .
+_:node19lnc5hjdx1 km-dev:hasObjectMap km-dev:RefObjectMap_cdccb6c7-731b-4eca-91da-8a935bdfd671 .
 
-km-dev:PredicateObjectMap_c437f420-5d86-48dd-89ee-43ce74ab1fcd rr:objectMap km-dev:RefObjectMap_5f202e48-ac36-4bca-aedb-4ed3c6a87632 .
+km-dev:PredicateObjectMap_3f145a4e-a25c-441d-9b1c-6cdf72b590dc rr:objectMap km-dev:RefObjectMap_cdccb6c7-731b-4eca-91da-8a935bdfd671 .
 
-km-dev:TriplesMap_37a8fe91-b6d1-43ab-a24c-f1703899f9bc rr:predicateObjectMap km-dev:PredicateObjectMap_c437f420-5d86-48dd-89ee-43ce74ab1fcd .
+km-dev:TriplesMap_9d8a113a-b952-430c-9276-a36d950022e4 rr:predicateObjectMap km-dev:PredicateObjectMap_3f145a4e-a25c-441d-9b1c-6cdf72b590dc .
 
-km-dev:PredicateObjectMap_c437f420-5d86-48dd-89ee-43ce74ab1fcd a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:PredicateObjectMap_3f145a4e-a25c-441d-9b1c-6cdf72b590dc a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c437f420-5d86-48dd-89ee-43ce74ab1fcd .
+_:node19lnc5hjdx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3f145a4e-a25c-441d-9b1c-6cdf72b590dc .
 
-km-dev:PredicateObjectMap_aca9be7e-3e41-414f-bb6c-84feaeafa8e7 rr:predicate crm:P106_is_composed_of .
+km-dev:PredicateObjectMap_6c51011f-9d4a-4921-ab29-8345c4c70e1f rr:predicate crm:P106_is_composed_of .
 
-km-dev:RefObjectMap_bf6df49d-d700-401f-bb8f-4b9877083723 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_996b7fea-2a91-4e53-8d76-35d47941b16d ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:RefObjectMap_cecdc6de-e28a-444d-bb01-7c411e655609 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_66b758a4-a463-4346-b52e-4c68ade8d262 ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasObjectMap km-dev:RefObjectMap_bf6df49d-d700-401f-bb8f-4b9877083723 .
+_:node19lnc5hjdx1 km-dev:hasObjectMap km-dev:RefObjectMap_cecdc6de-e28a-444d-bb01-7c411e655609 .
 
-km-dev:PredicateObjectMap_aca9be7e-3e41-414f-bb6c-84feaeafa8e7 rr:objectMap km-dev:RefObjectMap_bf6df49d-d700-401f-bb8f-4b9877083723 .
+km-dev:PredicateObjectMap_6c51011f-9d4a-4921-ab29-8345c4c70e1f rr:objectMap km-dev:RefObjectMap_cecdc6de-e28a-444d-bb01-7c411e655609 .
 
-km-dev:TriplesMap_37a8fe91-b6d1-43ab-a24c-f1703899f9bc rr:predicateObjectMap km-dev:PredicateObjectMap_aca9be7e-3e41-414f-bb6c-84feaeafa8e7 .
+km-dev:TriplesMap_9d8a113a-b952-430c-9276-a36d950022e4 rr:predicateObjectMap km-dev:PredicateObjectMap_6c51011f-9d4a-4921-ab29-8345c4c70e1f .
 
-km-dev:PredicateObjectMap_aca9be7e-3e41-414f-bb6c-84feaeafa8e7 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:PredicateObjectMap_6c51011f-9d4a-4921-ab29-8345c4c70e1f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_aca9be7e-3e41-414f-bb6c-84feaeafa8e7 .
+_:node19lnc5hjdx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6c51011f-9d4a-4921-ab29-8345c4c70e1f .
 
-km-dev:PredicateObjectMap_5df982e3-ad35-4f03-9044-ff8fb717193a rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_afb683ab-c261-45d2-a951-aa0164e1a5ff rr:predicate crm:P2_has_type .
 
-km-dev:RefObjectMap_abd3a106-7f96-4d17-a6f8-33572dbc32f3 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_9ad283cf-07fd-4b9d-9e39-3eebcccbb4f0 ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:RefObjectMap_031cd244-72c7-450d-9129-99d97f1d03c2 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_5ccfcc1e-2d78-4c70-9216-493d4364a3bd ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasObjectMap km-dev:RefObjectMap_abd3a106-7f96-4d17-a6f8-33572dbc32f3 .
+_:node19lnc5hjdx1 km-dev:hasObjectMap km-dev:RefObjectMap_031cd244-72c7-450d-9129-99d97f1d03c2 .
 
-km-dev:PredicateObjectMap_5df982e3-ad35-4f03-9044-ff8fb717193a rr:objectMap km-dev:RefObjectMap_abd3a106-7f96-4d17-a6f8-33572dbc32f3 .
+km-dev:PredicateObjectMap_afb683ab-c261-45d2-a951-aa0164e1a5ff rr:objectMap km-dev:RefObjectMap_031cd244-72c7-450d-9129-99d97f1d03c2 .
 
-km-dev:TriplesMap_37a8fe91-b6d1-43ab-a24c-f1703899f9bc rr:predicateObjectMap km-dev:PredicateObjectMap_5df982e3-ad35-4f03-9044-ff8fb717193a .
+km-dev:TriplesMap_9d8a113a-b952-430c-9276-a36d950022e4 rr:predicateObjectMap km-dev:PredicateObjectMap_afb683ab-c261-45d2-a951-aa0164e1a5ff .
 
-km-dev:PredicateObjectMap_5df982e3-ad35-4f03-9044-ff8fb717193a a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:PredicateObjectMap_afb683ab-c261-45d2-a951-aa0164e1a5ff a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5df982e3-ad35-4f03-9044-ff8fb717193a .
+_:node19lnc5hjdx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_afb683ab-c261-45d2-a951-aa0164e1a5ff .
 
-km-dev:PredicateObjectMap_8f354ba1-d301-4c89-b792-fc5cc034fd04 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_9912c281-828c-4894-850b-12131c19723d rr:predicate rdfs:label .
 
-_:node19lm7hoj1x6 rr:column "NameLabel" ;
+_:node19lnc5hjdx6 rr:column "NameLabel" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasObjectMap _:node19lm7hoj1x6 .
+_:node19lnc5hjdx1 km-dev:hasObjectMap _:node19lnc5hjdx6 .
 
-km-dev:PredicateObjectMap_8f354ba1-d301-4c89-b792-fc5cc034fd04 rr:objectMap _:node19lm7hoj1x6 .
+km-dev:PredicateObjectMap_9912c281-828c-4894-850b-12131c19723d rr:objectMap _:node19lnc5hjdx6 .
 
-km-dev:TriplesMap_37a8fe91-b6d1-43ab-a24c-f1703899f9bc rr:predicateObjectMap km-dev:PredicateObjectMap_8f354ba1-d301-4c89-b792-fc5cc034fd04 .
+km-dev:TriplesMap_9d8a113a-b952-430c-9276-a36d950022e4 rr:predicateObjectMap km-dev:PredicateObjectMap_9912c281-828c-4894-850b-12131c19723d .
 
-km-dev:PredicateObjectMap_8f354ba1-d301-4c89-b792-fc5cc034fd04 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:PredicateObjectMap_9912c281-828c-4894-850b-12131c19723d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8f354ba1-d301-4c89-b792-fc5cc034fd04 .
+_:node19lnc5hjdx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9912c281-828c-4894-850b-12131c19723d .
 
-km-dev:TriplesMap_9ad283cf-07fd-4b9d-9e39-3eebcccbb4f0 a rr:TriplesMap .
+km-dev:TriplesMap_5ccfcc1e-2d78-4c70-9216-493d4364a3bd a rr:TriplesMap .
 
-_:node19lm7hoj1x1 km-dev:hasTriplesMap km-dev:TriplesMap_9ad283cf-07fd-4b9d-9e39-3eebcccbb4f0 .
+_:node19lnc5hjdx1 km-dev:hasTriplesMap km-dev:TriplesMap_5ccfcc1e-2d78-4c70-9216-493d4364a3bd .
 
-km-dev:TriplesMap_9ad283cf-07fd-4b9d-9e39-3eebcccbb4f0 km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:TriplesMap_5ccfcc1e-2d78-4c70-9216-493d4364a3bd km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x7 rr:tableName "cbev2.WebConAltNames.csv" ;
+_:node19lnc5hjdx7 rr:tableName "cbev2.WebConAltNames.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasLogicalTable _:node19lm7hoj1x7 .
+_:node19lnc5hjdx1 km-dev:hasLogicalTable _:node19lnc5hjdx7 .
 
-km-dev:TriplesMap_9ad283cf-07fd-4b9d-9e39-3eebcccbb4f0 rr:logicalTable _:node19lm7hoj1x7 ;
-	rr:subjectMap _:node19lm7hoj1x8 .
+km-dev:TriplesMap_5ccfcc1e-2d78-4c70-9216-493d4364a3bd rr:logicalTable _:node19lnc5hjdx7 ;
+	rr:subjectMap _:node19lnc5hjdx8 .
 
-_:node19lm7hoj1x1 km-dev:hasSubjectMap _:node19lm7hoj1x8 .
+_:node19lnc5hjdx1 km-dev:hasSubjectMap _:node19lnc5hjdx8 .
 
-_:node19lm7hoj1x8 km-dev:isPartOfMapping _:node19lm7hoj1x1 ;
+_:node19lnc5hjdx8 km-dev:isPartOfMapping _:node19lnc5hjdx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E55_Type1" ;
 	rr:class crm:E55_Type ;
 	rr:template "{NameTypeURI}" .
 
-km-dev:PredicateObjectMap_2cf41268-441d-4bf7-b7d5-ff60963d2cae rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_92cca4f9-7359-455d-a8fd-cce75f7c670f rr:predicate rdfs:label .
 
-_:node19lm7hoj1x9 rr:column "NameType" ;
+_:node19lnc5hjdx9 rr:column "NameType" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasObjectMap _:node19lm7hoj1x9 .
+_:node19lnc5hjdx1 km-dev:hasObjectMap _:node19lnc5hjdx9 .
 
-km-dev:PredicateObjectMap_2cf41268-441d-4bf7-b7d5-ff60963d2cae rr:objectMap _:node19lm7hoj1x9 .
+km-dev:PredicateObjectMap_92cca4f9-7359-455d-a8fd-cce75f7c670f rr:objectMap _:node19lnc5hjdx9 .
 
-km-dev:TriplesMap_9ad283cf-07fd-4b9d-9e39-3eebcccbb4f0 rr:predicateObjectMap km-dev:PredicateObjectMap_2cf41268-441d-4bf7-b7d5-ff60963d2cae .
+km-dev:TriplesMap_5ccfcc1e-2d78-4c70-9216-493d4364a3bd rr:predicateObjectMap km-dev:PredicateObjectMap_92cca4f9-7359-455d-a8fd-cce75f7c670f .
 
-km-dev:PredicateObjectMap_2cf41268-441d-4bf7-b7d5-ff60963d2cae a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:PredicateObjectMap_92cca4f9-7359-455d-a8fd-cce75f7c670f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2cf41268-441d-4bf7-b7d5-ff60963d2cae .
+_:node19lnc5hjdx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_92cca4f9-7359-455d-a8fd-cce75f7c670f .
 
-km-dev:TriplesMap_b93fe010-4e35-4aee-aea5-47a5564e0cf9 a rr:TriplesMap .
+km-dev:TriplesMap_b788f9a8-d9d7-4739-9624-f5e2abc9949f a rr:TriplesMap .
 
-_:node19lm7hoj1x1 km-dev:hasTriplesMap km-dev:TriplesMap_b93fe010-4e35-4aee-aea5-47a5564e0cf9 .
+_:node19lnc5hjdx1 km-dev:hasTriplesMap km-dev:TriplesMap_b788f9a8-d9d7-4739-9624-f5e2abc9949f .
 
-km-dev:TriplesMap_b93fe010-4e35-4aee-aea5-47a5564e0cf9 km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:TriplesMap_b788f9a8-d9d7-4739-9624-f5e2abc9949f km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x10 rr:tableName "cbev2.WebConAltNames.csv" ;
+_:node19lnc5hjdx10 rr:tableName "cbev2.WebConAltNames.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasLogicalTable _:node19lm7hoj1x10 .
+_:node19lnc5hjdx1 km-dev:hasLogicalTable _:node19lnc5hjdx10 .
 
-km-dev:TriplesMap_b93fe010-4e35-4aee-aea5-47a5564e0cf9 rr:logicalTable _:node19lm7hoj1x10 ;
-	rr:subjectMap _:node19lm7hoj1x11 .
+km-dev:TriplesMap_b788f9a8-d9d7-4739-9624-f5e2abc9949f rr:logicalTable _:node19lnc5hjdx10 ;
+	rr:subjectMap _:node19lnc5hjdx11 .
 
-_:node19lm7hoj1x1 km-dev:hasSubjectMap _:node19lm7hoj1x11 .
+_:node19lnc5hjdx1 km-dev:hasSubjectMap _:node19lnc5hjdx11 .
 
-_:node19lm7hoj1x11 km-dev:isPartOfMapping _:node19lm7hoj1x1 ;
+_:node19lnc5hjdx11 km-dev:isPartOfMapping _:node19lnc5hjdx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E55_Type2" ;
 	rr:class crm:E55_Type ;
 	rr:template "{FirstNameURI}" .
 
-km-dev:TriplesMap_b09aadf9-7f41-4d0f-ae06-dd45ef3f82a3 a rr:TriplesMap .
+km-dev:TriplesMap_c67d7bc9-81bd-43f3-95de-edab15bc031a a rr:TriplesMap .
 
-_:node19lm7hoj1x1 km-dev:hasTriplesMap km-dev:TriplesMap_b09aadf9-7f41-4d0f-ae06-dd45ef3f82a3 .
+_:node19lnc5hjdx1 km-dev:hasTriplesMap km-dev:TriplesMap_c67d7bc9-81bd-43f3-95de-edab15bc031a .
 
-km-dev:TriplesMap_b09aadf9-7f41-4d0f-ae06-dd45ef3f82a3 km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:TriplesMap_c67d7bc9-81bd-43f3-95de-edab15bc031a km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x12 rr:tableName "cbev2.WebConAltNames.csv" ;
+_:node19lnc5hjdx12 rr:tableName "cbev2.WebConAltNames.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasLogicalTable _:node19lm7hoj1x12 .
+_:node19lnc5hjdx1 km-dev:hasLogicalTable _:node19lnc5hjdx12 .
 
-km-dev:TriplesMap_b09aadf9-7f41-4d0f-ae06-dd45ef3f82a3 rr:logicalTable _:node19lm7hoj1x12 ;
-	rr:subjectMap _:node19lm7hoj1x13 .
+km-dev:TriplesMap_c67d7bc9-81bd-43f3-95de-edab15bc031a rr:logicalTable _:node19lnc5hjdx12 ;
+	rr:subjectMap _:node19lnc5hjdx13 .
 
-_:node19lm7hoj1x1 km-dev:hasSubjectMap _:node19lm7hoj1x13 .
+_:node19lnc5hjdx1 km-dev:hasSubjectMap _:node19lnc5hjdx13 .
 
-_:node19lm7hoj1x13 km-dev:isPartOfMapping _:node19lm7hoj1x1 ;
+_:node19lnc5hjdx13 km-dev:isPartOfMapping _:node19lnc5hjdx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E55_Type3" ;
 	rr:class crm:E55_Type ;
 	rr:template "{LastNameURI}" .
 
-km-dev:TriplesMap_ca22abde-53a8-45bb-b955-a19e1afd5afd a rr:TriplesMap .
+km-dev:TriplesMap_be2ae270-8964-4907-9e75-be495c12afc5 a rr:TriplesMap .
 
-_:node19lm7hoj1x1 km-dev:hasTriplesMap km-dev:TriplesMap_ca22abde-53a8-45bb-b955-a19e1afd5afd .
+_:node19lnc5hjdx1 km-dev:hasTriplesMap km-dev:TriplesMap_be2ae270-8964-4907-9e75-be495c12afc5 .
 
-km-dev:TriplesMap_ca22abde-53a8-45bb-b955-a19e1afd5afd km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:TriplesMap_be2ae270-8964-4907-9e75-be495c12afc5 km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x14 rr:tableName "cbev2.WebConAltNames.csv" ;
+_:node19lnc5hjdx14 rr:tableName "cbev2.WebConAltNames.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasLogicalTable _:node19lm7hoj1x14 .
+_:node19lnc5hjdx1 km-dev:hasLogicalTable _:node19lnc5hjdx14 .
 
-km-dev:TriplesMap_ca22abde-53a8-45bb-b955-a19e1afd5afd rr:logicalTable _:node19lm7hoj1x14 ;
-	rr:subjectMap _:node19lm7hoj1x15 .
+km-dev:TriplesMap_be2ae270-8964-4907-9e75-be495c12afc5 rr:logicalTable _:node19lnc5hjdx14 ;
+	rr:subjectMap _:node19lnc5hjdx15 .
 
-_:node19lm7hoj1x1 km-dev:hasSubjectMap _:node19lm7hoj1x15 .
+_:node19lnc5hjdx1 km-dev:hasSubjectMap _:node19lnc5hjdx15 .
 
-_:node19lm7hoj1x15 km-dev:isPartOfMapping _:node19lm7hoj1x1 ;
+_:node19lnc5hjdx15 km-dev:isPartOfMapping _:node19lnc5hjdx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E82_Actor_Appellation2" ;
 	rr:class crm:E82_Actor_Appellation ;
-	rr:termType rr:BlankNode ;
-	km-dev:namePrefix "crm:E82_Actor_Appellation2" .
+	rr:template "{FirstNameAppellationURI}" .
 
-km-dev:PredicateObjectMap_453b12ce-634c-45fa-bf8d-e548c70c6842 rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_cc5627d2-d8bb-4db6-ac52-d66be95d3134 rr:predicate crm:P2_has_type .
 
-km-dev:RefObjectMap_02a3f994-296a-4a7c-ab66-4374aaf142b7 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_b93fe010-4e35-4aee-aea5-47a5564e0cf9 ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:RefObjectMap_51a4d011-1e9d-49bc-b889-ee6915a69087 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_b788f9a8-d9d7-4739-9624-f5e2abc9949f ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasObjectMap km-dev:RefObjectMap_02a3f994-296a-4a7c-ab66-4374aaf142b7 .
+_:node19lnc5hjdx1 km-dev:hasObjectMap km-dev:RefObjectMap_51a4d011-1e9d-49bc-b889-ee6915a69087 .
 
-km-dev:PredicateObjectMap_453b12ce-634c-45fa-bf8d-e548c70c6842 rr:objectMap km-dev:RefObjectMap_02a3f994-296a-4a7c-ab66-4374aaf142b7 .
+km-dev:PredicateObjectMap_cc5627d2-d8bb-4db6-ac52-d66be95d3134 rr:objectMap km-dev:RefObjectMap_51a4d011-1e9d-49bc-b889-ee6915a69087 .
 
-km-dev:TriplesMap_ca22abde-53a8-45bb-b955-a19e1afd5afd rr:predicateObjectMap km-dev:PredicateObjectMap_453b12ce-634c-45fa-bf8d-e548c70c6842 .
+km-dev:TriplesMap_be2ae270-8964-4907-9e75-be495c12afc5 rr:predicateObjectMap km-dev:PredicateObjectMap_cc5627d2-d8bb-4db6-ac52-d66be95d3134 .
 
-km-dev:PredicateObjectMap_453b12ce-634c-45fa-bf8d-e548c70c6842 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:PredicateObjectMap_cc5627d2-d8bb-4db6-ac52-d66be95d3134 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_453b12ce-634c-45fa-bf8d-e548c70c6842 .
+_:node19lnc5hjdx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cc5627d2-d8bb-4db6-ac52-d66be95d3134 .
 
-km-dev:PredicateObjectMap_3bfaecb0-7a8a-48d9-81c8-69e3c45b8466 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_5b25596d-d595-4776-a93e-2ba53d6fcffb rr:predicate rdfs:label .
 
-_:node19lm7hoj1x16 rr:column "FirstName" ;
+_:node19lnc5hjdx16 rr:column "FirstName" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasObjectMap _:node19lm7hoj1x16 .
+_:node19lnc5hjdx1 km-dev:hasObjectMap _:node19lnc5hjdx16 .
 
-km-dev:PredicateObjectMap_3bfaecb0-7a8a-48d9-81c8-69e3c45b8466 rr:objectMap _:node19lm7hoj1x16 .
+km-dev:PredicateObjectMap_5b25596d-d595-4776-a93e-2ba53d6fcffb rr:objectMap _:node19lnc5hjdx16 .
 
-km-dev:TriplesMap_ca22abde-53a8-45bb-b955-a19e1afd5afd rr:predicateObjectMap km-dev:PredicateObjectMap_3bfaecb0-7a8a-48d9-81c8-69e3c45b8466 .
+km-dev:TriplesMap_be2ae270-8964-4907-9e75-be495c12afc5 rr:predicateObjectMap km-dev:PredicateObjectMap_5b25596d-d595-4776-a93e-2ba53d6fcffb .
 
-km-dev:PredicateObjectMap_3bfaecb0-7a8a-48d9-81c8-69e3c45b8466 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:PredicateObjectMap_5b25596d-d595-4776-a93e-2ba53d6fcffb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3bfaecb0-7a8a-48d9-81c8-69e3c45b8466 .
+_:node19lnc5hjdx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5b25596d-d595-4776-a93e-2ba53d6fcffb .
 
-km-dev:TriplesMap_996b7fea-2a91-4e53-8d76-35d47941b16d a rr:TriplesMap .
+km-dev:TriplesMap_66b758a4-a463-4346-b52e-4c68ade8d262 a rr:TriplesMap .
 
-_:node19lm7hoj1x1 km-dev:hasTriplesMap km-dev:TriplesMap_996b7fea-2a91-4e53-8d76-35d47941b16d .
+_:node19lnc5hjdx1 km-dev:hasTriplesMap km-dev:TriplesMap_66b758a4-a463-4346-b52e-4c68ade8d262 .
 
-km-dev:TriplesMap_996b7fea-2a91-4e53-8d76-35d47941b16d km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:TriplesMap_66b758a4-a463-4346-b52e-4c68ade8d262 km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x17 rr:tableName "cbev2.WebConAltNames.csv" ;
+_:node19lnc5hjdx17 rr:tableName "cbev2.WebConAltNames.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasLogicalTable _:node19lm7hoj1x17 .
+_:node19lnc5hjdx1 km-dev:hasLogicalTable _:node19lnc5hjdx17 .
 
-km-dev:TriplesMap_996b7fea-2a91-4e53-8d76-35d47941b16d rr:logicalTable _:node19lm7hoj1x17 ;
-	rr:subjectMap _:node19lm7hoj1x18 .
+km-dev:TriplesMap_66b758a4-a463-4346-b52e-4c68ade8d262 rr:logicalTable _:node19lnc5hjdx17 ;
+	rr:subjectMap _:node19lnc5hjdx18 .
 
-_:node19lm7hoj1x1 km-dev:hasSubjectMap _:node19lm7hoj1x18 .
+_:node19lnc5hjdx1 km-dev:hasSubjectMap _:node19lnc5hjdx18 .
 
-_:node19lm7hoj1x18 km-dev:isPartOfMapping _:node19lm7hoj1x1 ;
+_:node19lnc5hjdx18 km-dev:isPartOfMapping _:node19lnc5hjdx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E82_Actor_Appellation3" ;
 	rr:class crm:E82_Actor_Appellation ;
-	rr:termType rr:BlankNode ;
-	km-dev:namePrefix "crm:E82_Actor_Appellation3" .
+	rr:template "{LastNameAppellationURI}" .
 
-km-dev:PredicateObjectMap_e6bb40bb-f053-4a46-8476-f42437679bcc rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_5ba88840-7739-400d-b627-4b4f3be25695 rr:predicate crm:P2_has_type .
 
-km-dev:RefObjectMap_ddc9bddf-4f0a-4d2f-9f8a-cf7f404ad0cf a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_b09aadf9-7f41-4d0f-ae06-dd45ef3f82a3 ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:RefObjectMap_368ab57a-9a3a-4886-9db0-59c1698d5ddc a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_c67d7bc9-81bd-43f3-95de-edab15bc031a ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasObjectMap km-dev:RefObjectMap_ddc9bddf-4f0a-4d2f-9f8a-cf7f404ad0cf .
+_:node19lnc5hjdx1 km-dev:hasObjectMap km-dev:RefObjectMap_368ab57a-9a3a-4886-9db0-59c1698d5ddc .
 
-km-dev:PredicateObjectMap_e6bb40bb-f053-4a46-8476-f42437679bcc rr:objectMap km-dev:RefObjectMap_ddc9bddf-4f0a-4d2f-9f8a-cf7f404ad0cf .
+km-dev:PredicateObjectMap_5ba88840-7739-400d-b627-4b4f3be25695 rr:objectMap km-dev:RefObjectMap_368ab57a-9a3a-4886-9db0-59c1698d5ddc .
 
-km-dev:TriplesMap_996b7fea-2a91-4e53-8d76-35d47941b16d rr:predicateObjectMap km-dev:PredicateObjectMap_e6bb40bb-f053-4a46-8476-f42437679bcc .
+km-dev:TriplesMap_66b758a4-a463-4346-b52e-4c68ade8d262 rr:predicateObjectMap km-dev:PredicateObjectMap_5ba88840-7739-400d-b627-4b4f3be25695 .
 
-km-dev:PredicateObjectMap_e6bb40bb-f053-4a46-8476-f42437679bcc a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:PredicateObjectMap_5ba88840-7739-400d-b627-4b4f3be25695 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e6bb40bb-f053-4a46-8476-f42437679bcc .
+_:node19lnc5hjdx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5ba88840-7739-400d-b627-4b4f3be25695 .
 
-km-dev:PredicateObjectMap_051ff227-f4df-4dc7-b7a3-5b3a19ce8838 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_96e0f73a-6034-4716-b0cd-c2d3993338e2 rr:predicate rdfs:label .
 
-_:node19lm7hoj1x19 rr:column "LastName" ;
+_:node19lnc5hjdx19 rr:column "LastName" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasObjectMap _:node19lm7hoj1x19 .
+_:node19lnc5hjdx1 km-dev:hasObjectMap _:node19lnc5hjdx19 .
 
-km-dev:PredicateObjectMap_051ff227-f4df-4dc7-b7a3-5b3a19ce8838 rr:objectMap _:node19lm7hoj1x19 .
+km-dev:PredicateObjectMap_96e0f73a-6034-4716-b0cd-c2d3993338e2 rr:objectMap _:node19lnc5hjdx19 .
 
-km-dev:TriplesMap_996b7fea-2a91-4e53-8d76-35d47941b16d rr:predicateObjectMap km-dev:PredicateObjectMap_051ff227-f4df-4dc7-b7a3-5b3a19ce8838 .
+km-dev:TriplesMap_66b758a4-a463-4346-b52e-4c68ade8d262 rr:predicateObjectMap km-dev:PredicateObjectMap_96e0f73a-6034-4716-b0cd-c2d3993338e2 .
 
-km-dev:PredicateObjectMap_051ff227-f4df-4dc7-b7a3-5b3a19ce8838 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lm7hoj1x1 .
+km-dev:PredicateObjectMap_96e0f73a-6034-4716-b0cd-c2d3993338e2 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnc5hjdx1 .
 
-_:node19lm7hoj1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_051ff227-f4df-4dc7-b7a3-5b3a19ce8838 .
+_:node19lnc5hjdx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_96e0f73a-6034-4716-b0cd-c2d3993338e2 .

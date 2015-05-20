@@ -78,12 +78,12 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node19h5bdv6ux1 a km-dev:R2RMLMapping ;
+_:node19lnbmribx1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "cbev2.WebConDates.csv" ;
-	km-dev:modelPublicationTime "1427182648543"^^xsd:long ;
+	km-dev:modelPublicationTime "1432081886795"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"MonthEndSearch\"}],[{\"columnName\":\"MonthBegSearch\"}],[{\"columnName\":\"DayEndSearch\"}],[{\"columnName\":\"DayBegSearch\"}],[{\"columnName\":\"DateBegSearch\"}],[{\"columnName\":\"DateEndSearch\"}],[{\"columnName\":\"ConstituentID\"}],[{\"columnName\":\"DateDescription\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"BirthEndDateLabel\"}],[{\"columnName\":\"DayBegSearch_2Dig\"}],[{\"columnName\":\"DeathBegDateLabel\"}],[{\"columnName\":\"BirthBegDateLabel\"}],[{\"columnName\":\"DeathDateURI\"}],[{\"columnName\":\"DeathURI\"}],[{\"columnName\":\"BirthURI\"}],[{\"columnName\":\"MonthEndSearch_2Dig\"}],[{\"columnName\":\"DayEndSearch_2Dig\"}],[{\"columnName\":\"PersonInstitutionURI\"}],[{\"columnName\":\"DeathEndDateLabel\"}],[{\"columnName\":\"MonthBegSearch_2Dig\"}],[{\"columnName\":\"BirthDateURI\"}]]" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"DateEndSearch\"}],[{\"columnName\":\"MonthEndSearch\"}],[{\"columnName\":\"MonthBegSearch\"}],[{\"columnName\":\"DayEndSearch\"}],[{\"columnName\":\"DayBegSearch\"}],[{\"columnName\":\"ConstituentID\"}],[{\"columnName\":\"DateDescription\"}],[{\"columnName\":\"DateBegSearch\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"MonthEndSearch_2Dig\"}],[{\"columnName\":\"BirthBegDateLabel\"}],[{\"columnName\":\"DeathDateURI\"}],[{\"columnName\":\"DeathDateLabel\"}],[{\"columnName\":\"BirthEndDateLabel\"}],[{\"columnName\":\"DayBegSearch_2Dig\"}],[{\"columnName\":\"MonthBegSearch_2Dig\"}],[{\"columnName\":\"DeathEndDateLabel\"}],[{\"columnName\":\"DeathURI\"}],[{\"columnName\":\"BirthDateURI\"}],[{\"columnName\":\"DeathBegDateLabel\"}],[{\"columnName\":\"DayEndSearch_2Dig\"}],[{\"columnName\":\"PersonInstitutionURI\"}],[{\"columnName\":\"BirthURI\"}],[{\"columnName\":\"BirthDateLabel\"}]]" ;
 	km-dev:hasModelLabel "cbev2.WebConDates.csv" ;
 	km-dev:hasBaseURI "http://localhost:8080/source/" ;
 	km-dev:hasWorksheetHistory """[
@@ -653,7 +653,7 @@ _:node19h5bdv6ux1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"inputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"DayBegSearch_2Dig\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthBegSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DayBegSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateBegSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthBegSearch_2Dig\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateDescription\\\"}]}]\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"DayBegSearch_2Dig\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthBegSearch_2Dig\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthBegSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DayBegSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateDescription\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateBegSearch\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             },
             {
@@ -704,7 +704,7 @@ _:node19h5bdv6ux1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"inputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthEndSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateEndSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateDescription\\\"}]}]\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"DateEndSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthEndSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateDescription\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             },
             {
@@ -755,7 +755,7 @@ _:node19h5bdv6ux1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"inputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthEndSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DayEndSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthEndSearch_2Dig\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DayEndSearch_2Dig\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateEndSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateDescription\\\"}]}]\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthEndSearch_2Dig\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateEndSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthEndSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DayEndSearch_2Dig\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DayEndSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateDescription\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             },
             {
@@ -806,7 +806,7 @@ _:node19h5bdv6ux1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"inputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"DayBegSearch_2Dig\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthBegSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DayBegSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateBegSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthBegSearch_2Dig\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateDescription\\\"}]}]\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"DayBegSearch_2Dig\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthBegSearch_2Dig\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"MonthBegSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DayBegSearch\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateDescription\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DateBegSearch\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             },
             {
@@ -1624,257 +1624,604 @@ _:node19h5bdv6ux1 a km-dev:R2RMLMapping ;
             }
         ],
         \"commandName\": \"SetSemanticTypeCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"DeathEndDateLabel\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"BirthDateLabel\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"if getValue(\\\"BirthBegDateLabel\\\")\\n    return getValue(\\\"BirthBegDateLabel\\\")\\nelse:\\n    return getValue(\\\"BirthEndDateLabel\\\")\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"DeathEndDateLabel\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"BirthDateLabel\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"if getValue(\\\"BirthBegDateLabel\\\"):\\n    return getValue(\\\"BirthBegDateLabel\\\")\\nelse:\\n    return getValue(\\\"BirthEndDateLabel\\\")\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthBegDateLabel\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthEndDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"BirthDateLabel\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"DeathDateLabel\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"if getValue(\\\"DeathBegDateLabel\\\"):\\n    return getValue(\\\"DeathBegDateLabel\\\")\\nelse:\\n    return getValue(\\\"DeathEndDateLabel\\\")\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"DeathEndDateLabel\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"DeathBegDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"DeathDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"BirthBegDateLabel\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthBegDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthBegDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"UnassignSemanticTypeCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"DeathBegDateLabel\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"DeathBegDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"DeathBegDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"UnassignSemanticTypeCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"BirthDateLabel\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://erlangen-crm.org/current/P82_at_some_time_within\",
+                    \"DomainLabel\": \"crm:E52_Time-Span1\",
+                    \"DomainId\": \"http://erlangen-crm.org/current/E52_Time-Span1\",
+                    \"DomainUri\": \"http://erlangen-crm.org/current/E52_Time-Span\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetSemanticTypeCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"BirthEndDateLabel\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthEndDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"BirthEndDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"UnassignSemanticTypeCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"DeathDateLabel\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://erlangen-crm.org/current/P82_at_some_time_within\",
+                    \"DomainLabel\": \"crm:E52_Time-Span2\",
+                    \"DomainId\": \"http://erlangen-crm.org/current/E52_Time-Span2\",
+                    \"DomainUri\": \"http://erlangen-crm.org/current/E52_Time-Span\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"DeathDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"DeathDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetSemanticTypeCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"DeathEndDateLabel\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"DeathEndDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"DeathEndDateLabel\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"UnassignSemanticTypeCommand\"
     }
 ]""" .
 
-km-dev:TriplesMap_a8ee7229-c2b4-448d-a330-99028031fa5a a rr:TriplesMap .
+km-dev:TriplesMap_9fc21d57-a8a5-4073-906d-73a26f19e221 a rr:TriplesMap .
 
-_:node19h5bdv6ux1 km-dev:hasTriplesMap km-dev:TriplesMap_a8ee7229-c2b4-448d-a330-99028031fa5a .
+_:node19lnbmribx1 km-dev:hasTriplesMap km-dev:TriplesMap_9fc21d57-a8a5-4073-906d-73a26f19e221 .
 
-km-dev:TriplesMap_a8ee7229-c2b4-448d-a330-99028031fa5a km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:TriplesMap_9fc21d57-a8a5-4073-906d-73a26f19e221 km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux2 rr:tableName "cbev2.WebConDates.csv" ;
+_:node19lnbmribx2 rr:tableName "cbev2.WebConDates.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasLogicalTable _:node19h5bdv6ux2 .
+_:node19lnbmribx1 km-dev:hasLogicalTable _:node19lnbmribx2 .
 
-km-dev:TriplesMap_a8ee7229-c2b4-448d-a330-99028031fa5a rr:logicalTable _:node19h5bdv6ux2 ;
-	rr:subjectMap _:node19h5bdv6ux3 .
+km-dev:TriplesMap_9fc21d57-a8a5-4073-906d-73a26f19e221 rr:logicalTable _:node19lnbmribx2 ;
+	rr:subjectMap _:node19lnbmribx3 .
 
-_:node19h5bdv6ux1 km-dev:hasSubjectMap _:node19h5bdv6ux3 .
+_:node19lnbmribx1 km-dev:hasSubjectMap _:node19lnbmribx3 .
 
-_:node19h5bdv6ux3 km-dev:isPartOfMapping _:node19h5bdv6ux1 ;
+_:node19lnbmribx3 km-dev:isPartOfMapping _:node19lnbmribx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E21_Person1" ;
 	rr:class crm:E21_Person ;
 	rr:template "person-institution/{ConstituentID}" ;
 	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_1595260a-8d87-44f2-a0c0-68e939dceb7d rr:predicate crm:P100i_died_in .
+km-dev:PredicateObjectMap_8303a07c-32c4-400b-b61b-0ca14e56079e rr:predicate crm:P100i_died_in .
 
-km-dev:RefObjectMap_73778092-d9cf-40bb-86db-3a27cb71a926 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_e7e2f253-6506-4235-8637-59b8cfe94302 ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:RefObjectMap_7b74e669-d89b-4f96-bcf1-53af29ffec02 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_29e24213-24bb-4e42-8cc5-7c38553837e1 ;
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasObjectMap km-dev:RefObjectMap_73778092-d9cf-40bb-86db-3a27cb71a926 .
+_:node19lnbmribx1 km-dev:hasObjectMap km-dev:RefObjectMap_7b74e669-d89b-4f96-bcf1-53af29ffec02 .
 
-km-dev:PredicateObjectMap_1595260a-8d87-44f2-a0c0-68e939dceb7d rr:objectMap km-dev:RefObjectMap_73778092-d9cf-40bb-86db-3a27cb71a926 .
+km-dev:PredicateObjectMap_8303a07c-32c4-400b-b61b-0ca14e56079e rr:objectMap km-dev:RefObjectMap_7b74e669-d89b-4f96-bcf1-53af29ffec02 .
 
-km-dev:TriplesMap_a8ee7229-c2b4-448d-a330-99028031fa5a rr:predicateObjectMap km-dev:PredicateObjectMap_1595260a-8d87-44f2-a0c0-68e939dceb7d .
+km-dev:TriplesMap_9fc21d57-a8a5-4073-906d-73a26f19e221 rr:predicateObjectMap km-dev:PredicateObjectMap_8303a07c-32c4-400b-b61b-0ca14e56079e .
 
-km-dev:PredicateObjectMap_1595260a-8d87-44f2-a0c0-68e939dceb7d a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:PredicateObjectMap_8303a07c-32c4-400b-b61b-0ca14e56079e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1595260a-8d87-44f2-a0c0-68e939dceb7d .
+_:node19lnbmribx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8303a07c-32c4-400b-b61b-0ca14e56079e .
 
-km-dev:PredicateObjectMap_8504633c-e769-42f9-b38e-567e59edaae3 rr:predicate crm:P98i_was_born .
+km-dev:PredicateObjectMap_3e51a02c-ae35-4ec5-a696-5be1b8d56ba6 rr:predicate crm:P98i_was_born .
 
-km-dev:RefObjectMap_133814a4-7db9-4fa7-a38a-2d534d9f5104 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_1a1d8d32-53a8-46cf-a622-50bab9fefcf0 ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:RefObjectMap_aff4cb21-8cfe-4b18-8e8f-6ddd8be53c5c a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_1e4362de-cff6-4ce3-af59-64d9484fcc2b ;
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasObjectMap km-dev:RefObjectMap_133814a4-7db9-4fa7-a38a-2d534d9f5104 .
+_:node19lnbmribx1 km-dev:hasObjectMap km-dev:RefObjectMap_aff4cb21-8cfe-4b18-8e8f-6ddd8be53c5c .
 
-km-dev:PredicateObjectMap_8504633c-e769-42f9-b38e-567e59edaae3 rr:objectMap km-dev:RefObjectMap_133814a4-7db9-4fa7-a38a-2d534d9f5104 .
+km-dev:PredicateObjectMap_3e51a02c-ae35-4ec5-a696-5be1b8d56ba6 rr:objectMap km-dev:RefObjectMap_aff4cb21-8cfe-4b18-8e8f-6ddd8be53c5c .
 
-km-dev:TriplesMap_a8ee7229-c2b4-448d-a330-99028031fa5a rr:predicateObjectMap km-dev:PredicateObjectMap_8504633c-e769-42f9-b38e-567e59edaae3 .
+km-dev:TriplesMap_9fc21d57-a8a5-4073-906d-73a26f19e221 rr:predicateObjectMap km-dev:PredicateObjectMap_3e51a02c-ae35-4ec5-a696-5be1b8d56ba6 .
 
-km-dev:PredicateObjectMap_8504633c-e769-42f9-b38e-567e59edaae3 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:PredicateObjectMap_3e51a02c-ae35-4ec5-a696-5be1b8d56ba6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8504633c-e769-42f9-b38e-567e59edaae3 .
+_:node19lnbmribx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3e51a02c-ae35-4ec5-a696-5be1b8d56ba6 .
 
-km-dev:TriplesMap_e7e2f253-6506-4235-8637-59b8cfe94302 a rr:TriplesMap .
+km-dev:TriplesMap_29e24213-24bb-4e42-8cc5-7c38553837e1 a rr:TriplesMap .
 
-_:node19h5bdv6ux1 km-dev:hasTriplesMap km-dev:TriplesMap_e7e2f253-6506-4235-8637-59b8cfe94302 .
+_:node19lnbmribx1 km-dev:hasTriplesMap km-dev:TriplesMap_29e24213-24bb-4e42-8cc5-7c38553837e1 .
 
-km-dev:TriplesMap_e7e2f253-6506-4235-8637-59b8cfe94302 km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:TriplesMap_29e24213-24bb-4e42-8cc5-7c38553837e1 km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux4 rr:tableName "cbev2.WebConDates.csv" ;
+_:node19lnbmribx4 rr:tableName "cbev2.WebConDates.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasLogicalTable _:node19h5bdv6ux4 .
+_:node19lnbmribx1 km-dev:hasLogicalTable _:node19lnbmribx4 .
 
-km-dev:TriplesMap_e7e2f253-6506-4235-8637-59b8cfe94302 rr:logicalTable _:node19h5bdv6ux4 ;
-	rr:subjectMap _:node19h5bdv6ux5 .
+km-dev:TriplesMap_29e24213-24bb-4e42-8cc5-7c38553837e1 rr:logicalTable _:node19lnbmribx4 ;
+	rr:subjectMap _:node19lnbmribx5 .
 
-_:node19h5bdv6ux1 km-dev:hasSubjectMap _:node19h5bdv6ux5 .
+_:node19lnbmribx1 km-dev:hasSubjectMap _:node19lnbmribx5 .
 
-_:node19h5bdv6ux5 km-dev:isPartOfMapping _:node19h5bdv6ux1 ;
+_:node19lnbmribx5 km-dev:isPartOfMapping _:node19lnbmribx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E69_Death1" ;
 	rr:class crm:E69_Death ;
 	rr:template "{DeathURI}" .
 
-km-dev:PredicateObjectMap_6c30cb70-cf28-42b8-83ef-2675772bd0c4 rr:predicate crm:P4_has_time-span .
+km-dev:PredicateObjectMap_89c5abdd-097e-457b-884e-8d18fca11131 rr:predicate crm:P4_has_time-span .
 
-km-dev:RefObjectMap_2c399403-f1da-4a6a-abbe-c148ef8392a9 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_02faf4e1-edc0-49a3-94e3-09f5c78833d0 ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:RefObjectMap_84d0aea2-891f-4c82-be79-8a23bbdbcdac a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_ff3a4ddb-21d4-482d-8d61-e1556e0cd5e0 ;
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasObjectMap km-dev:RefObjectMap_2c399403-f1da-4a6a-abbe-c148ef8392a9 .
+_:node19lnbmribx1 km-dev:hasObjectMap km-dev:RefObjectMap_84d0aea2-891f-4c82-be79-8a23bbdbcdac .
 
-km-dev:PredicateObjectMap_6c30cb70-cf28-42b8-83ef-2675772bd0c4 rr:objectMap km-dev:RefObjectMap_2c399403-f1da-4a6a-abbe-c148ef8392a9 .
+km-dev:PredicateObjectMap_89c5abdd-097e-457b-884e-8d18fca11131 rr:objectMap km-dev:RefObjectMap_84d0aea2-891f-4c82-be79-8a23bbdbcdac .
 
-km-dev:TriplesMap_e7e2f253-6506-4235-8637-59b8cfe94302 rr:predicateObjectMap km-dev:PredicateObjectMap_6c30cb70-cf28-42b8-83ef-2675772bd0c4 .
+km-dev:TriplesMap_29e24213-24bb-4e42-8cc5-7c38553837e1 rr:predicateObjectMap km-dev:PredicateObjectMap_89c5abdd-097e-457b-884e-8d18fca11131 .
 
-km-dev:PredicateObjectMap_6c30cb70-cf28-42b8-83ef-2675772bd0c4 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:PredicateObjectMap_89c5abdd-097e-457b-884e-8d18fca11131 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6c30cb70-cf28-42b8-83ef-2675772bd0c4 .
+_:node19lnbmribx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_89c5abdd-097e-457b-884e-8d18fca11131 .
 
-km-dev:TriplesMap_1a1d8d32-53a8-46cf-a622-50bab9fefcf0 a rr:TriplesMap .
+km-dev:TriplesMap_1e4362de-cff6-4ce3-af59-64d9484fcc2b a rr:TriplesMap .
 
-_:node19h5bdv6ux1 km-dev:hasTriplesMap km-dev:TriplesMap_1a1d8d32-53a8-46cf-a622-50bab9fefcf0 .
+_:node19lnbmribx1 km-dev:hasTriplesMap km-dev:TriplesMap_1e4362de-cff6-4ce3-af59-64d9484fcc2b .
 
-km-dev:TriplesMap_1a1d8d32-53a8-46cf-a622-50bab9fefcf0 km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:TriplesMap_1e4362de-cff6-4ce3-af59-64d9484fcc2b km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux6 rr:tableName "cbev2.WebConDates.csv" ;
+_:node19lnbmribx6 rr:tableName "cbev2.WebConDates.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasLogicalTable _:node19h5bdv6ux6 .
+_:node19lnbmribx1 km-dev:hasLogicalTable _:node19lnbmribx6 .
 
-km-dev:TriplesMap_1a1d8d32-53a8-46cf-a622-50bab9fefcf0 rr:logicalTable _:node19h5bdv6ux6 ;
-	rr:subjectMap _:node19h5bdv6ux7 .
+km-dev:TriplesMap_1e4362de-cff6-4ce3-af59-64d9484fcc2b rr:logicalTable _:node19lnbmribx6 ;
+	rr:subjectMap _:node19lnbmribx7 .
 
-_:node19h5bdv6ux1 km-dev:hasSubjectMap _:node19h5bdv6ux7 .
+_:node19lnbmribx1 km-dev:hasSubjectMap _:node19lnbmribx7 .
 
-_:node19h5bdv6ux7 km-dev:isPartOfMapping _:node19h5bdv6ux1 ;
+_:node19lnbmribx7 km-dev:isPartOfMapping _:node19lnbmribx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E67_Birth1" ;
 	rr:class crm:E67_Birth ;
 	rr:template "{BirthURI}" .
 
-km-dev:PredicateObjectMap_0328ab17-8303-4ae4-b9d1-fa84795601fa rr:predicate crm:P4_has_time-span .
+km-dev:PredicateObjectMap_47bbf820-f710-42cb-afcb-d96c26da85b9 rr:predicate crm:P4_has_time-span .
 
-km-dev:RefObjectMap_454afb99-a804-485b-9028-d91c4b0669d4 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_c03c2200-b6e6-400c-b9b3-ca09fd551f37 ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:RefObjectMap_90578a2b-2a92-4417-b774-700861859981 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_b0c0bda6-51a8-4fd7-bf77-c6bc41f8841c ;
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasObjectMap km-dev:RefObjectMap_454afb99-a804-485b-9028-d91c4b0669d4 .
+_:node19lnbmribx1 km-dev:hasObjectMap km-dev:RefObjectMap_90578a2b-2a92-4417-b774-700861859981 .
 
-km-dev:PredicateObjectMap_0328ab17-8303-4ae4-b9d1-fa84795601fa rr:objectMap km-dev:RefObjectMap_454afb99-a804-485b-9028-d91c4b0669d4 .
+km-dev:PredicateObjectMap_47bbf820-f710-42cb-afcb-d96c26da85b9 rr:objectMap km-dev:RefObjectMap_90578a2b-2a92-4417-b774-700861859981 .
 
-km-dev:TriplesMap_1a1d8d32-53a8-46cf-a622-50bab9fefcf0 rr:predicateObjectMap km-dev:PredicateObjectMap_0328ab17-8303-4ae4-b9d1-fa84795601fa .
+km-dev:TriplesMap_1e4362de-cff6-4ce3-af59-64d9484fcc2b rr:predicateObjectMap km-dev:PredicateObjectMap_47bbf820-f710-42cb-afcb-d96c26da85b9 .
 
-km-dev:PredicateObjectMap_0328ab17-8303-4ae4-b9d1-fa84795601fa a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:PredicateObjectMap_47bbf820-f710-42cb-afcb-d96c26da85b9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0328ab17-8303-4ae4-b9d1-fa84795601fa .
+_:node19lnbmribx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_47bbf820-f710-42cb-afcb-d96c26da85b9 .
 
-km-dev:TriplesMap_c03c2200-b6e6-400c-b9b3-ca09fd551f37 a rr:TriplesMap .
+km-dev:TriplesMap_b0c0bda6-51a8-4fd7-bf77-c6bc41f8841c a rr:TriplesMap .
 
-_:node19h5bdv6ux1 km-dev:hasTriplesMap km-dev:TriplesMap_c03c2200-b6e6-400c-b9b3-ca09fd551f37 .
+_:node19lnbmribx1 km-dev:hasTriplesMap km-dev:TriplesMap_b0c0bda6-51a8-4fd7-bf77-c6bc41f8841c .
 
-km-dev:TriplesMap_c03c2200-b6e6-400c-b9b3-ca09fd551f37 km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:TriplesMap_b0c0bda6-51a8-4fd7-bf77-c6bc41f8841c km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux8 rr:tableName "cbev2.WebConDates.csv" ;
+_:node19lnbmribx8 rr:tableName "cbev2.WebConDates.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasLogicalTable _:node19h5bdv6ux8 .
+_:node19lnbmribx1 km-dev:hasLogicalTable _:node19lnbmribx8 .
 
-km-dev:TriplesMap_c03c2200-b6e6-400c-b9b3-ca09fd551f37 rr:logicalTable _:node19h5bdv6ux8 ;
-	rr:subjectMap _:node19h5bdv6ux9 .
+km-dev:TriplesMap_b0c0bda6-51a8-4fd7-bf77-c6bc41f8841c rr:logicalTable _:node19lnbmribx8 ;
+	rr:subjectMap _:node19lnbmribx9 .
 
-_:node19h5bdv6ux1 km-dev:hasSubjectMap _:node19h5bdv6ux9 .
+_:node19lnbmribx1 km-dev:hasSubjectMap _:node19lnbmribx9 .
 
-_:node19h5bdv6ux9 km-dev:isPartOfMapping _:node19h5bdv6ux1 ;
+_:node19lnbmribx9 km-dev:isPartOfMapping _:node19lnbmribx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E52_Time-Span1" ;
 	rr:class crm:E52_Time-Span ;
 	rr:template "{BirthDateURI}" .
 
-km-dev:PredicateObjectMap_f419fe21-ba25-4359-af55-cf4a2e296412 rr:predicate crm:P82a_begin_of_the_begin .
+km-dev:PredicateObjectMap_60606f3d-61c0-4f88-9b84-1fdf8078a115 rr:predicate crm:P82_at_some_time_within .
 
-_:node19h5bdv6ux10 rr:column "BirthBegDateLabel" ;
+_:node19lnbmribx10 rr:column "BirthDateLabel" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasObjectMap _:node19h5bdv6ux10 .
+_:node19lnbmribx1 km-dev:hasObjectMap _:node19lnbmribx10 .
 
-km-dev:PredicateObjectMap_f419fe21-ba25-4359-af55-cf4a2e296412 rr:objectMap _:node19h5bdv6ux10 .
+km-dev:PredicateObjectMap_60606f3d-61c0-4f88-9b84-1fdf8078a115 rr:objectMap _:node19lnbmribx10 .
 
-km-dev:TriplesMap_c03c2200-b6e6-400c-b9b3-ca09fd551f37 rr:predicateObjectMap km-dev:PredicateObjectMap_f419fe21-ba25-4359-af55-cf4a2e296412 .
+km-dev:TriplesMap_b0c0bda6-51a8-4fd7-bf77-c6bc41f8841c rr:predicateObjectMap km-dev:PredicateObjectMap_60606f3d-61c0-4f88-9b84-1fdf8078a115 .
 
-km-dev:PredicateObjectMap_f419fe21-ba25-4359-af55-cf4a2e296412 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:PredicateObjectMap_60606f3d-61c0-4f88-9b84-1fdf8078a115 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f419fe21-ba25-4359-af55-cf4a2e296412 .
+_:node19lnbmribx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_60606f3d-61c0-4f88-9b84-1fdf8078a115 .
 
-km-dev:PredicateObjectMap_098cb7ba-48e6-4023-9303-29d48abf5923 rr:predicate crm:P82b_end_of_the_end .
+km-dev:TriplesMap_ff3a4ddb-21d4-482d-8d61-e1556e0cd5e0 a rr:TriplesMap .
 
-_:node19h5bdv6ux11 rr:column "BirthEndDateLabel" ;
-	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+_:node19lnbmribx1 km-dev:hasTriplesMap km-dev:TriplesMap_ff3a4ddb-21d4-482d-8d61-e1556e0cd5e0 .
 
-_:node19h5bdv6ux1 km-dev:hasObjectMap _:node19h5bdv6ux11 .
+km-dev:TriplesMap_ff3a4ddb-21d4-482d-8d61-e1556e0cd5e0 km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-km-dev:PredicateObjectMap_098cb7ba-48e6-4023-9303-29d48abf5923 rr:objectMap _:node19h5bdv6ux11 .
-
-km-dev:TriplesMap_c03c2200-b6e6-400c-b9b3-ca09fd551f37 rr:predicateObjectMap km-dev:PredicateObjectMap_098cb7ba-48e6-4023-9303-29d48abf5923 .
-
-km-dev:PredicateObjectMap_098cb7ba-48e6-4023-9303-29d48abf5923 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
-
-_:node19h5bdv6ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_098cb7ba-48e6-4023-9303-29d48abf5923 .
-
-km-dev:TriplesMap_02faf4e1-edc0-49a3-94e3-09f5c78833d0 a rr:TriplesMap .
-
-_:node19h5bdv6ux1 km-dev:hasTriplesMap km-dev:TriplesMap_02faf4e1-edc0-49a3-94e3-09f5c78833d0 .
-
-km-dev:TriplesMap_02faf4e1-edc0-49a3-94e3-09f5c78833d0 km-dev:isPartOfMapping _:node19h5bdv6ux1 .
-
-_:node19h5bdv6ux12 rr:tableName "cbev2.WebConDates.csv" ;
+_:node19lnbmribx11 rr:tableName "cbev2.WebConDates.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasLogicalTable _:node19h5bdv6ux12 .
+_:node19lnbmribx1 km-dev:hasLogicalTable _:node19lnbmribx11 .
 
-km-dev:TriplesMap_02faf4e1-edc0-49a3-94e3-09f5c78833d0 rr:logicalTable _:node19h5bdv6ux12 ;
-	rr:subjectMap _:node19h5bdv6ux13 .
+km-dev:TriplesMap_ff3a4ddb-21d4-482d-8d61-e1556e0cd5e0 rr:logicalTable _:node19lnbmribx11 ;
+	rr:subjectMap _:node19lnbmribx12 .
 
-_:node19h5bdv6ux1 km-dev:hasSubjectMap _:node19h5bdv6ux13 .
+_:node19lnbmribx1 km-dev:hasSubjectMap _:node19lnbmribx12 .
 
-_:node19h5bdv6ux13 km-dev:isPartOfMapping _:node19h5bdv6ux1 ;
+_:node19lnbmribx12 km-dev:isPartOfMapping _:node19lnbmribx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E52_Time-Span2" ;
 	rr:class crm:E52_Time-Span ;
 	rr:template "{DeathDateURI}" .
 
-km-dev:PredicateObjectMap_065323e4-d76d-41c7-9f36-025145a0750d rr:predicate crm:P82a_begin_of_the_begin .
+km-dev:PredicateObjectMap_0a5bdd3a-0a48-4f30-a87c-c2b3ec0af52e rr:predicate crm:P82_at_some_time_within .
 
-_:node19h5bdv6ux14 rr:column "DeathBegDateLabel" ;
+_:node19lnbmribx13 rr:column "DeathDateLabel" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasObjectMap _:node19h5bdv6ux14 .
+_:node19lnbmribx1 km-dev:hasObjectMap _:node19lnbmribx13 .
 
-km-dev:PredicateObjectMap_065323e4-d76d-41c7-9f36-025145a0750d rr:objectMap _:node19h5bdv6ux14 .
+km-dev:PredicateObjectMap_0a5bdd3a-0a48-4f30-a87c-c2b3ec0af52e rr:objectMap _:node19lnbmribx13 .
 
-km-dev:TriplesMap_02faf4e1-edc0-49a3-94e3-09f5c78833d0 rr:predicateObjectMap km-dev:PredicateObjectMap_065323e4-d76d-41c7-9f36-025145a0750d .
+km-dev:TriplesMap_ff3a4ddb-21d4-482d-8d61-e1556e0cd5e0 rr:predicateObjectMap km-dev:PredicateObjectMap_0a5bdd3a-0a48-4f30-a87c-c2b3ec0af52e .
 
-km-dev:PredicateObjectMap_065323e4-d76d-41c7-9f36-025145a0750d a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
+km-dev:PredicateObjectMap_0a5bdd3a-0a48-4f30-a87c-c2b3ec0af52e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19lnbmribx1 .
 
-_:node19h5bdv6ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_065323e4-d76d-41c7-9f36-025145a0750d .
-
-km-dev:PredicateObjectMap_8fcfd3dc-7dde-463a-844f-d7e80e344716 rr:predicate crm:P82b_end_of_the_end .
-
-_:node19h5bdv6ux15 rr:column "DeathEndDateLabel" ;
-	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
-
-_:node19h5bdv6ux1 km-dev:hasObjectMap _:node19h5bdv6ux15 .
-
-km-dev:PredicateObjectMap_8fcfd3dc-7dde-463a-844f-d7e80e344716 rr:objectMap _:node19h5bdv6ux15 .
-
-km-dev:TriplesMap_02faf4e1-edc0-49a3-94e3-09f5c78833d0 rr:predicateObjectMap km-dev:PredicateObjectMap_8fcfd3dc-7dde-463a-844f-d7e80e344716 .
-
-km-dev:PredicateObjectMap_8fcfd3dc-7dde-463a-844f-d7e80e344716 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19h5bdv6ux1 .
-
-_:node19h5bdv6ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8fcfd3dc-7dde-463a-844f-d7e80e344716 .
+_:node19lnbmribx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0a5bdd3a-0a48-4f30-a87c-c2b3ec0af52e .

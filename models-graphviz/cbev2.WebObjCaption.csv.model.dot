@@ -11,7 +11,7 @@ n5[shape="plaintext",style="filled",fillcolor="gold",label="ProductionURI"];
 n6[style="filled",color="white",fillcolor="lightgray",label="E22_Man-Made_Object1"];
 n7[style="filled",color="white",fillcolor="lightgray",label="E35_Title1"];
 n8[style="filled",color="white",fillcolor="lightgray",label="E30_Right1"];
-n9[style="filled",color="white",fillcolor="lightgray",label="E55_Type3"];
+n9[style="filled",color="white",fillcolor="lightgray",label="E55_Type4"];
 n10[style="filled",color="white",fillcolor="lightgray",label="E54_Dimension1"];
 n11[style="filled",color="white",fillcolor="lightgray",label="E42_Identifier2"];
 n12[style="filled",color="white",fillcolor="lightgray",label="E40_Legal_Body1"];
@@ -33,8 +33,8 @@ n27[shape="plaintext",style="filled",fillcolor="gold",label="dated"];
 n28[shape="plaintext",style="filled",fillcolor="gold",label="Dimensions"];
 n29[shape="plaintext",style="filled",fillcolor="gold",label="DimensionURI"];
 n30[shape="plaintext",style="filled",fillcolor="gold",label="ObjnumTypeURI"];
-n31[shape="plaintext",style="filled",fillcolor="gold",label="ClassificationURI"];
-n32[style="filled",color="white",fillcolor="lightgray",label="E55_Type4"];
+n31[style="filled",color="white",fillcolor="lightgray",label="E55_Type3"];
+n32[shape="plaintext",style="filled",fillcolor="gold",label="ClassificationURI"];
 n33[shape="plaintext",style="filled",fillcolor="gold",label="SubClassificationURI"];
 n34[style="filled",color="white",fillcolor="lightgray",label="E8_Acquisition1"];
 n35[shape="plaintext",style="filled",fillcolor="gold",label="Creditline"];
@@ -68,12 +68,11 @@ n4 -> n27[color="brown",fontcolor="black",label="label"]
 n10 -> n28[color="brown",fontcolor="black",label="P3_has_note"]
 n10 -> n29[color="brown",fontcolor="black",label="classLink"]
 n21 -> n30[color="brown",fontcolor="black",label="classLink"]
-n9 -> n31[color="brown",fontcolor="black",label="classLink"]
-n32 -> n9[color="brown",fontcolor="black",label="P127_has_broader_term"]
-n32 -> n33[color="brown",fontcolor="black",label="classLink"]
+n31 -> n32[color="brown",fontcolor="black",label="classLink"]
+n9 -> n31[color="brown",fontcolor="black",label="P127_has_broader_term"]
+n9 -> n33[color="brown",fontcolor="black",label="classLink"]
 n34 -> n12[color="brown",fontcolor="black",label="P22_transferred_title_to"]
 n34 -> n35[color="brown",fontcolor="black",label="P3_has_note"]
 n34 -> n36[color="brown",fontcolor="black",label="classLink"]
 n6 -> n34[color="brown",fontcolor="black",label="P24i_changed_ownership_through"]
-n6 -> n32[color="brown",fontcolor="black",label="P2_has_type"]
 }
