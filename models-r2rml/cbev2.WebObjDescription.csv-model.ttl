@@ -85,7 +85,7 @@ _:node19hse0qeqx1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"Description\"}],[{\"columnName\":\"TextType\"}],[{\"columnName\":\"ObjectNumber\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"Description\"}],[{\"columnName\":\"TextType\"}],[{\"columnName\":\"ObjectURI\"}],[{\"columnName\":\"TextTypeURI\"}],[{\"columnName\":\"InformationObjectURI\"}]]" ;
 	km-dev:hasModelLabel "cbev2.WebObjDescription.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],

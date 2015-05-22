@@ -85,7 +85,7 @@ _:node19lmbdqe2x1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"Classification\"}],[{\"columnName\":\"SubClassification\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"Classification\"}],[{\"columnName\":\"SubClassification\"}],[{\"columnName\":\"SubClassificationURI\"}],[{\"columnName\":\"ClassificationURI\"}],[{\"columnName\":\"ConceptSchemeURI\"}]]" ;
 	km-dev:hasModelLabel "dbo.Classification_view.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],

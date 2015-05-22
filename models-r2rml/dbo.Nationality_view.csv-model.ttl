@@ -85,7 +85,7 @@ _:node19lmn2jlax1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"Nationality\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"NationalityConceptSchemeURI\"}],[{\"columnName\":\"NationalityLabel\"}],[{\"columnName\":\"NationalityThesauriURI\"}]]" ;
 	km-dev:hasModelLabel "dbo.Nationality_view.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],

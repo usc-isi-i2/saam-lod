@@ -85,7 +85,7 @@ _:node19hsfbvtgx1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"PrimaryBio\"}],[{\"columnName\":\"TextType\"}],[{\"columnName\":\"BioDsp\"}],[{\"columnName\":\"TextTypeLabel\"}],[{\"columnName\":\"ConstituentID\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"BioDsp\"}],[{\"columnName\":\"TextTypeLabel\"}],[{\"columnName\":\"PersonInstitutionURI\"}],[{\"columnName\":\"TextTypeURI\"}]]" ;
 	km-dev:hasModelLabel "cbev2.WebArtistBio.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],

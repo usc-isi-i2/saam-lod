@@ -85,7 +85,7 @@ _:node19i06aicex1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"Country\"}],[{\"columnName\":\"County\"}],[{\"columnName\":\"State\"}],[{\"columnName\":\"City\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"StateURI\"}],[{\"columnName\":\"CountyURI\"}],[{\"columnName\":\"Country\"}],[{\"columnName\":\"CountryURI\"}],[{\"columnName\":\"CountyTypeURI\"}],[{\"columnName\":\"CountryAppellationURI\"}],[{\"columnName\":\"CityURI\"}],[{\"columnName\":\"CountryTypeURI\"}],[{\"columnName\":\"CityAppellationURI\"}],[{\"columnName\":\"StateTypeURI\"}],[{\"columnName\":\"CityTypeURI\"}],[{\"columnName\":\"CountyAppellationURI\"}],[{\"columnName\":\"County\"}],[{\"columnName\":\"State\"}],[{\"columnName\":\"StateAppellationURI\"}],[{\"columnName\":\"City\"}]]" ;
 	km-dev:hasModelLabel "dbo.Place_view.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],

@@ -85,7 +85,7 @@ _:node19hsbe0ubx1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"County\"}],[{\"columnName\":\"State\"}],[{\"columnName\":\"Country\"}],[{\"columnName\":\"ConGeoCode\"}],[{\"columnName\":\"City\"}],[{\"columnName\":\"ConstituentID\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"DeathPlaceURI\"}],[{\"columnName\":\"PlaceURI\"}],[{\"columnName\":\"DeathURI\"}],[{\"columnName\":\"BirthURI\"}],[{\"columnName\":\"CountryURI\"}],[{\"columnName\":\"CountryAppellationURI\"}],[{\"columnName\":\"PersonInstitutionURI\"}],[{\"columnName\":\"City\"}],[{\"columnName\":\"County\"}],[{\"columnName\":\"StateAppellationURI\"}],[{\"columnName\":\"State\"}],[{\"columnName\":\"CityURI\"}],[{\"columnName\":\"Country\"}],[{\"columnName\":\"CityTypeURI\"}],[{\"columnName\":\"BirthPlaceURI\"}],[{\"columnName\":\"CountyAppellationURI\"}],[{\"columnName\":\"CountryTypeURI\"}],[{\"columnName\":\"StateURI\"}],[{\"columnName\":\"CountyTypeURI\"}],[{\"columnName\":\"ResidencePlaceURI\"}],[{\"columnName\":\"StateTypeURI\"}],[{\"columnName\":\"CountyURI\"}],[{\"columnName\":\"CityAppellationURI\"}]]" ;
 	km-dev:hasModelLabel "cbev2.WebConGeography.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],

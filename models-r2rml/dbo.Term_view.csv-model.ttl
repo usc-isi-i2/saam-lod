@@ -85,7 +85,7 @@ _:node19i089qirx1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"PathTerm\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"BroaderPathTermURI\"}],[{\"columnName\":\"BroaderPathTermLabel\"}],[{\"columnName\":\"TermURI\"}],[{\"columnName\":\"TermLabel\"}]]" ;
 	km-dev:hasModelLabel "dbo.Term_view.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],

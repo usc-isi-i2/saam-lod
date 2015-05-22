@@ -85,7 +85,7 @@ _:node19lnakgv1x1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"DisplayName\"}],[{\"columnName\":\"BeginDate\"}],[{\"columnName\":\"EndDate\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"ConstituentID\"}],[{\"columnName\":\"Nationality\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"DisplayName\"}],[{\"columnName\":\"BirthDateURI\"}],[{\"columnName\":\"BeginDate\"}],[{\"columnName\":\"EndDate\"}],[{\"columnName\":\"BirthURI\"}],[{\"columnName\":\"LastNameURI\"}],[{\"columnName\":\"DeathURI\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"NationalityThesauriURI\"}],[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"ConstituentID\"}],[{\"columnName\":\"Nationality\"}],[{\"columnName\":\"DeathDateURI\"}],[{\"columnName\":\"PersonInstitutionURI\"}],[{\"columnName\":\"LastNameAppellationURI\"}],[{\"columnName\":\"AppelationURI\"}],[{\"columnName\":\"DisplayNameTypeURI\"}],[{\"columnName\":\"FirstNameURI\"}],[{\"columnName\":\"FirstNameAppellationURI\"}],[{\"columnName\":\"PersonInstitutionIdentifierURI\"}]]" ;
 	km-dev:hasModelLabel "dbo.WebConstituents_person_view.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],

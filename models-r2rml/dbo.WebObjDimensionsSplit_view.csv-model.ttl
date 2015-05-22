@@ -85,7 +85,7 @@ _:node19i0b0ju7x1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"value\"}],[{\"columnName\":\"objectnumber\"}],[{\"columnName\":\"type\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"UnitURI\"}],[{\"columnName\":\"DimensionTypeURI\"}],[{\"columnName\":\"ObjectURI\"}],[{\"columnName\":\"DimensionURI\"}],[{\"columnName\":\"value\"}],[{\"columnName\":\"type\"}]]" ;
 	km-dev:hasModelLabel "dbo.WebObjDimensionsSplit_view.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],
