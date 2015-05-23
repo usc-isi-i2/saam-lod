@@ -85,7 +85,7 @@ _:node19lnc5hjdx1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"NameTitle\"}],[{\"columnName\":\"NameType\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"Suffix\"}],[{\"columnName\":\"ConstituentID\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"LastNameAppellationURI\"}],[{\"columnName\":\"NameType\"}],[{\"columnName\":\"ActorAppellationURI\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"FirstNameURI\"}],[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"LastNameURI\"}],[{\"columnName\":\"PersonInstitutionURI\"}],[{\"columnName\":\"FirstNameAppellationURI\"}],[{\"columnName\":\"NameTypeURI\"}],[{\"columnName\":\"NameLabel\"}]]" ;
 	km-dev:hasModelLabel "cbev2.WebConAltNames.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],

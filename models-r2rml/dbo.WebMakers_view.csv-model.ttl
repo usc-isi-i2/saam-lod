@@ -85,7 +85,7 @@ _:node19ln9rnnkx1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"Maker\"}],[{\"columnName\":\"DisplayName\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"objectnumber\"}],[{\"columnName\":\"Role\"}],[{\"columnName\":\"ObjectID\"}],[{\"columnName\":\"ConstituentID\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"LastNameAppellationURI\"}],[{\"columnName\":\"FirstNameAppellationURI\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"ActorRole\"}],[{\"columnName\":\"Maker\"}],[{\"columnName\":\"DisplayNameTypeURI\"}],[{\"columnName\":\"DisplayName\"}],[{\"columnName\":\"ActorAppellationURI\"}],[{\"columnName\":\"ObjectURI\"}],[{\"columnName\":\"PersonInstitutionURI\"}],[{\"columnName\":\"FirstNameURI\"}],[{\"columnName\":\"RoleURI\"}],[{\"columnName\":\"LastNameURI\"}],[{\"columnName\":\"ProductionURI\"}]]" ;
 	km-dev:hasModelLabel "dbo.WebMakers_view.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],

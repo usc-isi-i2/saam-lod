@@ -85,7 +85,7 @@ _:node19lmoaihbx1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"Nationality\"}],[{\"columnName\":\"DisplayName\"}],[{\"columnName\":\"BeginDate\"}],[{\"columnName\":\"EndDate\"}],[{\"columnName\":\"ConstituentID\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"AppellationURI\"}],[{\"columnName\":\"BirthURI\"}],[{\"columnName\":\"PersonInstitutionURI\"}],[{\"columnName\":\"ProbablyNationalityThesauriURI\"}],[{\"columnName\":\"PersonInstitutionIdentifierURI\"}],[{\"columnName\":\"NationalityThesauriURI\"}],[{\"columnName\":\"DisplayName\"}],[{\"columnName\":\"BeginDate\"}],[{\"columnName\":\"EndDate\"}],[{\"columnName\":\"DisplayNameTypeURI\"}],[{\"columnName\":\"ConstituentID\"}],[{\"columnName\":\"EndDateURI\"}],[{\"columnName\":\"DeathURI\"}],[{\"columnName\":\"BeginDateURI\"}]]" ;
 	km-dev:hasModelLabel "dbo.WebConstituents_institution_view.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],

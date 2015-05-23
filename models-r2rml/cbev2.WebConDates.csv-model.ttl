@@ -85,7 +85,7 @@ _:node19lnbmribx1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"DateEndSearch\"}],[{\"columnName\":\"MonthEndSearch\"}],[{\"columnName\":\"MonthBegSearch\"}],[{\"columnName\":\"DayEndSearch\"}],[{\"columnName\":\"DayBegSearch\"}],[{\"columnName\":\"ConstituentID\"}],[{\"columnName\":\"DateDescription\"}],[{\"columnName\":\"DateBegSearch\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"MonthEndSearch_2Dig\"}],[{\"columnName\":\"BirthBegDateLabel\"}],[{\"columnName\":\"DeathDateURI\"}],[{\"columnName\":\"DeathDateLabel\"}],[{\"columnName\":\"BirthEndDateLabel\"}],[{\"columnName\":\"DayBegSearch_2Dig\"}],[{\"columnName\":\"MonthBegSearch_2Dig\"}],[{\"columnName\":\"DeathEndDateLabel\"}],[{\"columnName\":\"DeathURI\"}],[{\"columnName\":\"BirthDateURI\"}],[{\"columnName\":\"DeathBegDateLabel\"}],[{\"columnName\":\"DayEndSearch_2Dig\"}],[{\"columnName\":\"PersonInstitutionURI\"}],[{\"columnName\":\"BirthURI\"}],[{\"columnName\":\"BirthDateLabel\"}]]" ;
 	km-dev:hasModelLabel "cbev2.WebConDates.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],

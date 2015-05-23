@@ -85,7 +85,7 @@ _:node19m0t520dx1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"MediaView\"}],[{\"columnName\":\"PublicCaption\"}],[{\"columnName\":\"ObjectNumber\"}],[{\"columnName\":\"FileName\"}],[{\"columnName\":\"ConstituentID\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"MediaView\"}],[{\"columnName\":\"FileNameURI\"}],[{\"columnName\":\"PersonInstitutionURI\"}],[{\"columnName\":\"PublicCaption\"}],[{\"columnName\":\"MediaViewURI\"}],[{\"columnName\":\"FileName\"}],[{\"columnName\":\"PersonImageURI\"}],[{\"columnName\":\"ObjectURI\"}]]" ;
 	km-dev:hasModelLabel "cbev2.WebArtistBioImages.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],

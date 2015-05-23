@@ -85,7 +85,7 @@ _:node19lmo3ht8x1 a km-dev:R2RMLMapping ;
 	km-dev:hasInputColumns "[[{\"columnName\":\"TypeLabel\"}],[{\"columnName\":\"InScheme\"}]]" ;
 	km-dev:hasOutputColumns "[[{\"columnName\":\"TypeLabel\"}],[{\"columnName\":\"TypeURI\"}]]" ;
 	km-dev:hasModelLabel "dbo.Thesauri_view.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasBaseURI "http://edan.si.edu/saam/id/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],
