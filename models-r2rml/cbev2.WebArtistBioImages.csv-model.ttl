@@ -78,12 +78,12 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node19lnc93uqx1 a km-dev:R2RMLMapping ;
+_:node19m0t520dx1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "cbev2.WebArtistBioImages.csv" ;
-	km-dev:modelPublicationTime "1432082485210"^^xsd:long ;
+	km-dev:modelPublicationTime "1432402167822"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"MediaView\"}],[{\"columnName\":\"PublicCaption\"}],[{\"columnName\":\"ObjectNumber\"}],[{\"columnName\":\"ConstituentID\"}],[{\"columnName\":\"FileName\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"PersonInstitutionURI\"}],[{\"columnName\":\"PublicCaption\"}],[{\"columnName\":\"FileNameURI\"}],[{\"columnName\":\"MediaViewURI\"}],[{\"columnName\":\"PersonImageURI\"}],[{\"columnName\":\"ObjectURI\"}],[{\"columnName\":\"FileName\"}]]" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"MediaView\"}],[{\"columnName\":\"PublicCaption\"}],[{\"columnName\":\"ObjectNumber\"}],[{\"columnName\":\"FileName\"}],[{\"columnName\":\"ConstituentID\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"MediaView\"}],[{\"columnName\":\"FileNameURI\"}],[{\"columnName\":\"PersonInstitutionURI\"}],[{\"columnName\":\"PublicCaption\"}],[{\"columnName\":\"MediaViewURI\"}],[{\"columnName\":\"FileName\"}],[{\"columnName\":\"PersonImageURI\"}],[{\"columnName\":\"ObjectURI\"}]]" ;
 	km-dev:hasModelLabel "cbev2.WebArtistBioImages.csv" ;
 	km-dev:hasBaseURI "http://localhost:8080/source/" ;
 	km-dev:hasWorksheetHistory """[
@@ -1162,183 +1162,531 @@ _:node19lnc93uqx1 a km-dev:R2RMLMapping ;
             }
         ],
         \"commandName\": \"UnassignSemanticTypeCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"ConstituentID\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"PersonInstitutionURI\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"return \\\"person-institution/\\\"+getValue(\\\"ConstituentID\\\")\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ConstituentID\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"PersonInstitutionURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"PersonInstitutionURI\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"PersonImageURI\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"media=getValue(\\\"MediaView\\\")\\nif len(getValue(\\\"FileName\\\"))>1 and media.find(\\\"Collection\\\")>=0:\\n    direct=getValue(\\\"ObjectNumber\\\")[0:4]\\n    url=\\\"http://americanart.si.edu/images/\\\"+direct+\\\"/\\\"+getValue(\\\"FileName\\\")\\nif len(getValue(\\\"FileName\\\"))>1 and media.find(\\\"Juley\\\")>=0:\\n    url=\\\"http://americanart.si.edu/images/JuleyBio/\\\"+getValue(\\\"FileName\\\")\\nif len(getValue(\\\"FileName\\\"))>1 and media.find(\\\"Luce\\\")>=0:\\n    url=\\\"http://americanart.si.edu/images/luce/artists/\\\"+getValue(\\\"FileName\\\")\\nreturn url\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MediaView\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"ObjectNumber\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"FileName\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"PersonImageURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"FileName\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"FileNameURI\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"return getValue(\\\"PersonInstitutionURI\\\")+\\\"/images/filename\\\"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"PersonInstitutionURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"FileNameURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"MediaView\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"MediaViewURI\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"if getValue(\\\"MediaView\\\"):\\n    type = getValue(\\\"MediaView\\\")\\nelse:\\n    return \\\"\\\"\\ntype=type.replace(\\\" \\\",\\\"_\\\")\\nreturn \\\"thesauri/mediaview/\\\"+type\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MediaView\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MediaViewURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"ObjectNumber\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"ObjectURI\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"if(len(getValue(\\\"ObjectNumber\\\"))>1):\\n    return \\\"object/\\\"+getValue(\\\"ObjectNumber\\\")\\nelse:\\n    return \\\"\\\" \",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ObjectNumber\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ObjectURI\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"MediaView\"}],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"crm:E78_Collection1 (add)\",
+                    \"DomainId\": \"http://erlangen-crm.org/current/E78_Collection1 (add)\",
+                    \"DomainUri\": \"http://erlangen-crm.org/current/E78_Collection\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MediaView\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MediaView\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetSemanticTypeCommand\"
     }
 ]""" .
 
-km-dev:TriplesMap_8f99614e-1d1c-4bad-8e1f-f269d1eceb25 a rr:TriplesMap .
+km-dev:TriplesMap_2c6919cc-ce9d-41bb-bd7e-81e16ea5d7f9 a rr:TriplesMap .
 
-_:node19lnc93uqx1 km-dev:hasTriplesMap km-dev:TriplesMap_8f99614e-1d1c-4bad-8e1f-f269d1eceb25 .
+_:node19m0t520dx1 km-dev:hasTriplesMap km-dev:TriplesMap_2c6919cc-ce9d-41bb-bd7e-81e16ea5d7f9 .
 
-km-dev:TriplesMap_8f99614e-1d1c-4bad-8e1f-f269d1eceb25 km-dev:isPartOfMapping _:node19lnc93uqx1 .
+km-dev:TriplesMap_2c6919cc-ce9d-41bb-bd7e-81e16ea5d7f9 km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx2 rr:tableName "cbev2.WebArtistBioImages.csv" ;
+_:node19m0t520dx2 rr:tableName "cbev2.WebArtistBioImages.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasLogicalTable _:node19lnc93uqx2 .
+_:node19m0t520dx1 km-dev:hasLogicalTable _:node19m0t520dx2 .
 
-km-dev:TriplesMap_8f99614e-1d1c-4bad-8e1f-f269d1eceb25 rr:logicalTable _:node19lnc93uqx2 ;
-	rr:subjectMap _:node19lnc93uqx3 .
+km-dev:TriplesMap_2c6919cc-ce9d-41bb-bd7e-81e16ea5d7f9 rr:logicalTable _:node19m0t520dx2 ;
+	rr:subjectMap _:node19m0t520dx3 .
 
-_:node19lnc93uqx1 km-dev:hasSubjectMap _:node19lnc93uqx3 .
+_:node19m0t520dx1 km-dev:hasSubjectMap _:node19m0t520dx3 .
 
-_:node19lnc93uqx3 km-dev:isPartOfMapping _:node19lnc93uqx1 ;
+_:node19m0t520dx3 km-dev:isPartOfMapping _:node19m0t520dx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E21_Person1" ;
 	rr:class crm:E21_Person ;
 	rr:template "person-institution/{ConstituentID}" .
 
-km-dev:TriplesMap_d52af3f7-03f3-4ec2-867c-39f939ca330c a rr:TriplesMap .
+km-dev:TriplesMap_5581bf1c-a96c-40d5-8d0a-2b21dcf6dc22 a rr:TriplesMap .
 
-_:node19lnc93uqx1 km-dev:hasTriplesMap km-dev:TriplesMap_d52af3f7-03f3-4ec2-867c-39f939ca330c .
+_:node19m0t520dx1 km-dev:hasTriplesMap km-dev:TriplesMap_5581bf1c-a96c-40d5-8d0a-2b21dcf6dc22 .
 
-km-dev:TriplesMap_d52af3f7-03f3-4ec2-867c-39f939ca330c km-dev:isPartOfMapping _:node19lnc93uqx1 .
+km-dev:TriplesMap_5581bf1c-a96c-40d5-8d0a-2b21dcf6dc22 km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx4 rr:tableName "cbev2.WebArtistBioImages.csv" ;
+_:node19m0t520dx4 rr:tableName "cbev2.WebArtistBioImages.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasLogicalTable _:node19lnc93uqx4 .
+_:node19m0t520dx1 km-dev:hasLogicalTable _:node19m0t520dx4 .
 
-km-dev:TriplesMap_d52af3f7-03f3-4ec2-867c-39f939ca330c rr:logicalTable _:node19lnc93uqx4 ;
-	rr:subjectMap _:node19lnc93uqx5 .
+km-dev:TriplesMap_5581bf1c-a96c-40d5-8d0a-2b21dcf6dc22 rr:logicalTable _:node19m0t520dx4 ;
+	rr:subjectMap _:node19m0t520dx5 .
 
-_:node19lnc93uqx1 km-dev:hasSubjectMap _:node19lnc93uqx5 .
+_:node19m0t520dx1 km-dev:hasSubjectMap _:node19m0t520dx5 .
 
-_:node19lnc93uqx5 km-dev:isPartOfMapping _:node19lnc93uqx1 ;
+_:node19m0t520dx5 km-dev:isPartOfMapping _:node19m0t520dx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E22_Man-Made_Object1" ;
 	rr:class crm:E22_Man-Made_Object ;
 	rr:template "{ObjectURI}" .
 
-km-dev:TriplesMap_6868e84c-2b4f-40b3-9d63-ca8dadbd0603 a rr:TriplesMap .
+km-dev:TriplesMap_2063dc53-d6f7-4f8c-8614-48251ac10902 a rr:TriplesMap .
 
-_:node19lnc93uqx1 km-dev:hasTriplesMap km-dev:TriplesMap_6868e84c-2b4f-40b3-9d63-ca8dadbd0603 .
+_:node19m0t520dx1 km-dev:hasTriplesMap km-dev:TriplesMap_2063dc53-d6f7-4f8c-8614-48251ac10902 .
 
-km-dev:TriplesMap_6868e84c-2b4f-40b3-9d63-ca8dadbd0603 km-dev:isPartOfMapping _:node19lnc93uqx1 .
+km-dev:TriplesMap_2063dc53-d6f7-4f8c-8614-48251ac10902 km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx6 rr:tableName "cbev2.WebArtistBioImages.csv" ;
+_:node19m0t520dx6 rr:tableName "cbev2.WebArtistBioImages.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasLogicalTable _:node19lnc93uqx6 .
+_:node19m0t520dx1 km-dev:hasLogicalTable _:node19m0t520dx6 .
 
-km-dev:TriplesMap_6868e84c-2b4f-40b3-9d63-ca8dadbd0603 rr:logicalTable _:node19lnc93uqx6 ;
-	rr:subjectMap _:node19lnc93uqx7 .
+km-dev:TriplesMap_2063dc53-d6f7-4f8c-8614-48251ac10902 rr:logicalTable _:node19m0t520dx6 ;
+	rr:subjectMap _:node19m0t520dx7 .
 
-_:node19lnc93uqx1 km-dev:hasSubjectMap _:node19lnc93uqx7 .
+_:node19m0t520dx1 km-dev:hasSubjectMap _:node19m0t520dx7 .
 
-_:node19lnc93uqx7 km-dev:isPartOfMapping _:node19lnc93uqx1 ;
+_:node19m0t520dx7 km-dev:isPartOfMapping _:node19m0t520dx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E38_Image1" ;
 	rr:class crm:E38_Image ;
 	rr:template "{PersonImageURI}" ;
 	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_c5ec26f3-ffac-48ac-bc77-8beda060f0f6 rr:predicate crm:P138_represents .
+km-dev:PredicateObjectMap_403d4e38-a016-42f7-b0ad-8f20bf67bf22 rr:predicate crm:P138_represents .
 
-km-dev:RefObjectMap_ddc898c0-f845-4331-ade9-e7ce44da4c55 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_8f99614e-1d1c-4bad-8e1f-f269d1eceb25 ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+km-dev:RefObjectMap_b62e42fc-c4f6-4d53-aea9-e3f15a8ae11e a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_2c6919cc-ce9d-41bb-bd7e-81e16ea5d7f9 ;
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasObjectMap km-dev:RefObjectMap_ddc898c0-f845-4331-ade9-e7ce44da4c55 .
+_:node19m0t520dx1 km-dev:hasObjectMap km-dev:RefObjectMap_b62e42fc-c4f6-4d53-aea9-e3f15a8ae11e .
 
-km-dev:PredicateObjectMap_c5ec26f3-ffac-48ac-bc77-8beda060f0f6 rr:objectMap km-dev:RefObjectMap_ddc898c0-f845-4331-ade9-e7ce44da4c55 .
+km-dev:PredicateObjectMap_403d4e38-a016-42f7-b0ad-8f20bf67bf22 rr:objectMap km-dev:RefObjectMap_b62e42fc-c4f6-4d53-aea9-e3f15a8ae11e .
 
-km-dev:TriplesMap_6868e84c-2b4f-40b3-9d63-ca8dadbd0603 rr:predicateObjectMap km-dev:PredicateObjectMap_c5ec26f3-ffac-48ac-bc77-8beda060f0f6 .
+km-dev:TriplesMap_2063dc53-d6f7-4f8c-8614-48251ac10902 rr:predicateObjectMap km-dev:PredicateObjectMap_403d4e38-a016-42f7-b0ad-8f20bf67bf22 .
 
-km-dev:PredicateObjectMap_c5ec26f3-ffac-48ac-bc77-8beda060f0f6 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+km-dev:PredicateObjectMap_403d4e38-a016-42f7-b0ad-8f20bf67bf22 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c5ec26f3-ffac-48ac-bc77-8beda060f0f6 .
+_:node19m0t520dx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_403d4e38-a016-42f7-b0ad-8f20bf67bf22 .
 
-km-dev:PredicateObjectMap_2e3dc335-cdb8-4723-a705-6ba98c673be5 rr:predicate crm:P138_represents .
+km-dev:PredicateObjectMap_cad05f57-4375-41fd-b905-e9e28a7be487 rr:predicate crm:P138_represents .
 
-km-dev:RefObjectMap_617cfa94-1845-4114-a5b4-c15de0435056 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_d52af3f7-03f3-4ec2-867c-39f939ca330c ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+km-dev:RefObjectMap_05a42509-fe1e-4fdb-90f1-c24d0e57751e a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_5581bf1c-a96c-40d5-8d0a-2b21dcf6dc22 ;
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasObjectMap km-dev:RefObjectMap_617cfa94-1845-4114-a5b4-c15de0435056 .
+_:node19m0t520dx1 km-dev:hasObjectMap km-dev:RefObjectMap_05a42509-fe1e-4fdb-90f1-c24d0e57751e .
 
-km-dev:PredicateObjectMap_2e3dc335-cdb8-4723-a705-6ba98c673be5 rr:objectMap km-dev:RefObjectMap_617cfa94-1845-4114-a5b4-c15de0435056 .
+km-dev:PredicateObjectMap_cad05f57-4375-41fd-b905-e9e28a7be487 rr:objectMap km-dev:RefObjectMap_05a42509-fe1e-4fdb-90f1-c24d0e57751e .
 
-km-dev:TriplesMap_6868e84c-2b4f-40b3-9d63-ca8dadbd0603 rr:predicateObjectMap km-dev:PredicateObjectMap_2e3dc335-cdb8-4723-a705-6ba98c673be5 .
+km-dev:TriplesMap_2063dc53-d6f7-4f8c-8614-48251ac10902 rr:predicateObjectMap km-dev:PredicateObjectMap_cad05f57-4375-41fd-b905-e9e28a7be487 .
 
-km-dev:PredicateObjectMap_2e3dc335-cdb8-4723-a705-6ba98c673be5 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+km-dev:PredicateObjectMap_cad05f57-4375-41fd-b905-e9e28a7be487 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2e3dc335-cdb8-4723-a705-6ba98c673be5 .
+_:node19m0t520dx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cad05f57-4375-41fd-b905-e9e28a7be487 .
 
-km-dev:PredicateObjectMap_71460d12-b26a-4dd8-ae05-7e17c404a8df rr:predicate crm:P1_is_identified_by .
+km-dev:PredicateObjectMap_b861324a-448d-4359-9f59-a47f4b93d9ab rr:predicate crm:P1_is_identified_by .
 
-km-dev:RefObjectMap_203387ea-627e-47d0-af9d-dad145d1a674 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_b9a24176-b692-44cb-a71b-ac898047b8b9 ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+km-dev:RefObjectMap_44bfed2d-1205-4758-972e-b947ea015b59 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_d1a13afd-7770-457f-ba06-3f6890758151 ;
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasObjectMap km-dev:RefObjectMap_203387ea-627e-47d0-af9d-dad145d1a674 .
+_:node19m0t520dx1 km-dev:hasObjectMap km-dev:RefObjectMap_44bfed2d-1205-4758-972e-b947ea015b59 .
 
-km-dev:PredicateObjectMap_71460d12-b26a-4dd8-ae05-7e17c404a8df rr:objectMap km-dev:RefObjectMap_203387ea-627e-47d0-af9d-dad145d1a674 .
+km-dev:PredicateObjectMap_b861324a-448d-4359-9f59-a47f4b93d9ab rr:objectMap km-dev:RefObjectMap_44bfed2d-1205-4758-972e-b947ea015b59 .
 
-km-dev:TriplesMap_6868e84c-2b4f-40b3-9d63-ca8dadbd0603 rr:predicateObjectMap km-dev:PredicateObjectMap_71460d12-b26a-4dd8-ae05-7e17c404a8df .
+km-dev:TriplesMap_2063dc53-d6f7-4f8c-8614-48251ac10902 rr:predicateObjectMap km-dev:PredicateObjectMap_b861324a-448d-4359-9f59-a47f4b93d9ab .
 
-km-dev:PredicateObjectMap_71460d12-b26a-4dd8-ae05-7e17c404a8df a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+km-dev:PredicateObjectMap_b861324a-448d-4359-9f59-a47f4b93d9ab a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_71460d12-b26a-4dd8-ae05-7e17c404a8df .
+_:node19m0t520dx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b861324a-448d-4359-9f59-a47f4b93d9ab .
 
-km-dev:PredicateObjectMap_57661b18-8a21-4656-92d7-f5af00936a53 rr:predicate crm:P3_has_note .
+km-dev:PredicateObjectMap_dc5d98a6-c670-4ea1-b3b0-d717806bb8df rr:predicate crm:P3_has_note .
 
-_:node19lnc93uqx8 rr:column "PublicCaption" ;
+_:node19m0t520dx8 rr:column "PublicCaption" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasObjectMap _:node19lnc93uqx8 .
+_:node19m0t520dx1 km-dev:hasObjectMap _:node19m0t520dx8 .
 
-km-dev:PredicateObjectMap_57661b18-8a21-4656-92d7-f5af00936a53 rr:objectMap _:node19lnc93uqx8 .
+km-dev:PredicateObjectMap_dc5d98a6-c670-4ea1-b3b0-d717806bb8df rr:objectMap _:node19m0t520dx8 .
 
-km-dev:TriplesMap_6868e84c-2b4f-40b3-9d63-ca8dadbd0603 rr:predicateObjectMap km-dev:PredicateObjectMap_57661b18-8a21-4656-92d7-f5af00936a53 .
+km-dev:TriplesMap_2063dc53-d6f7-4f8c-8614-48251ac10902 rr:predicateObjectMap km-dev:PredicateObjectMap_dc5d98a6-c670-4ea1-b3b0-d717806bb8df .
 
-km-dev:PredicateObjectMap_57661b18-8a21-4656-92d7-f5af00936a53 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+km-dev:PredicateObjectMap_dc5d98a6-c670-4ea1-b3b0-d717806bb8df a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_57661b18-8a21-4656-92d7-f5af00936a53 .
+_:node19m0t520dx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_dc5d98a6-c670-4ea1-b3b0-d717806bb8df .
 
-km-dev:TriplesMap_b9a24176-b692-44cb-a71b-ac898047b8b9 a rr:TriplesMap .
+km-dev:TriplesMap_d1a13afd-7770-457f-ba06-3f6890758151 a rr:TriplesMap .
 
-_:node19lnc93uqx1 km-dev:hasTriplesMap km-dev:TriplesMap_b9a24176-b692-44cb-a71b-ac898047b8b9 .
+_:node19m0t520dx1 km-dev:hasTriplesMap km-dev:TriplesMap_d1a13afd-7770-457f-ba06-3f6890758151 .
 
-km-dev:TriplesMap_b9a24176-b692-44cb-a71b-ac898047b8b9 km-dev:isPartOfMapping _:node19lnc93uqx1 .
+km-dev:TriplesMap_d1a13afd-7770-457f-ba06-3f6890758151 km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx9 rr:tableName "cbev2.WebArtistBioImages.csv" ;
+_:node19m0t520dx9 rr:tableName "cbev2.WebArtistBioImages.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasLogicalTable _:node19lnc93uqx9 .
+_:node19m0t520dx1 km-dev:hasLogicalTable _:node19m0t520dx9 .
 
-km-dev:TriplesMap_b9a24176-b692-44cb-a71b-ac898047b8b9 rr:logicalTable _:node19lnc93uqx9 ;
-	rr:subjectMap _:node19lnc93uqx10 .
+km-dev:TriplesMap_d1a13afd-7770-457f-ba06-3f6890758151 rr:logicalTable _:node19m0t520dx9 ;
+	rr:subjectMap _:node19m0t520dx10 .
 
-_:node19lnc93uqx1 km-dev:hasSubjectMap _:node19lnc93uqx10 .
+_:node19m0t520dx1 km-dev:hasSubjectMap _:node19m0t520dx10 .
 
-_:node19lnc93uqx10 km-dev:isPartOfMapping _:node19lnc93uqx1 ;
+_:node19m0t520dx10 km-dev:isPartOfMapping _:node19m0t520dx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E75_Conceptual_Object_Appellation1" ;
 	rr:class crm:E75_Conceptual_Object_Appellation ;
 	rr:template "{PersonInstitutionURI}/images/filename" .
 
-km-dev:PredicateObjectMap_65a023f6-5e80-4b51-b7b3-fc94a5f94612 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_00d4cae7-3d7e-4219-9249-74d0825ed39b rr:predicate rdfs:label .
 
-_:node19lnc93uqx11 rr:column "FileName" ;
+_:node19m0t520dx11 rr:column "FileName" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasObjectMap _:node19lnc93uqx11 .
+_:node19m0t520dx1 km-dev:hasObjectMap _:node19m0t520dx11 .
 
-km-dev:PredicateObjectMap_65a023f6-5e80-4b51-b7b3-fc94a5f94612 rr:objectMap _:node19lnc93uqx11 .
+km-dev:PredicateObjectMap_00d4cae7-3d7e-4219-9249-74d0825ed39b rr:objectMap _:node19m0t520dx11 .
 
-km-dev:TriplesMap_b9a24176-b692-44cb-a71b-ac898047b8b9 rr:predicateObjectMap km-dev:PredicateObjectMap_65a023f6-5e80-4b51-b7b3-fc94a5f94612 .
+km-dev:TriplesMap_d1a13afd-7770-457f-ba06-3f6890758151 rr:predicateObjectMap km-dev:PredicateObjectMap_00d4cae7-3d7e-4219-9249-74d0825ed39b .
 
-km-dev:PredicateObjectMap_65a023f6-5e80-4b51-b7b3-fc94a5f94612 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19lnc93uqx1 .
+km-dev:PredicateObjectMap_00d4cae7-3d7e-4219-9249-74d0825ed39b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
 
-_:node19lnc93uqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_65a023f6-5e80-4b51-b7b3-fc94a5f94612 .
+_:node19m0t520dx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_00d4cae7-3d7e-4219-9249-74d0825ed39b .
+
+km-dev:TriplesMap_c7340dac-b24b-41b4-a66c-47e4a2620ba2 a rr:TriplesMap .
+
+_:node19m0t520dx1 km-dev:hasTriplesMap km-dev:TriplesMap_c7340dac-b24b-41b4-a66c-47e4a2620ba2 .
+
+km-dev:TriplesMap_c7340dac-b24b-41b4-a66c-47e4a2620ba2 km-dev:isPartOfMapping _:node19m0t520dx1 .
+
+_:node19m0t520dx12 rr:tableName "cbev2.WebArtistBioImages.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
+
+_:node19m0t520dx1 km-dev:hasLogicalTable _:node19m0t520dx12 .
+
+km-dev:TriplesMap_c7340dac-b24b-41b4-a66c-47e4a2620ba2 rr:logicalTable _:node19m0t520dx12 ;
+	rr:subjectMap _:node19m0t520dx13 .
+
+_:node19m0t520dx1 km-dev:hasSubjectMap _:node19m0t520dx13 .
+
+_:node19m0t520dx13 km-dev:isPartOfMapping _:node19m0t520dx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://erlangen-crm.org/current/E78_Collection1" ;
+	rr:class crm:E78_Collection ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "crm:E78_Collection1" .
+
+km-dev:PredicateObjectMap_ca85157e-fc69-40fb-92f7-f3242770ea73 rr:predicate rdfs:label .
+
+_:node19m0t520dx14 rr:column "MediaView" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
+
+_:node19m0t520dx1 km-dev:hasObjectMap _:node19m0t520dx14 .
+
+km-dev:PredicateObjectMap_ca85157e-fc69-40fb-92f7-f3242770ea73 rr:objectMap _:node19m0t520dx14 .
+
+km-dev:TriplesMap_c7340dac-b24b-41b4-a66c-47e4a2620ba2 rr:predicateObjectMap km-dev:PredicateObjectMap_ca85157e-fc69-40fb-92f7-f3242770ea73 .
+
+km-dev:PredicateObjectMap_ca85157e-fc69-40fb-92f7-f3242770ea73 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19m0t520dx1 .
+
+_:node19m0t520dx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ca85157e-fc69-40fb-92f7-f3242770ea73 .
